@@ -1,0 +1,2 @@
+# KUSyllabus
+Kerala University Syllabus
