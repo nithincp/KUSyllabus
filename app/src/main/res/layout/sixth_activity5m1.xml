@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PROFESSIONAL ETHICS AND HUMAN VALUES"
+                    android:id="@+id/textView1409"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView111"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Human values: Morals, Values and Ethics – Integrity – Work Ethic –Service – Learning – Civic Virtue – Respect for Others – Living Peacefully – Caring – Sharing – Honesty – Courage – Valuing Time – Co-operation – Commitment – Empathy – Self Confidence – Character – Spirituality."
+                    android:id="@+id/textView112"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineering ethics: Senses of “Engineering Ethics”– Variety of moral issues. Types of inquiry – Moral dilemmas – Moral autonomy – Kohlberg’s theory – Gilligan’s theory – Consensus and Controversy – Models of Professionals Roles – Theories about right action – Self interest – Custom and religion – Uses of ethical theories."
+                    android:id="@+id/textView1420"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView113"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineering as social experimentation: Engineering as experimentation - Engineering as responsible experimenters – Codes of ethics – A balanced outlook on law – The challenger case study."
+                    android:id="@+id/textView114"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Safety, responsibilities and rights: Safety and risk – Assessment of safety and risk – Risk benefit analysis and reducing risk – The Three Mile Island and Chernobyl case studies."
+                    android:id="@+id/textView1421"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView115"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harmony in the family and Society – Understanding values in human-human relationship – foundational values of relationship, Trust and respect – Difference between intention and competence- Difference between respect and differentiation"
+                    android:id="@+id/textView116"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collegiality and loyalty – Respect for authority – collective bargaining – Confidentiality – Conflicts of interest – Occupational crime – Professional rights – Employee rights – Intellectual property Rights (IPR) – Discrimination."
+                    android:id="@+id/textView1422"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView117"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Global issues: Multinational Corporation – Environmental ethics – Computer ethics Weapons development – Engineers as managers – Consulting engineers and engineers as expert witness and advisor – Moral leadership."
+                    android:id="@+id/textView118"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sample code of ethics like ASME, ASCE, IEEE – Institution of engineers (India) – Indian Institute of Materials Management – Institution electronics and telecommunication engineering (IETE) India etc."
+                    android:id="@+id/textView1394"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView119"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Suresh J. and B. S. Raghavan, Human Values and Professional Ethics, S. Chand &amp; Co., 2009."
+                    android:id="@+id/textView120"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Martin M. W. and R. Schinzinger, Ethics in Engineering, 4/e, McGraw Hill, 2005."
+                    android:id="@+id/textView121"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Roth J. K., International Encyclopaedia of Ethics, S. Chand &amp;Co, 2000."
+                    android:id="@+id/textView122"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView124"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView125"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks"
+                    android:id="@+id/textView126"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

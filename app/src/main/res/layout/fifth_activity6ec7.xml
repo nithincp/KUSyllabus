@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="MICROCONTROLLER LAB"
+                        android:id="@+id/textView1092"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="List of Experiments"
+                        android:id="@+id/textView1093"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART A : Programming experiments using 8051 Trainer Kit."
+                        android:id="@+id/textView1094"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Addition of series of 8 bit binary and decimal numbers."
+                        android:id="@+id/textView1095"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Subtraction of 2 decimal numbers."
+                        android:id="@+id/textView1096"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Addition and subtraction of two 16 bit numbers."
+                        android:id="@+id/textView1097"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Multiplication and division of 8 bit numbers. "
+                        android:id="@+id/textView1098"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Sorting of a series of 8 bit numbers."
+                        android:id="@+id/textView1099"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Multiplication by shift and add method. "
+                        android:id="@+id/textView1150"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. LCM and HCF of two 8 bit numbers. "
+                        android:id="@+id/textView1100"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8. Matrix addition "
+                        android:id="@+id/textView1101"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9. Square, Square root, Fibonacci series. "
+                        android:id="@+id/textView1102"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10. Other simple mathematical operations on 8-bit data."
+                        android:id="@+id/textView1103"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART B : Interfacing experiments."
+                        android:id="@+id/textView1104"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. DAC and ADC interface. "
+                        android:id="@+id/textView1105"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Stepper motor interface. "
+                        android:id="@+id/textView1106"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Display interface. "
+                        android:id="@+id/textView1107"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Realization of Boolean expression using port. "
+                        android:id="@+id/textView1108"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Waveform generation using lookup tables. "
+                        android:id="@+id/textView1133"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. PWM generation. "
+                        android:id="@+id/textView1134"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="b) Modulus of elasticity of concrete "
+                        android:id="@+id/textView1135"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="c) Flexural and split tensile strength of concrete "
+                        android:id="@+id/textView1144"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="d) Rebound hammer test (To be conducted on 150mm cubes)"
+                        android:id="@+id/textView1148"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. Tests on bricks, blocks and tiles "
+                        android:id="@+id/textView1147"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="a) Compressive strength of burnt bricks "
+                        android:id="@+id/textView1146"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="b) Water absorption tests on bricks "
+                        android:id="@+id/textView1145"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="c) Transverse strength test on tiles (M P tiles and mosaic tiles)"
+                        android:id="@+id/textView1149"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="d) Compressive strength of Solid/hollow blocks (Demonstration only)"
+                        android:id="@+id/textView1143"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1136"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Examination duration: 3 hours"
+                        android:id="@+id/textView1137"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maximum Total Marks: 100 "
+                        android:id="@+id/textView1138"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10% - Flow Chart/Algorithm"
+                        android:id="@+id/textView1139"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20% - Programming with suitable comments"
+                        android:id="@+id/textView1525"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10% - Implementation (Usage of Kits and trouble shooting)"
+                        android:id="@+id/textView1526"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10% - Flow Chart/Algorithm"
+                        android:id="@+id/textView1527"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="35% - Result"
+                        android:id="@+id/textView1140"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25% - Viva voce "
+                        android:id="@+id/textView1528"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="HEAT AND MASS TRANSFER "
+                        android:id="@+id/textView1166"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Modes of Heat Transfer: Conduction: Fourier law of heat conduction-Thermal conductivity of solids, liquids and gases-Factors affecting thermal conductivity- Most general heat conduction equation in Cartesian, cylindrical and spherical coordinates One dimensional steady state conduction with and without heat generation conduction through plane walls, cylinders and spheres-variable thermal conductivity conduction shape factor- heat transfer through corners and edges. Transient heat conduction-lumped heat capacity method. Critical radius of insulation."
+                        android:id="@+id/textView1168"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Elementary ideas of hydrodynamics and thermal boundary layers-Thickness of Boundary layer-Displacement, Momentum and Energy thickness (description only)."
+                        android:id="@+id/textView1170"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Convection heat transfer: Newton’s law of cooling- Laminar and Turbulent flow, Reynold’s Number, Critical Reynold’s Number, Prandtl Number, Nusselt Number, Grashoff’s Number and Rayleigh’s Number. Dimensional analysis Buckingham’s Pi theorem- Application of dimensional analysis to free and forced convection- empirical relations- problems using empirical relations."
+                        android:id="@+id/textView1618"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Combined conduction and convection heat transfer-Overall heat transfer coefficient - Heat exchangers: Types of heat exchangers, AMTD, Fouling factor, Analysis of Heat exchangersLMTD method, Correction factor, Effectiveness- NTU method, Special type of heat exchangers (condenser and evaporator, simple problems only)"
+                        android:id="@+id/textView1172"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fins: Types of fins - Heat transfer from fins of uniform cross sectional area- Fin efficiency and effectiveness. Boiling and condensation heat transfer (elementary ideas only)."
+                        android:id="@+id/textView1620"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction to heat pipe."
+                        android:id="@+id/textView1619"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Radiation- Nature of thermal radiation-definitions and concepts- monochromatic and total emissive power-Intensity of radiation- solid angle- absorptivity, reflectivity and transmissivity-Concept of black body- Planck’ law- Kirchoff’s law- Wein’s displacement lawStefan Boltzmann’s law- black, gray and real surfaces-Configuration factor (derivation for simple geometries only)- Electrical analogy- Heat exchange between black/gray surfacesinfinite parallel plates, equal and parallel opposite plates-perpendicular rectangles having common edge- parallel discs (simple problems using charts and tables). Radiation shields (no derivation). "
+                        android:id="@+id/textView1174"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mass Transfer :Mass transfer by molecular diffusion- Fick’s law of diffusion- diffusion coefficient Steady state diffusion of gases and liquids through solid- equimolar diffusion, Isothermal evaporation of water through air- simple problems."
+                        android:id="@+id/textView1622"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Convective mass transfer- Evaluation of mass transfer coefficient- empirical relationssimple problems- analogy between heat and mass transfer."
+                        android:id="@+id/textView1621"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Yunus A Cengel, Heat Transfer: A Practical Approach, Tata McGraw Hill Inc., 2003."
+                        android:id="@+id/textView1176"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Holman J P, Heat Transfer, McGraw Hill Inc., New York, 2007."
+                        android:id="@+id/textView1177"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Incropera F. P. and D. P. Dewitt, Heat and Mass Transfer. John Wiley and sons, 2006."
+                        android:id="@+id/textView1178"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Rajput R.K., Heat and Mass Transfer, S.Chand &amp; Co, 2014."
+                        android:id="@+id/textView1179"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:id="@+id/textView1181"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1182"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

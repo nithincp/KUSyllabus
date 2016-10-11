@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp"
+                    android:text="FLUID MECHANICS &amp; MACHINES LAB "
+                    android:id="@+id/textView376"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="List of Experiments"
+                    android:id="@+id/textView729"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Determination of Coefficient of discharge and calibration of Notches, Orifice meter, Nozzle and Venturimeter. "
+                    android:id="@+id/textView730"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Determination of Chezy’s constant and Darcy’s coefficient on pipe friction apparatus "
+                    android:id="@+id/textView731"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Determination of Hydraulic coefficients of orifices "
+                    android:id="@+id/textView732"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Determination of Metacentric Height and Radius of gyration of floating bodies. "
+                    android:id="@+id/textView733"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Performance test on Rotodynamic and Positive displacement pumps "
+                    android:id="@+id/textView734"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Performance test on Impulse and Reaction turbines "
+                    android:id="@+id/textView735"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Speed variation test on Impulse turbine "
+                    android:id="@+id/textView736"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Determination of best guide vane opening for Reaction turbine."
+                    android:id="@+id/textView737"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView738"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Examination duration: 3 hours "
+                    android:id="@+id/textView739"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maximum Total Marks: 100 "
+                    android:id="@+id/textView740"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="75% - Theory, Procedure and tabular column (30%); Conducting experiment, Observation, Tabulation with Sample calculation (30%); Graphs, Results and inference (15%)"
+                    android:id="@+id/textView741"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25% - Viva voce ( Based on Part I and Part II)"
+                    android:id="@+id/textView742"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

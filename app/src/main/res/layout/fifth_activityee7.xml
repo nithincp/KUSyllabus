@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="69dp"
+                    android:text="ELECTRICAL MACHINES LAB – I   "
+                    android:id="@+id/textView367"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="List of Experiments"
+                    android:id="@+id/textView601"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. OCC of DC generator – Critical Resistance and critical speed"
+                    android:id="@+id/textView602"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Load characteristics of dc shunt generators"
+                    android:id="@+id/textView603"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Load characteristics of dc compound generators"
+                    android:id="@+id/textView604"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Load test on dc series motor"
+                    android:id="@+id/textView605"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Load test on DC shunt motor"
+                    android:id="@+id/textView606"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Swinburne&apos;s test on dc machine"
+                    android:id="@+id/textView607"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Hopkinson&apos;s test."
+                    android:id="@+id/textView608"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Polarity and transformation ratio test on a single phase transformer"
+                    android:id="@+id/textView609"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. OC and SC test on single phase transformer - equivalent circuit -predetermination of regulation and efficiency"
+                    android:id="@+id/textView610"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. Sumpner&apos;s test on two single phase transformers"
+                    android:id="@+id/textView611"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11. OC and SC test on three phase transformer"
+                    android:id="@+id/textView612"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12. Separation of losses in a single phase transformer"
+                    android:id="@+id/textView613"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView614"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Examination duration: 3 hours "
+                    android:id="@+id/textView615"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maximum Total Marks: 100"
+                    android:id="@+id/textView616"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80% - Circuit and design (30%) ,Performance (30%) ,Results and inference (20%)"
+                    android:id="@+id/textView584"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20% - Viva voce "
+                    android:id="@+id/textView782"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

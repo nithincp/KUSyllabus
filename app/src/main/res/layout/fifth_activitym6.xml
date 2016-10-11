@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="MACHINE DRAWING "
+                    android:id="@+id/textView373"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView713"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Production drawing fundamentals: Fits and Tolerances, form tolerance and position tolerance, Geometric tolerance and its indications on drawing, Surface texture- indication of surface roughness, indication of production method, surface treatment, IS specifications. Familiarization of modeling softwares like Solid works, Pro –E, Catia, Inventer etc."
+                    android:id="@+id/textView714"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView715"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assembly and working drawing (Part drawing): Shaft bearing and supports – Pedestal bearings, Plummer block and foot step bearing."
+                    android:id="@+id/textView716"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I.C. Engine parts – Piston, Connecting Rod, fuel pump for a diesel engine and fuel injection nozzle."
+                    android:id="@+id/textView717"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Valves - Stop valve for boilers, feed check valve, Ramsbottom safety valve, lever safety valve and dead weight safety valve."
+                    android:id="@+id/textView718"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Machine parts- Lathe tail stock, Lathe tool post and screw jack."
+                    android:id="@+id/textView719"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView720"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Bhatt N. D. and V. M. Panchal, Machine Drawing, Charotar Publisher, 2002."
+                    android:id="@+id/textView721"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Varghese P. I., Machine Drawing, VIP Publishers, Thrissur, 2012."
+                    android:id="@+id/textView722"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Gill P. S., Machine Drawing, S.K. Kataria &amp; Sons, New Delhi, 2010."
+                    android:id="@+id/textView723"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Parkinson A. C., Engineering Drawing, Pitman &amp; Sons, 1966."
+                    android:id="@+id/textView724"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView725"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) The question paper contains three questions from Module I. Each full question carries 10 marks. The candidates have to answer any two full questions out of the three. "
+                    android:id="@+id/textView726"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 marks) The question paper contains one compulsory question on dimensioned drawing from Module II which carries 80 marks. "
+                    android:id="@+id/textView727"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

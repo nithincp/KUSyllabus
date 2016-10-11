@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FRACTURE MECHANICS"
+                    android:id="@+id/textView1419"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView111"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction: Significance of fracture mechanics - Griffith energy balance approach -Irwin’s modification to the Griffith theory - stress intensity approach - crack tip plasticity - fracture toughness - sub critical crack growth - influence of material behaviour - modes I, II &amp; III - mixed mode problems Linear elastic fracture mechanics (LEFM): Elastic stress field approach - mode I elastic stress field equations - expressions for stresses and strains in the crack tip region - finite specimen width - superposition of stress intensity factors (SIF) – SIF solutions for well known problems such as centre cracked plate, single edge notched plate, and embedded elliptical cracks."
+                    android:id="@+id/textView112"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView113"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crack tip plasticity: Irwin plastic zone size - Dugdale approach - shape of plastic zone - state of stress in the crack tip region - influence of stress state on fracture behaviour Energy balance approach: Griffith energy balance approach - relations for practical use - determination of SIF from compliance - slow stable crack growth and R-curve concept - description of crack resistance LEFM testing: Plane strain and plane stress fracture toughness testing - determination of R-curves - effects of yield strength and specimen thickness on fracture toughness - practical use of fracture toughness and R-curve data."
+                    android:id="@+id/textView114"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView115"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elastic plastic fracture mechanics (EPFM): Development of EPFM - J-integral – crack opening displacement (COD) approach - COD design curve - relation between J and COD - tearing modulus concept - standard JIc test and COD test Fatigue crack growth: Description of fatigue crack growth using stress intensity factor - effects of stress ratio and crack tip plasticity - crack closure - prediction of fatigue crack growth under constant amplitude and variable amplitude loading - fatigue crack growth from notches - the short crack problem."
+                    android:id="@+id/textView116"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView117"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sustained load fracture: Time-to-failure (TTF) tests - crack growth rate testing - experimental problems - method of predicting failure of a structural component - practical significance of sustained load fracture testing Practical problems: Through cracks emanating from holes - corner cracks at holes - cracks approaching holes - fracture toughness of weldments - service failure analysis - applications in pressure vessels - pipelines and stiffened sheet structures."
+                    android:id="@+id/textView118"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView119"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Ewalds H. L. and R. J. H. Wanhill, Fracture Mechanics, Edward Arnold Edition."
+                    android:id="@+id/textView120"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Broek D., Elementary Engineering Fracture Mechanics, Sijthoff &amp; Noordhoff Int. Pub."
+                    android:id="@+id/textView121"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Kare Hellan, Introduction to Fracture Mechanics, McGraw Hill Book Company."
+                    android:id="@+id/textView122"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView124"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView125"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView126"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

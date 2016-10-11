@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECTS"
+        android:id="@+id/textView812"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principles of Management and Decision Modeling"
+        android:id="@+id/textView885"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechatronics"
+        android:id="@+id/textView886"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gas Dynamics"
+        android:id="@+id/textView887"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refrigeration &amp; Air conditioning "
+        android:id="@+id/textView888"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design of Machine Elements - II "
+        android:id="@+id/textView889"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elective III "
+        android:id="@+id/textView890"
+        android:layout_weight="0.06"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thermal Engineering Lab"
+        android:id="@+id/textView891"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanical Engineering Lab"
+        android:id="@+id/textView892"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project and Project Seminar"
+        android:id="@+id/textView1631"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:text=" IC ENGINES LAB "
+                android:id="@+id/textView375"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Experiments"
+                android:id="@+id/textView745"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Study of I.C engines :-"
+                android:id="@+id/textView746"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a) Diesel engines - all systems and parts "
+                android:id="@+id/textView747"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b) Petrol engines - all systems and parts "
+                android:id="@+id/textView748"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Determination of flash and fire points of petroleum products "
+                android:id="@+id/textView749"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Determination of viscosity of lubricating oil using Redwood Viscometer "
+                android:id="@+id/textView750"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Determination of calorific value of solid, liquid and gaseous fuels using Bomb calorimeter and Gas Calorimeter "
+                android:id="@+id/textView751"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Experiment on I C Engines "
+                android:id="@+id/textView752"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a) Performance test on IC Engines (Petrol and Diesel) "
+                android:id="@+id/textView753"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b) Heat Balance test "
+                android:id="@+id/textView754"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="i) Heat exchanger method "
+                android:id="@+id/textView755"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ii) Flue gas analysis method "
+                android:id="@+id/textView756"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iii) Volumetric efficiency method "
+                android:id="@+id/textView757"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c) Valve timing diagram "
+                android:id="@+id/textView758"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d) Economic speed test "
+                android:id="@+id/textView759"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e) Best cooling water Temperature test "
+                android:id="@+id/textView760"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f) Retardation test "
+                android:id="@+id/textView642"
+                android:layout_gravity="left|center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="g) Volumetric efficiency and Air-fuel ratio test "
+                android:id="@+id/textView643"
+                android:layout_gravity="left|center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Morse test on petrol engine. "
+                android:id="@+id/textView645"
+                android:layout_gravity="left|center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:id="@+id/textView644"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examination duration: 3 hours "
+                android:id="@+id/textView641"
+                android:layout_gravity="left|center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maximum Total Marks: 100 "
+                android:id="@+id/textView647"
+                android:layout_gravity="left|center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="75% - Theory, Procedure and tabular column (30%); Conducting experiment, Observation, Tabulation with Sample calculation (30%); Graphs, Results and inference (15%)"
+                android:id="@+id/textView648"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25% - Viva voce "
+                android:id="@+id/textView728"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

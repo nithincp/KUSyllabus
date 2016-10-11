@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="65dp"
+                    android:text="DIGITAL CIRCUITS LAB"
+                    android:id="@+id/textView368"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="List of Experiments"
+                    android:id="@+id/textView617"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Familiarisation of Logic Gates"
+                    android:id="@+id/textView618"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Verification &amp; Realisation of DeMorgan’s theorem"
+                    android:id="@+id/textView619"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Realisation of SOP &amp; POS functions after K map reduction"
+                    android:id="@+id/textView620"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Half adder &amp; Full adder"
+                    android:id="@+id/textView621"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. 4-bit adder/subtractor &amp; BCD adder using IC 7483"
+                    android:id="@+id/textView622"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Realization of RS, T, D &amp; JK flip flops using gates."
+                    android:id="@+id/textView623"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Study of flip flop ICs (7474 &amp; 7476)"
+                    android:id="@+id/textView624"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Design &amp; Testing of monostable &amp; astable multivibrators using ICs (74121 for Monoshot &amp; 555 for astable)"
+                    android:id="@+id/textView625"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. BCD to decimal decoder and BCD to 7-segment decoder &amp; display"
+                    android:id="@+id/textView626"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. Realisation of 2-bit comparator using gates and study of four bit comparator IC 7485"
+                    android:id="@+id/textView627"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11. a) Realization of multiplexer using gates and study of multiplexer IC"
+                    android:id="@+id/textView628"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) Realization of combinational circuits using multiplexers."
+                    android:id="@+id/textView629"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12. a) Realization of ripple counters using flip flops"
+                    android:id="@+id/textView630"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) Study of counter ICs (7490, 7493)"
+                    android:id="@+id/textView631"
+                    android:layout_gravity="left|center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13. Design of synchronous up, down &amp; modulo N counters"
+                    android:id="@+id/textView632"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14. a) Realization of 4-bit serial IN serial OUT registers using flip flops"
+                    android:id="@+id/textView780"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) Study of shift register IC 7495, ring counter, and Johnsons counter"
+                    android:id="@+id/textView784"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15. Optional – Simulation of some of the above experiments using VHDL"
+                    android:id="@+id/textView783"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView785"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Examination duration: 3 hours "
+                    android:id="@+id/textView781"
+                    android:layout_gravity="left|center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maximum Total Marks: 100 "
+                    android:id="@+id/textView786"
+                    android:layout_gravity="left|center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80% - Circuit and design (30%), Performance (30%), Results and inference (20%)"
+                    android:id="@+id/textView789"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20% - Viva voce "
+                    android:id="@+id/textView788"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

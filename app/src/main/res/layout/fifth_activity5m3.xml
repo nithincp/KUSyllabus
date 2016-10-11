@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="INDUSTRIAL ELECTRONICS"
+                        android:id="@+id/textView1166"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fundamentals of Digital Electronics: Number systems - binary, octal and hexadecimal and their conversions. Signed numbers. Transition table of D and T flip-flops. Concepts of registers and counters, 3 stage register using D flip-flop and 3 stage counter using T flip-flop. Principle of operation of SCR, IGBT, Photo transistor and LDR. TFT display."
+                        android:id="@+id/textView1168"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Industrial Applications of optoelectronic devices– smoke detection, level detection and counting of moving objects. Data acquisition system - block diagram and explanation of each block. Dielectric heating and Induction heating - principle and applications. Resistance welding and sequence timer. Measurement of pressure, displacement, level, flow, thickness, viscosity and PH."
+                        android:id="@+id/textView1170"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Micro controllers: Architecture of Intel 8051, pin functions, addressing modes. Instruction sets of 8051, Programming examples (addition, subtraction, 8 bit multiplication, 8 bit division, largest and smallest among an array of 8 bit numbers). Interface with seven segment LED, LCD and ADC. Temperature control using 8051 based system."
+                        android:id="@+id/textView1172"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Control systems: Open loop and closed loop control systems, Transfer function - Principles of P, I, D, PI, PD, PID controllers, Electrical and mechanical systems. Second order systems - response to impulse and step input. Time domain specifications - rise time, delay time, peak time and peak overshoot. Stability of a system: definition, stability analysis using Routh Hurwitz criterion, stability analysis in frequency domain using Bode plot."
+                        android:id="@+id/textView1174"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Rai H. C., Industrial and Power Electronics, 10/e, Umesh Publications, 2009."
+                        android:id="@+id/textView1176"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Mazidi M. A., The 8051 Microcontroller and Embedded Systems, 2/e, Pearson, 2009."
+                        android:id="@+id/textView1177"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Jain R. P., Modern Digital Electronics, 9/e, TMH, 2006."
+                        android:id="@+id/textView1178"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Kuo B. C., Automatic Control Systems, 7/e, PHI, 2013."
+                        android:id="@+id/textView1179"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:id="@+id/textView1181"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1182"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

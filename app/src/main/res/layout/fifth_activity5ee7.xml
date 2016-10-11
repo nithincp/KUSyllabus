@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="POWER ELECTRONICS LAB"
+                        android:id="@+id/textView1327"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="List of Experiments"
+                        android:id="@+id/textView1328"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Study of Power devices- SCR, TRIAC, Power MOSFET, IGBT, etc."
+                        android:id="@+id/textView1329"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Static VI characteristics of SCR"
+                        android:id="@+id/textView1330"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Characteristics of Power MOSFET."
+                        android:id="@+id/textView1331"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Characteristics of IGBT"
+                        android:id="@+id/textView1332"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. *Phase control circuit using R and RC triggering."
+                        android:id="@+id/textView1333"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. *UJT trigger circuit for single phase controlled rectifier."
+                        android:id="@+id/textView1334"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. *AC voltage controller using Triac."
+                        android:id="@+id/textView1335"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8. *Study of PLL IC - Determination of lock in range and capture range."
+                        android:id="@+id/textView1336"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9. *Ramp Control trigger circuit"
+                        android:id="@+id/textView1337"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10. *Digital trigger circuit."
+                        android:id="@+id/textView1338"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11. Single phase fully controlled SCR bridge circuit."
+                        android:id="@+id/textView1339"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12. Pushpull inverter circuit using MOSFET"
+                        android:id="@+id/textView1340"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13. Study of motor control using controlled rectifier"
+                        android:id="@+id/textView1341"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14. Design and testing of step-down and step-up chopper using IC78S40 or equivalent."
+                        android:id="@+id/textView1342"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*Design of the triggering circuit is part of the experiment"
+                        android:id="@+id/textView1343"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1344"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Examination duration: 3 hours"
+                        android:id="@+id/textView1345"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maximum Total Marks: 100 "
+                        android:id="@+id/textView1346"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="80% - Circuit and design (30%); Performance (30%); Results and inference (20%)"
+                        android:id="@+id/textView1347"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20% - Viva voce "
+                        android:id="@+id/textView1348"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

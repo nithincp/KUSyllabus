@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="COMPUTER GRAPHICS"
+                        android:id="@+id/textView1166"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction- Basic concepts in Computer Graphics,Applications, Display Systems,CRT, Raster, Random Scan Displays, Flat Panel Display Systems Output Primitives-Scan Conversion- Line Drawing Algorithms, Midpoint Circle drawing Algorithm- Filled Area Primitives- Scan Line, Inside-Outside Tests, Boundary Fill and Flood Fill Algorithms- Attributes of Output Primitives."
+                        android:id="@+id/textView1168"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Two-Dimensional Transformations- Two dimensional transformations,Basic Transformations,  Matrix representations and Homogeneous coordinates systems,Composite Transformations  with concatenation.Two-Dimensional Viewing– Windowing concepts, Viewing pipeline -Clipping, Line Clipping and Polygon Clipping Algorithms."
+                        android:id="@+id/textView1170"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Three-Dimensional Concepts- Introduction to graphics in three dimensions, specification of a 3D view, Basic 3D Transformations.Projections, Classification of 3D to 2D Projections - Parallel and perspective projections, vanishing points.Visible Surface Detection Algorithms Back face Detection and removal, Z- Buffer algorithm, Depth sorting, scan line algorithm."
+                        android:id="@+id/textView1172"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Illumination &amp; Shading Models - Color Models, RGB, CMY, HSV, HLS , Animations, Categories, Functions &amp; Techniques, Basic Illumination Models- Ambient Light, Diffuse Reflection, Phong Model- Gouraud shading and Phong shading.Graphics programming using OpenGL, Introduction,  OpenGL Utility Toolkit (GLUT) -Drawing Primitives, Handling Events."
+                        android:id="@+id/textView1174"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Donald Hearn and M. Pauline Baker, Computer Graphics-C Version, 2/e, Pearson, 2011."
+                        android:id="@+id/textView1176"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. William M. Newman and Robert F. Sproull, Principles of Interactive Computer Graphics, McGraw Hill."
+                        android:id="@+id/textView1177"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. David F. Rogers, Procedural Elements for Computer Graphics, Tata McGraw Hill, 2001."
+                        android:id="@+id/textView1178"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Hill F.S., Computer Graphics using OpenGL, Pearson, 2007."
+                        android:id="@+id/textView1179"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                        android:id="@+id/textView1181"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question (question may contain subdivisions), out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1182"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

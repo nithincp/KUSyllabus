@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="APPLIED ELECTROMAGNETIC THEORY"
+                        android:id="@+id/textView1166"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Review of vector calculus, spherical and cylindrical coordinate system, elemental displacement, area and volume for spherical and cylindrical coordinate system. Curl, Divergence, Gradient in spherical and cylindrical coordinate system. Electric field – Coulomb’s law, Stokes theorem, Gauss law and amperes current law. Poisson and Laplace equations, Determination of E and V using Laplace equation. Derivation of capacitance and inductance of two wire transmission line and coaxial cable. Energy stored in Electric and Magnetic field."
+                        android:id="@+id/textView1168"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Displacement current density, continuity equation. Magnetic vector potential. Relation between scalar potential and vector potential. Maxwell’s equation from fundamental laws. Boundary condition of electric field and magnetic field from Maxwell&apos;s equations. Solution of wave equation, propagation of plane EM wave in perfect dielectric, lossy medium, good conductor media-attenuation, phase velocity, group velocity, skin depth."
+                        android:id="@+id/textView1170"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reflection and refraction of plane electromagnetic waves at boundaries for normal &amp; oblique incidence (parallel and perpendicular polarization)– Snell’s law of refraction, Brewster angle."
+                        android:id="@+id/textView1201"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Power density of EM wave, Poynting vector theorem, Complex Poynting vector. Polarization of electromagnetic wave-linear, circular and elliptical polarisation. Uniform lossless transmission line - line parameters, transmission line equations, Voltage and Current distribution of a line terminated with load , Reflection coefficient and VSWR. Derivation of input impedance of transmission line. Transmission line as circuit elements (L and C). Half wave and quarter wave transmission lines."
+                        android:id="@+id/textView1172"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Development of Smith chart - calculation of line impedance and VSWR using smith chart. Single stub matching ( Smith chart and analytical method ). Parallel-Plate Waveguide - TE &amp; TM waves. The hollow rectangular wave guide – modes of propagation of wave- dominant  mode, group velocity and phase velocity. Attenuation in wave guides, guide wavelength and impedance."
+                        android:id="@+id/textView1174"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Sadiku M. N. O., Elements of Electromagnetics, 5/e, Oxford University Press, 2010."
+                        android:id="@+id/textView1176"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Edminister J. A., Electromagnetics, 2/e, Schaum‘s Outline Series McGraw Hill, 1995."
+                        android:id="@+id/textView1177"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Inan U. S. and A. S. Inan, Engineering Electromagnetics, Pearson, 2010."
+                        android:id="@+id/textView1178"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Hayt W. H., Engineering Electromagnetics, 7/e, McGraw Hill, 1994."
+                        android:id="@+id/textView1179"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:id="@+id/textView1181"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1182"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

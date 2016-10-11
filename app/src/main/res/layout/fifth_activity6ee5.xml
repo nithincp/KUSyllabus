@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="POWER SYSTEM ANALYSIS AND STABILITY "
+                        android:id="@+id/textView1166"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Basic Concepts in Power Systems-Power in single phase AC circuits –Complex Power-Power triangle-Power in balanced 3 phase ac circuits- Per unit quantities-single phase and three phase-selection of base quantities -advantages of per unit system –changing the base of per unit quantities-Simple problems. "
+                        android:id="@+id/textView1168"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Modelling of power system components - single line diagram –per unit quantities. Symmetrical components- sequence impedances and sequence networks of generators, transformers and transmission lines"
+                        android:id="@+id/textView1575"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction to need for power system protection - Methods of analyzing faults in symmetrical and unsymmetrical case- effects of faults - Power system faults - symmetrical faults - short circuit MVA - current limiting reactors-Unsymmetrical faults - single line to ground, line to line, double line to ground faults -consideration of prefault currentproblems."
+                        android:id="@+id/textView1574"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Load flow studies – Introduction-types-network model formulation - formation of bus impedance and admittance matrix, Gauss-Siedel, Newton-Raphson (Qualitative analysis only) and Fast Decoupled methods-principle of DC load flow."
+                        android:id="@+id/textView1170"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Economic Operation - Distribution of load between units within a plant - transmission loss as a function of plant generation - distribution of load between plants - Method of computing penalty factors and loss coefficients."
+                        android:id="@+id/textView1172"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit commitment: Introduction — Constraints on unit commitments: Spinning reserve, Thermal unit constraints- Hydro constraints."
+                        android:id="@+id/textView1576"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Automatic Generation and Voltage Control: Load frequency control: single area and two area systems -Automatic voltage control. Power system stability - steady state, dynamic and transient stability-power angle curve-steady state stability limit Mechanics of angular motion-Swing equation - Point by Point method - RK method - Equal area criterion application - Methods of improving stability limits."
+                        android:id="@+id/textView1174"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Stevenson W. D., Elements of Power System Analysis, 4/e, McGraw Hill, 1982. "
+                        android:id="@+id/textView1176"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Wadhwa C. L., Electrical Power Systems, 33/e, New Age International, 2004. "
+                        android:id="@+id/textView1177"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Weedy B. M., B. J. Cory, N. Jenkins, J. B. Ekanayake and G. Strbac, Electric Power System, John Wiley &amp; Sons, 2012. "
+                        android:id="@+id/textView1178"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Kothari D. P. and I. J. Nagrath, Modern Power System Analysis, 2/e, TMH, 2009. "
+                        android:id="@+id/textView1179"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:id="@+id/textView1181"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1182"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

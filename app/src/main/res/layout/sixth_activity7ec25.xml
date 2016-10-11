@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ANTENNA DESIGN"
+                    android:id="@+id/textView1419"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView111"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to various methods of antenna synthesis such as Schelkunoff Polynomial, Fourier transform, Woodward Lawson. Introduction to antenna analysis methods: Integral equation method, Moment method, Finite Difference Time Domain methods; Applications of these methods to the practical antennas such as dipole, loop, helical, microstrip patch, and PIFA."
+                    android:id="@+id/textView112"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView113"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Various optimization techniques (OT) such as Genetic algorithm, Artificial Intelligence, Fuzzy logic. Comparative analysis of the OT’s for particular application and antenna type. Various impedance matching techniques such as Quarter wavelength transformer, T match, Gamma Match, Omega match, Baluns and Transformers. Analytical comparative study of wire type and aperture type, narrow band and wide band, element and antenna array antennas."
+                    android:id="@+id/textView114"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView115"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Designing an antenna with a set of given specifications using standard software. Material selection for antenna to be designed, understanding the specifications – errors responses – corrections methods. Concepts of antenna coupling, coupling methods, interferences and effects on performance of the antenna system."
+                    android:id="@+id/textView116"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView117"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Techniques to miniaturize an antenna for wireless LAN and Blue tooth applications, Wide- band and multi-band antennas, Mobile antennas and antenna diversity, Reconfigurable antennas. Practical consideration in designing antennas for wireless communications (such as the interaction between mobile antenna and human body). Measurement of various antenna parameters necessarily needed for practical antennas. Understanding the working and design of anechoic chamber."
+                    android:id="@+id/textView118"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView119"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Balanis C. A., Antenna Theory: Design and Applications, Wiley, 2007."
+                    android:id="@+id/textView120"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Hohnson R. C. and H. Jasik, Antenna Engineering Handbooks, McGraw Hill, 1993."
+                    android:id="@+id/textView121"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Sadiku N. O. Mathew, Elements of Electromagnetics, Oxford Univ. Press, 2001."
+                    android:id="@+id/textView122"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView124"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView125"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView126"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

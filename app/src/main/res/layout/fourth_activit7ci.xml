@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECTS"
+        android:id="@+id/textView808"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design of Steel Structures "
+        android:id="@+id/textView853"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design and Drawing of Reinforced concrete structures"
+        android:id="@+id/textView854"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced Structural Analysis"
+        android:id="@+id/textView855"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elective – I "
+        android:id="@+id/textView856"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elective – II"
+        android:id="@+id/textView857"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Environmental Engineering Lab"
+        android:id="@+id/textView858"
+        android:layout_weight="0.06"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geotechnical Engineering Lab"
+        android:id="@+id/textView859"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(a) Seminar (b) Survey Camp &amp; Industrial Visit "
+        android:id="@+id/textView860"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center" />
+</LinearLayout>

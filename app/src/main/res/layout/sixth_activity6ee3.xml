@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SWITCHED MODE POWER CONVERTERS"
+                    android:id="@+id/textView1419"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView111"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Linear Power supplies- Introduction to Switched Mode DC-to-DC Converter – Step-down converters - Continuous Conduction mode – Boundary between continuous and discontinuous conduction – Output voltage ripple"
+                    android:id="@+id/textView112"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Step-up converters - Continuous Conduction mode – Boundary between continuous and discontinuous conduction – Discontinuous conduction mode "
+                    android:id="@+id/textView1586"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buck Boost converters - Continuous Conduction mode – Boundary between continuous and discontinuous conduction – Output voltage ripple. "
+                    android:id="@+id/textView1585"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full Bridge dc-dc Converter – PWM with bipolar voltage and unipolar voltage Switching – dc-dc converter comparison"
+                    android:id="@+id/textView1587"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView113"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switched Mode DC-to-AC Converter: Introduction to Switched Mode DC-to-AC Converter – Basic concepts – PWM switching scheme – square wave switching scheme – single and three phase inverters – switching utilization – ripple in inverter output – effect of blanking time on voltage in PWM inverters. Square wave pulse switching – programmed harmonic elimination switching – current regulated modulation."
+                    android:id="@+id/textView114"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView115"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resonant Converters- Introduction – Switch mode inductive current switching – Zero voltage and Zero current switching. Classification of Resonant Converters – Basic Resonant Circuit concepts – Load Resonant Converters – Series Loaded and Parallel Loaded Resonant dc-dc converters (Discontinuous conduction mode only) -Resonant switch Converters (ZCS and ZVS."
+                    android:id="@+id/textView116"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView117"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switching DC supplies with isolation – dc to dc converters with electrical isolation – fly back converters – double ended fly back converters – forward converters – double ended forward converters – push pull converters – half bridge converters – full bridge converters Power line disturbances – Power conditioners – Uninterruptible power supplies."
+                    android:id="@+id/textView118"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView119"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Ned Mohan, Tore M Undeland &amp; W. P. Robbins, Power Electronics: Converters, Applications, and Design, 3rd Edition, John Wiley and Sons, 2007."
+                    android:id="@+id/textView120"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Abraham Presman, Switching Power Supply Design, McGraw Hill. 2009, III Edition."
+                    android:id="@+id/textView121"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Vithayathil J., Power Electronics-Principles and Applications, Tata McGraw Hill, 2010."
+                    android:id="@+id/textView122"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView124"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView125"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView126"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

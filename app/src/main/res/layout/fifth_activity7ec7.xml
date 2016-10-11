@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="MICROWAVE &amp; OPTICAL COMMUNICATION LAB"
+                        android:id="@+id/textView1092"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="List of Experiments"
+                        android:id="@+id/textView1093"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A. Microwave Experiments"
+                        android:id="@+id/textView1094"
+                        android:layout_gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. GUNN diode characteristics"
+                        android:id="@+id/textView1095"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Reflex Klystron Mode Characteristics"
+                        android:id="@+id/textView1096"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. VSWR and Frequency measurement"
+                        android:id="@+id/textView1097"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Verify the relation between Guide wave length, free space wave length and cut off wave length for rectangular wave guide."
+                        android:id="@+id/textView1098"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Measurement of E-plane and H-plane characteristics"
+                        android:id="@+id/textView1100"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Directional Coupler Characteristics"
+                        android:id="@+id/textView1101"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. Unknown load impedance measurement using smith chart and verification using transmission line equation"
+                        android:id="@+id/textView1102"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8. Measurement of dielectric constant for given solid dielectric cell"
+                        android:id="@+id/textView1103"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9. Antenna Pattern Measurement"
+                        android:id="@+id/textView1105"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B. Optical Experiments"
+                        android:id="@+id/textView1106"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Measurement of Numerical Aperture of a fiber, after preparing the fiber ends"
+                        android:id="@+id/textView1107"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Preparation of a Splice joint and measurement of the splice loss"
+                        android:id="@+id/textView1108"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Power Vs Current (P-I) characteristics and measure slope efficiency of Laser Diode"
+                        android:id="@+id/textView1134"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Voltage Vs Current (V-I) characteristics of Laser Diode"
+                        android:id="@+id/textView1135"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Power Vs Current (P-I) characteristics and measure slope efficiency of LED"
+                        android:id="@+id/textView1144"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Voltage Vs Current (V-I) characteristics of LED"
+                        android:id="@+id/textView1148"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. Characteristics of Photodiode and measure the responsivity"
+                        android:id="@+id/textView1147"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8. Characteristics of Avalanche Photo Diode (APD) and measure the responsivity"
+                        android:id="@+id/textView1146"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9. Measurement of fiber characteristics, fiber damage and splice loss/connector loss by OTDR"
+                        android:id="@+id/textView1145"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1136"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Examination duration: 3 hours"
+                        android:id="@+id/textView1137"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maximum Total Marks: 100 "
+                        android:id="@+id/textView1138"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25% - Design and Implementation"
+                        android:id="@+id/textView1139"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50% - Result"
+                        android:id="@+id/textView1140"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25% - Viva voce"
+                        android:id="@+id/textView1724"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

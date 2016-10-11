@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="112dp"
+                    android:text="POWER GENERATION, TRANSMISSION AND DISTRIBUTION"
+                    android:id="@+id/textView366"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView585"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction :Typical Layout of an Electrical Power System - Present Power Scenario in India and the global energy scenario. Generation of Electric Power- Conventional Sources (Qualitative) (Hydro, Thermal, Nuclear and Diesel) . Non-Conventional Sources (Qualitative) (Solar, wind, PV, fuel cell, Micro turbine etc.). Ethics and Environmental aspects of Distributed Generation, Cost of generation, Economic aspects —Load curve, significance of diversity factor, load factor, plant factor - Simple problems."
+                    android:id="@+id/textView586"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView587"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modelling of Transmission System: Resistance, inductance and capacitance of three phase transmission lines -symmetrical and unsymmetrical spacing -double circuit lines -bundled conductors -effect of earth on transmission line capacitance – problems. Performance of Lines - short and medium lines - equivalent Pi and T networks – problems. Long lines - equivalent circuit of a long line Ferranti Effect, Power flow, receiving end power circle diagram. HVDC Transmission - types of DC links- Application of HVDC back to back links-HVDC developments in India."
+                    android:id="@+id/textView588"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView589"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanical characteristics of transmission lines –sag -sag template. Conductors -types of conductors -copper, Aluminium and ACSR conductors -Volume of conductor required for various systems of transmission-Choice of transmission voltage, conductor size -Kelvin&apos;s law. Cables -types of cables -insulation resistance -voltage stress -grading of cables -capacitance of single core and 3 -core cables -current rating. Insulators -Different types -Voltage distribution, grading and string efficiency of suspension insulators. Corona -disruptive critical voltage -visual critical voltage -power loss due to corona -Factors affecting corona - interference on communication lines."
+                    android:id="@+id/textView590"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView591"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Power distribution systems –Radial and Ring Main Systems -DC and AC distribution: Types of distributors- bus bar arrangement -Concentrated and Uniform loading -Methods of solving distribution problems. Aesthetics of overhead and underground transmission and distribution. Power factor Considerations -Methods of power factor improvement. Tariffs -different types of LT and HT consumers -tariff schemes -uniform tariff and differential tariff - Impact of tariff on the society."
+                    android:id="@+id/textView592"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView593"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Stevenson W. D., Elements of Power System Analysis, 4/e, McGraw Hill, 1982. "
+                    android:id="@+id/textView594"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Wadhwa C. L., Generation, Distribution and Utilization of Electrical Energy, New Age International, 2002."
+                    android:id="@+id/textView595"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Wadhwa C. L., Electrical Power Systems, 33/e, New Age International, 2004."
+                    android:id="@+id/textView596"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Weedy B. M., B. J. Cory, N. Jenkins, J. B. Ekanayake and G. Strbac, Electric Power System, John Wiley &amp; Sons, 2012. "
+                    android:id="@+id/textView597"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView598"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView599"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView600"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

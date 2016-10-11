@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="68dp"
+                    android:text="DIGITAL ELECTRONICS AND LOGIC DESIGN"
+                    android:id="@+id/textView362"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView521"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Binary codes (BCD, Excess 3 and Gray codes), Logic functions and gates: Review of basic gates and truth tables - Elements of Boolean algebra – De Morgan&apos;s theorem - Universality of NAND and NOR gates. Realisation of combinational circuits using sum of products (SOP) and product of sums (POS) expression – Don’t care conditions - Minimisation of Boolean functions by Boolean algebra, Karnaugh map (up to four variables), Quine McCluskey method (up to 5 variables)."
+                    android:id="@+id/textView522"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView523"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Combinational logic circuits: Half adder and full adder – parallel binary adder – BCD adder - ripple carry and look ahead carry adders, binary subtractor - parity checker/generator, 4 bit magnitude comparator – multiplexers and de-multiplexers - decoders and encoders – BCD to decimal and BCD to seven segment decoders. Realisation of logic functions using multiplexers and decoders. Logic families: Description of TTL, CMOS and ECL families - advantages and disadvantages of major logic families – Transfer characteristics of TTL and CMOS family IC’s – Current sourcing and current sinking operations of digital IC’s – fan-out and noise margin. Familiarisation of commercially available logic gates in 7400, 5400 and 4000 series of IC’s."
+                    android:id="@+id/textView524"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView525"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sequential logic circuits: Flip flops - SR, clocked SR, D, JK, master slave and T flip flops - level and edge triggering - conversion of one type of flip flop into another, Shift registers - SISO, SIPO, PIPO and PISO shift registers - left shift register - Universal shift register - applications of shift registers. Counters – ripple counter, synchronous counter, modulo N counter – design of modulo N counter using Karnaugh map method– ring counter – Johnson counter, up-down counter – state diagrams – design of counters for random sequence."
+                    android:id="@+id/textView526"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView527"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Timer circuits: Monostable and astable multivibrators using logic gates and passive components, 555 Timer – astable multivibrator and monostable multivibrator circuits, 74121 Monostable multivibrator. Programmable Logic Devices: Description of PAL, PLA and FPGA. Memories – ROM- organisation, PROMs, RAMs – Basic structure, Static and dynamic RAMs. Basics of Hardware Description Languages – VHDL – example programs."
+                    android:id="@+id/textView528"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView529"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Floyd T. L., Digital Fundamentals, 10/e, Pearson Education, 2011."
+                    android:id="@+id/textView530"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Tocci R. J. and N. S. Widmer, Digital Systems: Principles and Applications, 8/e, Pearson Education, 2002."
+                    android:id="@+id/textView531"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Kleitz W., Digital Electronics – A Practical Approach with VHDL, 9/e, Pearson Education, 2013."
+                    android:id="@+id/textView532"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Malvino A. P. and D. P. Leach, Digital Principles and Applications, 6/e, McGraw-Hill, 2006."
+                    android:id="@+id/textView533"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView534"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView535"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView536"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

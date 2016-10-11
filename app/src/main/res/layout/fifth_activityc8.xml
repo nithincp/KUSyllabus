@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="59dp"
+                    android:text="FLUID MECHANICS LABORATORY "
+                    android:id="@+id/textView228"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part I : Preliminary study"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView327"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Flow measuring equipments - water meters, current meters, venturi meter, orifice meter and manometers"
+                    android:id="@+id/textView330"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Gauges and valves - pressure gauge, vacuum gauge, stop valve, gate valve and foot valve."
+                    android:id="@+id/textView331"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Pumps - centrifugal and reciprocating type. (Description with layout)"
+                    android:id="@+id/textView333"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Turbines - impulse and reaction types. (Pelton and Francis) (Description with layout)"
+                    android:id="@+id/textView334"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part II: List of Experiments"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView332"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Determination of Darcy’s coefficient and Chezy’s constant on pipe friction apparatus."
+                    android:id="@+id/textView336"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Coefficient of discharge and calibration of "
+                    android:id="@+id/textView337"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a) Notches "
+                    android:id="@+id/textView338"
+                    android:layout_gravity="left|center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) Venturi meters "
+                    android:id="@+id/textView339"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c) Orifice meters."
+                    android:id="@+id/textView342"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Experimental determination of Hydraulic coefficients of a circular orifice."
+                    android:id="@+id/textView341"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Performance test [specific speed, economic running cost] on "
+                    android:id="@+id/textView340"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a) Centrifugal pumps"
+                    android:id="@+id/textView329"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) Reciprocating pumps "
+                    android:id="@+id/textView335"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Performance test [specific speed] on a) Impulse and b) Reaction turbines."
+                    android:id="@+id/textView328"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView349"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Examination duration: 3 hours "
+                    android:id="@+id/textView351"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maximum Total Marks: 100 "
+                    android:id="@+id/textView350"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80% - Theory, Procedure and tabular column (30%); Conducting experiment, Observation, Tabulation with Sample calculation (30%) Graphs, Results and inference (20%)"
+                    android:id="@+id/textView353"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20% - Viva voce ( Based on Part I and Part II)"
+                    android:id="@+id/textView352"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

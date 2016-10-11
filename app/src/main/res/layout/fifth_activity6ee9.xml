@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="SYSTEMS AND CONTROL LABORATORY "
+                        android:id="@+id/textView1092"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="List of Experiments"
+                        android:id="@+id/textView1093"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Predetermination and verification of frequency response characteristics of Lag and Lead networks."
+                        android:id="@+id/textView1094"
+                        android:layout_gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Transfer Function of AC and DC servomotors"
+                        android:id="@+id/textView1095"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Step and frequency response of R-L-C circuit"
+                        android:id="@+id/textView1096"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Study of various types of synchros (TX, TR &amp; TDX). Characteristics of transmitter, data transmission using TX-T R pair. Effect of TDX in data transmission."
+                        android:id="@+id/textView1097"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Study of P, PI and PID controllers. Response analysis of a typical system with different controllers using process control simulator."
+                        android:id="@+id/textView1098"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Study of performance characteristics and response analysis of a typical temperature/ Flow/ Level control system."
+                        android:id="@+id/textView1099"
+                        android:layout_gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. MATLAB: Use of control system Tool box for the Time domain and frequency domain methods of system analysis and design"
+                        android:id="@+id/textView1150"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8. SIMULINK: Simulation and control of real time systems using SIMULINK"
+                        android:id="@+id/textView1100"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9. Compensator design using Bode plot with MATLAB control system Tool box"
+                        android:id="@+id/textView1101"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10. Programmable Logic controller(PLC): To control a simple process using PLC"
+                        android:id="@+id/textView1102"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1136"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Examination duration: 3 hours"
+                        android:id="@+id/textView1137"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maximum Total Marks: 100 "
+                        android:id="@+id/textView1138"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="80% - Circuit and Design- (30%); Performance - (30%) Results and inference- (20%)"
+                        android:id="@+id/textView1139"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20% - Viva voce "
+                        android:id="@+id/textView1140"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

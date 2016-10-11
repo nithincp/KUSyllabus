@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                      COURSE"
+        android:id="@+id/textView9"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.09"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Computer Science Engineering"
+        android:id="@+id/textView10"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Civil Engineering"
+        android:id="@+id/textView11"
+        android:layout_weight="0.09"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Electrical Engineering"
+        android:id="@+id/textView12"
+        android:layout_weight="0.09"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Electronics &amp; Communications Engineering"
+        android:id="@+id/textView13"
+        android:layout_weight="0.09"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Mechanical Engineering"
+        android:id="@+id/textView14"
+        android:layout_weight="0.09"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

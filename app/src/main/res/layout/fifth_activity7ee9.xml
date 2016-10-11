@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="POWER SYSTEMS LAB"
+                        android:id="@+id/textView1092"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hardware Tests"
+                        android:id="@+id/textView1093"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Power frequency testing of electrical equipment like insulators, fuses, AB switches, lightning arresters etc."
+                        android:id="@+id/textView1095"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Determination of string efficiency of string insulators."
+                        android:id="@+id/textView1096"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Calibration of HV measuring equipment using sphere gap."
+                        android:id="@+id/textView1097"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Impulse voltage test on insulators, lightning arresters etc.."
+                        android:id="@+id/textView1098"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Measurement of dielectric strength of air, solid and liquid insulating materials."
+                        android:id="@+id/textView1100"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Determine the characteristic , pick up time etc. of different types of electromagnetic relays"
+                        android:id="@+id/textView1101"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. Determine the characteristic, pick up time etc. of different types of static relays."
+                        android:id="@+id/textView1102"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8. Measurement of earth resistance and soil resistivity."
+                        android:id="@+id/textView1103"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9. Testing of insulation of 3 core and 4 core cable"
+                        android:id="@+id/textView1105"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10. Characteristics of Current Transformers and Potential Transformers"
+                        android:id="@+id/textView1106"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11. Power measurement using current transformer &amp; potential transformer."
+                        android:id="@+id/textView1107"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12. Power factor improvement with capacitor banks."
+                        android:id="@+id/textView1108"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13. Testing of energy meters"
+                        android:id="@+id/textView1134"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14. Ferranti Effect and its mitigation"
+                        android:id="@+id/textView1135"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15. Transient stability study"
+                        android:id="@+id/textView1731"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Software Simulation Tests"
+                        android:id="@+id/textView1734"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16. Load flow analysis - Gauss Siedel Method, Newton Raphson Method, Fast decoupled method of test systems with buses not exceeding 6 numbers."
+                        android:id="@+id/textView1733"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17. Short circuit studies – 3 phase LG, LL, LLG fault."
+                        android:id="@+id/textView1735"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18. Simulation of AGC for single area and two area systems using SIMULINK."
+                        android:id="@+id/textView1732"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19. Formulation of Ybus matrix with mutual coupling using MATLAB."
+                        android:id="@+id/textView1736"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20. Simulation of FACTS devices (Shunt Compensation)."
+                        android:id="@+id/textView1738"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21. Analysis of Transient stability and Voltage stability of power systems (using Power angle and PV curves respectively)."
+                        android:id="@+id/textView1737"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1136"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Examination duration: 3 hours"
+                        android:id="@+id/textView1137"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maximum Total Marks: 100 "
+                        android:id="@+id/textView1138"
+                        android:layout_gravity="left|center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="80% - Circuit and design (30%);Performance (30%);Results and inference (20%)"
+                        android:id="@+id/textView1139"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20% - Viva voce "
+                        android:id="@+id/textView1140"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="REFRIGERATION AND AIR CONDITIONING"
+                        android:id="@+id/textView1166"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction – Brief history and applications of refrigeration.. Thermodynamics of refrigeration- reversed Carnot cycle- heat pump and refrigeration machines, Limitations of reversed Carnot cycle. Unit of refrigeration- Air refrigeration systems- Reversed Joule cycle, Air craft refrigeration systems, simple bootstrap- Regenerative and reduced ambient system- Vortex tube refrigeration-Very low temperature refrigeration systems (concept only). Adiabatic demagnetization of paramagnetic salts."
+                        android:id="@+id/textView1168"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vapour compression systems-simple cycle - representation on T- s and P- hDiagrams. COP- Effect of operating parameters on COP – methods of improving COP of simple cycle- super- heating , under cooling, Liquid suction heat exchangeractual, cycle. Multi pressure systems - multi compression and multi evaporator, systems. Inter cooling - flash inter cooling and flash gas removal- Different combinations of evaporator and compressor for different applications, Cascade system. Refrigerants and their properties-Eco-friendly Refrigerants, mixed refrigerants, selection of refrigerants for different applications."
+                        android:id="@+id/textView1170"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vapour absorption systems - Ammonia – water system - simple system- drawbacks-Lithium Bromide water system- Electrolux- comparison with vapour compression system- steam jet refrigeration. Application of refrigeration- domestic refrigerators- water coolers- ice plants. Cold storages- food preservation methods- plate freezing , quick-freezing. Refrigeration system components- Compressors, condensers, expansion devices, evaporators. Cooling towers- Different types and their application fields- Refrigerant leakage and detection – charging of refrigerant – system controls."
+                        android:id="@+id/textView1172"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Air conditioning – meaning and utility, comfort and industrial air conditioning. Psychometric properties- saturated and unsaturated air, dry, wet and dew point temperature – humidity, specific humidity, absolute humidity, relative humidity and degree of saturation- thermodynamic equations - enthalpy of moisture - adiabatic saturation process psychrometers. Thermodynamic wet bulb temperature, Psychrometric chart- Psychrometric processes- adiabatic mixing- sensible heating and cooling- humidifying and dehumidifying, air washer – bypass factor- sensible heat factor-RSHF and GSHF line- Design condition- Apparent dew point temperature – Choice of supply condition, state and mass rate of dehumidified air quantity – Fresh air supplied –air refrigeration. Comfort air conditioning- factors affecting human comfort. Effective temperature – comfort chart. Summer air conditioning- factors affecting-cooling load estimation.Air conditioning systems- room air conditioner- split system-packaged system-all air system- chilled water system. Winter air conditioning – factors affecting heating system, humidifiers. Year round air conditioning AC system controls-thermostat and humidistat. Air distribution systems- duct system and design- Air conditioning of restaurants, hospitals, retail outlets, computer center, cinema theatre, and other place of amusement. Industrial applications of air conditioning."
+                        android:id="@+id/textView1174"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Stoecker W.F., Refrigeration and Air-Conditioning, McGraw-Hill Publishing Company."
+                        android:id="@+id/textView1176"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Arora C. P., Refrigeration and Air-Conditioning, Tata McGraw-Hill Education."
+                        android:id="@+id/textView1177"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Arora S. C. and Domkundwar, Refrigeration and Air-Conditioning, Dhanpat Rai."
+                        android:id="@+id/textView1178"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Manohar Prasad, Refrigeration and Air-Conditioning, New Age International."
+                        android:id="@+id/textView1179"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:id="@+id/textView1181"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1182"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:text="ELECTRICAL TECHNOLOGY "
+                    android:id="@+id/textView371"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView665"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DC Machines-principle of operation-emf equation-types of excitations. Separately excited, shunt and series excited DC generators, compound generators. General idea of armature reaction, OCC and load characteristics - simple numerical problems. Principles of dc motors-torque and speed equations-torque speed characteristics- variations of speed, torque and power with motor current. Applications of dc shunt series and compound motors. Principles of starting, losses and efficiency – load test- simple numerical problems."
+                    android:id="@+id/textView666"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView667"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transformers – principles of operations – emf equation- vector diagrams- losses and efficiency – OC and SC tests. Equivalent circuits- efficiency calculations- maximum efficiency – all day efficiency – simple numerical problems. Auto transformers constant voltage transformer- instrument transformers. Three phase induction motors- slip ring and squirrel cage types- principles of operation – rotating magnetic field- torque slip characteristics- no load and blocked rotor tests. Circle diagrams- methods of starting – direct online – auto transformer starting."
+                    android:id="@+id/textView668"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView669"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single phase motors- principle of operation of single phase induction motor – split phase motor – capacitor start motor- stepper motor- universal motor Synchronous machinestypes – emf equation of alternator – regulation of alternator by emf method. Principles of operation of synchronous motors- methods of starting- V curves- synchronous condenser."
+                    android:id="@+id/textView670"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – IV"
+                    android:id="@+id/textView671"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electric traction – systems of power supply – functional schematic of ac electric locomotives- types of motors used in traction systems. Methods of speed control – methods of braking. Electric welding. Different types."
+                    android:id="@+id/textView672"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView673"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Theraja B. L. and A. K. Theraja, A Text Book of Electrical Technology, S. Chand &amp; Company Ltd., 2008."
+                    android:id="@+id/textView674"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Kothari D. P. and I. J. Nagrath, Electrical Machines, Tata McGraw Hill, 2004."
+                    android:id="@+id/textView675"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Partab H., Art and Science of Utilization of Electric Energy, Dhanpat Rai &amp; Sons, 1980."
+                    android:id="@+id/textView676"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Gupta B. R. and V. Singhal, Fundamentals of Electric Machines, New Age International Publishers Ltd, New Delhi, 2005."
+                    android:id="@+id/textView677"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView678"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView679"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks"
+                    android:id="@+id/textView680"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

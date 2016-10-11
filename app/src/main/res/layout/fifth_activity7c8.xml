@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="SEMINAR, SURVEY CAMP &amp; INDUSTRIAL VISITS"
+                        android:id="@+id/textView1092"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(a) SEMINAR"
+                        android:id="@+id/textView1094"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Each student is required to present a seminar on a topic of current relevance in Civil Engineering and other related areas of current importance. They are expected to refer research and review papers from standard journals like ASCE, IEI, ELSEVIER, etc. Each student shall give a power point presentation of 15 minutes duration on his/her seminar topic in an audience of students and staff members from the department. Students from lower semesters may also attend the seminar presentation. The seminar presentation shall be assessed by a panel consisting of the Head of the Department, seminar coordinator, and 2/3 faculty members. The Head of the Department shall be the chairman of the panel.Each student should also prepare a well-documented report on the seminar topic as per the format and submit to the department at the time of his/her seminar presentation. While preparing the report, at least three cross references must be used. The seminar report must not be the reproduction of the original report."
+                        android:id="@+id/textView1095"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(b) (i) SURVEY CAMP &amp;"
+                        android:id="@+id/textView1096"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Survey Camp should be completed before the commencement of 7 th semester. The minimum duration of the survey camp should be one week. The use of total station and GPS is compulsory for survey work. "
+                        android:id="@+id/textView1097"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(ii) INDUSTRIAL VISITS"
+                        android:id="@+id/textView1098"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Students have to visit at least three industries/ research institutes relevant to civil engineering as part of industrial training to understand the processes/activities. A report of the same should be submitted at the end of 7 th semester and evaluation should be based on this report. A certified report on industrial visits should be available with the student for Project and Viva voce at the end of Eighth semester."
+                        android:id="@+id/textView1099"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internal Continuous Assessment (Maximum Marks-150)"
+                        android:id="@+id/textView1136"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40% - Seminar"
+                        android:id="@+id/textView1137"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30% - Survey Camp and report"
+                        android:id="@+id/textView1138"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30% - Industrial Visits and report"
+                        android:id="@+id/textView1139"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEMESTER"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:theme="@style/AppTheme"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   S4"
+        android:id="@+id/textView4"
+        android:layout_weight="0.11"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   S5"
+        android:id="@+id/textView5"
+        android:layout_weight="0.11"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   S6"
+        android:id="@+id/textView6"
+        android:layout_weight="0.11"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   S7"
+        android:id="@+id/textView7"
+        android:layout_weight="0.11"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   S8"
+        android:id="@+id/textView8"
+        android:layout_weight="0.11"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+</LinearLayout>

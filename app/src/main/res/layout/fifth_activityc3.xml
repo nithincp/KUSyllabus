@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:text="STRUCTURAL ANALYSIS - I "
+                    android:id="@+id/textView223"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView245"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to structural analysis – Concept of determinate, indeterminate structures and stability – deflection of beams – Moment-curvature relation – Load-deflection differential equation – Slope and deflection of beams by the method of successive integration – Macaulay’s method – Principle of superposition. - Moment-area method and Conjugate beam method-Slope and deflection of beams with non-uniform flexural rigidity."
+                    android:id="@+id/textView247"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView250"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to energy methods – Strain energy and complementary energy – Castigliano’s theorems - Application of theorem to statically determinate beams and rigid-jointed plane frames. Principle of virtual work and its application to statically determinate beams, rigidjointed frames and pin-jointed frames –Clark-Maxwell’s reciprocal theorem – Betti’s theorem – Principle of minimum total potential energy."
+                    android:id="@+id/textView251"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView249"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arches – Behaviour and types of arches – Analysis of three hinged arches – Axial force, shear force and bending moment in circular and parabolic three hinged arches. Elastic stability of slender columns – Euler’s formula for long columns with different end conditions – Limitations of Euler’s formula – Rankine’s formula – Columns subjected to eccentric loading."
+                    android:id="@+id/textView252"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView254"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Moving loads and Influence lines – Influence line diagram for reactions, shear force and bending moment in simply supported and cantilever beams and overhanging beamsMoving loads – Maximum effects under distributed loads, two concentrated loads and series of concentrated loads – Absolute maximum shear force and bending moment – Shear force and bending moment envelope – Equivalent uniformly distributed load – Influence lines for member forces in statically determinate trusses. Analysis of three dimensional pinjointed frames by the method of tension coefficients."
+                    android:id="@+id/textView248"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView256"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Junnarkar S. B. and S. J. Shah, Mechanics of Structures-II, 23/e, Charotar Publishing House Pvt. Ltd., New Delhi, 2013."
+                    android:id="@+id/textView257"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Devdas Menon, Advanced Structural Analysis, Narosa Publishing House, New Delhi, 2013."
+                    android:id="@+id/textView259"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Norris, C. H. and J. B. Wilbur, Elementary Structural Analysis, McGraw Hill, New York, 1976. "
+                    android:id="@+id/textView260"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Hibbeler R. C., Structural Analysis, Pearson Education, New Delhi, 2002."
+                    android:id="@+id/textView258"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:id="@+id/textView255"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                    android:id="@+id/textView253"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView246"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

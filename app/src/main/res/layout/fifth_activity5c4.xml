@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="GEOTECHNICAL ENGINEERING – I "
+                        android:id="@+id/textView1024"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1025"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Soil formation - Major soil deposits of India - Basic soil properties - Weight-volume relationships - Void ratio, porosity, degree of saturation, air content, percentage air voids, moisture content, specific gravity, bulk, saturated and submerged unit weights - Relationship between basic soil properties. Index properties - Sieve analysis – Well graded, poorly graded and gap graded soils - Stoke’s law - Hydrometer analysis – Relative density – Consistency - Atterberg Limits - Practical Applications - I.S. classification of soils."
+                        android:id="@+id/textView1026"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1027"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Compaction of soils - Standard Proctor, Modified Proctor, I.S. light &amp; Heavy Compaction Tests – OMC - Zero Air voids line - Control of compaction - Field methods of compaction [Brief discussion only]. Permeability of soils - Darcy’s law – Factors affecting permeability - Constant head and falling head permeability tests - Average permeability of stratified deposits . Principle of effective stress - Total , neutral and effective stress variation diagrams - Quick sand condition - Critical hydraulic gradient - Estimation of quantity of seepage using flow nets[only for the case of seepage around a single row of sheet piles] – Definition of phreatic line and exit gradient."
+                        android:id="@+id/textView1028"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1029"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Compressibility and Consolidation - Void ratio versus pressure relationship - Coefficient of compressibility and volume compressibility – Compression index - Change in void ratio method - Height of solids method - Normally consolidated, under consolidated and over consolidated states - Estimation of pre consolidation pressure - Estimation of magnitude of settlement of normally consolidated clays – Terzaghi’s theory of one-dimensional consolidation(no derivation required) - average degree of consolidation – Time factor - Coefficient of consolidation - Square root of time and logarithm of time fitting methods."
+                        android:id="@+id/textView1030"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1031"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shear strength of soils- Mohr-Coulomb failure criterion - Direct shear test, tri-axial compression test, vane shear test, unconfined compression test - Applicability - UU and CD  tests [Brief discussion only] - Sensitivity - Thixotropy - Liquefaction - Critical void ratio Stability of finite slopes - Toe failure, base failure, slip failure - Swedish Circle Method – Friction circle method – Factor of safety with respect to cohesion and angle of internal friction - Stability number - Stability charts - Methods to improve slope stability."
+                        android:id="@+id/textView1032"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1033"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Ranjan G. and A. S. R. Rao, Basic and Applied Soil Mechanics, New Age International, 2002"
+                        android:id="@+id/textView1034"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Arora K. R., Geotechnical Engineering, Standard Publishers, 2006."
+                        android:id="@+id/textView1035"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Venkataramaiah, Geotechnical Engineering, Universities Press, 2000."
+                        android:id="@+id/textView1036"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Terzaghi K. and R. B. Peck, Soil Mechanics in Engineering Practice, John Wiley, 1967."
+                        android:id="@+id/textView1037"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1038"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                        android:id="@+id/textView1039"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1040"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

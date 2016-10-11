@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text=" SYNCHRONOUS MACHINES "
+                        android:id="@+id/textView1241"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1242"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alternators: Basic Principle – Constructional features of salient pole type and cylindrical type alternators- advantages rotating type (stationary armature) - damper winding - turbo alternator - armature winding - Types of armature winding- single Layer, double Layer, full Pitched, fractional pitched winding- slot angle- Pitch Factor and Distribution Factor (Derivation) - Simple Problems. Effect of pitch factor on harmonics – advantages of short chorded winding- EMF Equation – Problems. Cooling of alternator – different methods. Harmonics in generated EMF – suppression of harmonics – armature reaction - leakage reactance – synchronous reactance and impedance – experimental determination - phasor diagram – load characteristics."
+                        android:id="@+id/textView1243"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1244"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Performance of an alternator: Causes for voltage drop in alternators – armature resistance – armature leakage reactance – armature reaction – synchronous reactance – vector diagram of a loaded alternator – voltage regulation- EMF, MMF, ZPF and A.S.A methods – Problems. Load characteristics of alternators – Theory of salient pole machine – Blondel’s two reaction theory- direct axis and quadrature axis synchronous reactances- phasor diagram and calculation of voltage regulations- determination of Xd and Xq by slip test."
+                        android:id="@+id/textView1245"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1246"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parallel operation of alternators: Necessity of parallel operation of alternators – methods of synchronization - dark lamp method - bright lamp method - synchroscope method - principle of automatic synchronizing- synchronizing current - synchronizing power - synchronizing torque - effects of changing excitation of alternators - load sharing of two alternators."
+                        android:id="@+id/textView1247"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1248"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Synchronous motor: Construction and principle of synchronous motor - methods of starting - effects of excitation on armature current and power factor – load angle – torque and power relationship- phasor diagram – losses and efficiency calculations. Synchronous  machine on infinite bus- V Curve and Inverted V Curve – Power flow equation for cylindrical and salient pole machines- power vs power angle diagram – reluctance power –maximum power transfer- stability limit- control of active and reactive power in synchronous machine on infinite busbars- applications of synchronous motors."
+                        android:id="@+id/textView1249"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1250"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Nagrath J. and D. P. Kothari, Theory of AC Machines, Tata McGraw Hill, 2006."
+                        android:id="@+id/textView1251"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Bimbra P. S., Electrical Machinery, 7/e, Khanna Publishers, 2011."
+                        android:id="@+id/textView1252"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Say M. G., The Performance and Design of A. C. Machines, C B S Publishers, New Delhi, 2002."
+                        android:id="@+id/textView1253"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Fitzgerald A. E., C.Kingsley and S.Umans, Electric Machinery, 5/e, McGraw Hill, 1990."
+                        android:id="@+id/textView1254"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1255"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:id="@+id/textView1256"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1257"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

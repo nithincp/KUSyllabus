@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NEW AND RENEWABLE SOURCES OF ENERGY"
+                    android:id="@+id/textView1405"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView111"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ENERGY SOURCES: Introduction, Importance of Energy Consumption as Measure of Prosperity, Per Capita Energy Consumption, Classification of Energy Resources; Conventional Energy Resources - Availability and their limitations; Non-Conventional Energy Resources – Classification, Advantages, Limitations; Comparison of Conventional and Non-Conventional Energy Resources; World Energy Scenario; Indian Energy Scenario."
+                    android:id="@+id/textView112"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ENERGY STORAGE: Introduction, Necessity of Energy Storage, and Methods of Energy Storage (classification and brief description using block diagram representation only)."
+                    android:id="@+id/textView1469"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView113"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SOLAR THERMAL SYSTEMS: Introduction, Solar Constant, Basic Sun-Earth Angles, Measurement of Solar Radiation Data – Pyranometer and Pyrheliometer .Principle of Conversion of Solar Radiation into Heat, Solar Water Heaters (Flat Plate Collectors), Solar Cookers – Box type, concentrating dish type, Solar driers, Solar Still, Solar Furnaces, Solar Green Houses."
+                    android:id="@+id/textView114"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SOLAR ELECTRIC SYSTEMS: Solar Thermal Electric Power Generation – Solar Pond and concentrating Solar Collector (parabolic trough, parabolic dish, Central Tower Collector). Advantages and Disadvantages; Solar Photovoltaic – Solar Cell fundamentals, characteristics, classification, construction of module, panel and array. Solar PV Systems – stand-alone and grid connected; Applications – Street lighting, Domestic lighting and Solar Water pumping systems."
+                    android:id="@+id/textView1470"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView115"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ENERGY FROM OCEAN: Tidal Energy – Principle of Tidal Power, Components of Tidal Power Plant (TPP), Classification of Tidal Power Plants, Advantages and Limitations of TPP."
+                    android:id="@+id/textView116"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ocean Thermal Energy Conversion (OTEC): Principle of OTEC system, Methods of OTEC power generation – Open Cycle (Claude cycle), Closed Cycle (Anderson cycle) and Hybrid cycle (block diagram description of OTEC); Site-selection criteria, Biofouling, Advantages &amp; Limitations of OTEC."
+                    android:id="@+id/textView1471"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WIND ENERGY: Introduction, Wind and its Properties, History of Wind Energy, Wind Energy Scenario – World and India. Basic principles of Wind Energy Conversion Systems (WECS), Classification of WECS, Parts of WECS, Derivation for Power in the wind, Electrical Power Output and Capacity Factor of WECS, Advantages and Disadvantages of WECS.."
+                    android:id="@+id/textView1472"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView117"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BIOMASS ENERGY: Introduction, Photosynthesis process, Biomass fuels, Biomass conversion technologies, Urban waste to Energy Conversion, Biomass Gasification, Biomass to Ethanol Production, Biogas production from waste biomass, factors affecting biogas generation, types of biogas plants – KVIC and Janata model; Biomass program in India."
+                    android:id="@+id/textView118"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small hydro power: Classification as micro, mini and small hydro projects - Basic concepts and types of turbines - Design and selection considerations."
+                    android:id="@+id/textView1394"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMERGING TECHNOLOGIES: Fuel Cell, Small Hydro Resources, Hydrogen Energy, alcohol energy, nuclear fusion and power from satellite stations."
+                    android:id="@+id/textView1473"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView119"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Rai G. D., Non-Conventional Sources of Energy, 4/e, Khanna Publishers, 2007 "
+                    android:id="@+id/textView120"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Sawhney G. S., Non-Conventional Energy Resources, PHI Learning, 2012."
+                    android:id="@+id/textView121"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Khan B. H., Non-Conventional Energy Resources, Tata McGraw Hill, 2009."
+                    android:id="@+id/textView122"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView124"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView125"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView126"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

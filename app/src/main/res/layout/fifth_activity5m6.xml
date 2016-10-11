@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:text="ELECTIVE - I"
+                        android:id="@+id/textView1386"
+                        android:gravity="top|center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="66dp"
+                        android:text="Professional Ethics and Human Values"
+                        android:id="@+id/textView1387"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="47dp"
+                        android:text="Advanced Welding Technology"
+                        android:id="@+id/textView1388"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:text="Foundry Technology"
+                        android:id="@+id/textView1389"
+                        android:textStyle="bold"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Advanced Fluid Mechanics"
+                        android:id="@+id/textView1390"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Composite Materials Technology"
+                        android:id="@+id/textView1391"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Non Destructive Testing"
+                        android:id="@+id/textView1392"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Powder Metallurgy"
+                        android:id="@+id/textView1393"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Human Aspects of Management"
+                        android:id="@+id/textView1800"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:text="Environmental Science"
+                        android:id="@+id/textView1801"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="39dp"
+                        android:text="Environmental Pollution Control "
+                        android:id="@+id/textView1805"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Disaster Management "
+                        android:id="@+id/textView1804"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

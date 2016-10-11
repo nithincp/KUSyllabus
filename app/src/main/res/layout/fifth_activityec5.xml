@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:text="COMPUTER PROGRAMMING"
+                android:id="@+id/textView357"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – I"
+                android:id="@+id/textView441"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic stricture of a C++ program - Data types and Operators – Enumerated data types – Type conversion – Conditional statements and loops – Arrays (one and two dimensional) and strings – Functions - Recursive functions – Storage class specifiers."
+                android:id="@+id/textView442"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – II"
+                android:id="@+id/textView443"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pointers – Pointer to arrays and strings – Pointer to pointer – Array of pointers – Structures and Unions - new and delete operators for dynamic memory management Classes and objects – private, public and protected variables - Constructors and Destructors – Array of class objects – Pointer and classes – ‘this’ pointer - Inline member Functions – Static Class Members."
+                android:id="@+id/textView444"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – III"
+                android:id="@+id/textView445"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Function overloading, Operator overloading - Friend functions - Inheritance - Polymorphism - Virtual functions. Data File Operations - Exception handling – Creating and Manipulating String Objects."
+                android:id="@+id/textView446"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – IV"
+                android:id="@+id/textView447"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Structures: Linked lists (single) - basic operations - Stack and Queues - basic operations using arrays and linked lists. Searching and Sorting – Linear Search and Binary Search - Bubble sort – Insertion sort – Selection sort."
+                android:id="@+id/textView448"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:id="@+id/textView449"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Stroustrup B., The C++ Programming Language, 4/e, Addison-Wesley, 2013."
+                android:id="@+id/textView450"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Balagurusamy E., Object Oriented Programming with C++, 6/e, Tata McGraw Hill, 2013."
+                android:id="@+id/textView451"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Aho A. V., J. E. Hopcroft and J. D. Ullman, Data Structures and Algorithms, Pearson, 2005."
+                android:id="@+id/textView452"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Ravichandran D., Programming with C++, 3/e, Tata McGraw Hill, 2011."
+                android:id="@+id/textView453"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:id="@+id/textView454"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                android:id="@+id/textView455"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView456"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

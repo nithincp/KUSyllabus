@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="MANUFACTURING PROCESS"
+                android:id="@+id/textView370"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – I"
+                android:id="@+id/textView649"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foundry – basic requirements of casting processes. Patterns – types, materials, allowances. Moulding Sand – Properties, testing, Sand Muller, Types of mould – Green Sand Mould, Dry Sand Mould– Carbon Dioxide Moulding, Shell Moulding, Ceramic Mould Casting, Plaster mould casting. Cores – Core Sand, Core Types, Core Prints , Core Baking, Principles of gating and risering – Riser location and Direction Solidification, Blind riser, Chills-Internal and External chills and Chaplets. Internal, external chills. Pressurised and Unpressurised Gating systems."
+                android:id="@+id/textView650"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – II"
+                android:id="@+id/textView651"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gravity die casting Pressure die casting-Hot and Cold chamber type, Centrifugal casting, Semi centrifugal casting Centrifuging, Continuous Casting. Solidification of Castings – Cleaning and Inspection of castings, Casting defects. Plastic injection moulding and plastic blow moulding. . Introduction to powder metallurgy process – Compacting and sintering. Forming and shaping of glass. Processing of metal matrix and ceramic matrix."
+                android:id="@+id/textView652"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – III"
+                android:id="@+id/textView653"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forming - plastic deformation and yield criteria - relation between tensile and shear yield stress – Rolling - cold, hot rolling - Types of rolling mills-Rolling of channels, I and rail sections. Rolling of tubes, wheels and axles. Defects in rolled products. Forging- open and closed die forging, press forging, roll forging, types of forging presses. Defects in forging. Extrusion-hot and cold extrusion-Wire drawing- Tube drawing, Rotary piercing-Rotary swaging, Cold forming-thread rolling, metal spinning."
+                android:id="@+id/textView654"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – IV"
+                android:id="@+id/textView655"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welding- classification, Weldability, Metallurgy of welding, structure of weld, HAZ. Gas welding, types of flames. Arc welding- Carbon arc welding, Shielded metal arc welding, Submerged arc welding, TIG, MIG. Resistance welding- Spot welding, Seam welding,  Projection welding, Butt welding, Flash butt welding, Percussion welding. Solid phase welding-forge welding, friction welding, explosive welding, ultrasonic welding. Thermit welding, Atomic hydrogen welding, Electron beam welding. Weld defects and inspection."
+                android:id="@+id/textView656"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:id="@+id/textView657"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Kalpakjian S. and S. R Schmid, Manufacturing Engineering and Technology, 4/e, Pearson Education, 2001."
+                android:id="@+id/textView658"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Ghosh A. and A. Mallik, Manufacturing Science, Affiliated East West Press Ltd., New Delhi, 2002."
+                android:id="@+id/textView659"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Taylor H. F., M. C. Flemings and J. Wulff, Foundry Engineering, Wiley Eastern, 1973."
+                android:id="@+id/textView660"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Campbell J. S., Principles of Manufacturing Materials and Processes, Tata McGraw Hill, 1999."
+                android:id="@+id/textView661"
+                android:layout_gravity="left|center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:id="@+id/textView662"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                android:id="@+id/textView663"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView664"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:text="METALLURGY AND MATERIAL SCIENCE "
+                    android:id="@+id/textView372"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView681"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to material science and engineering, Classification of engineering materials, Crystal structure of metallic materials. Imperfections in crystals: point defects, line defects, surface defects. Mechanical behaviour of materials: Elastic, visco elastic, anelastic behaviour. Mechanisms of plastic deformation: role of dislocation, slip and twinning; Schmid’s law. Strengthening mechanisms: Grain size reduction, solid solution strengthening, work hardening, Precipitation hardening. Recovery, recrystallisation and grain growth. Specimen preparation for microstructural examination: Etching. Grain size determination by comparison with standard chart, Hall-Petch equation."
+                    android:id="@+id/textView682"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView683"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fracture: ductile fracture, brittle fracture, Griffith’s theory of brittle fracture, ductile to brittle transition , fracture toughness. Fatigue: mechanism of fatigue, S-N curve. Creep: creep curve, mechanism of creep. Diffusion: Fick’s laws of diffusion, Mechanisms of diffusion, applications. Solidification of metals and alloys. Solid solution, Hume Rothery&apos;s rules. Phase diagrams: Phase rule, Lever Rule, Relationship between micro structure and properties, Isomorphous systems: Cu-Ni phase diagram, Eutectic systems: Pb-Sn phase diagram. Eutectoid and peritectic reactions."
+                    android:id="@+id/textView684"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView685"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iron- Carbon equilibrium diagram Development of microstructure in Iron Carbon alloys, Phase transformations in steel. Detailed discussion on Iron-Iron Carbide phase diagram with reference to micro constituents like austenite, ferrite, cementite, pearlite and ledeburite. TTT diagram for eutectoid steel, CCT diagram, critical cooling rate. Transformation of austenite to pearlite, bainite, martensite spheroidite etc.  Heat treatment of steel: Annealing, normalizing, hardening, tempering, austempering, martempering, Hardenability, Jominy end quench test. Surface treatments: Case Hardening, Carburising, Nitriding, Cyaniding, CVD, PVD, Thermal spraying."
+                    android:id="@+id/textView686"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – IV"
+                    android:id="@+id/textView687"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Applications of ferrous and non ferrous alloys: Steel- low, medium, high carbon steels, Alloy steels: effect of various alloying elements in steel. Stainless steels -ferritic, austenitic, martensitic, duplex steels. Tool steels. Cast iron- gray, white, ductile cast irons. Copper and its alloys. Aluminium and its alloys, Magnesium and alloys, Titanium and its alloys. Composite materials for mechanical engg applications: classification, fabrication methods: stir casting, powder metallurgy and filament winding. Introduction to Smart materials, Nano materials, Bio materials, Bioplastics. Selection of materials based on properties, service, economic and environmental considerations."
+                    android:id="@+id/textView688"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView689"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Callister W. D. and D. G. Rethwisch, Material Science and Engineering, 8/e, John &amp; Wiley Sons, 2010."
+                    android:id="@+id/textView690"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Raghavan V., Material Science and Engineering, PHI Learning Pvt. Ltd., 2004."
+                    android:id="@+id/textView691"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Jose S. and Mathew E. V., Metallurgy and Materials Science, Pentagon Educational Services, 2011."
+                    android:id="@+id/textView692"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Shackelford J., Introduction to Materials Science for Engineers, 7/e, Pearson, 2009."
+                    android:id="@+id/textView693"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView694"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module"
+                    android:id="@+id/textView695"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView696"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:text="ENGINEERING ELECTROMAGNETICS"
+                android:id="@+id/textView363"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – I"
+                android:id="@+id/textView537"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overview of vector analysis: vector algebra-dot product and cross product- Cartesian coordinate system - cylindrical co-ordinate system – spherical co-ordinate system. Coulomb&apos;s law &amp; electric field intensity - field due to a continuous volume charge distribution - line charge -sheet of charge - flux density - Gauss law – applications. Divergence – divergence theorem"
+                android:id="@+id/textView538"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – II"
+                android:id="@+id/textView539"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concepts of electric potential: potential difference and energy - line integral -potential field of a point charge -system of charges - conservative property -potential gradient - electric field due to a dipole - energy density. Conductors and dielectrics - current and current density - continuity of current -conductor properties and boundary conditions - method of images - boundary conditions for perfect dielectric materials. Capacitance - capacitance of co-axial cable, two wire line."
+                android:id="@+id/textView540"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – III"
+                android:id="@+id/textView541"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poisson&apos;s and Laplace&apos;s equations - examples - uniqueness theorem. Steady magnetic field - Biot-Savart&apos;s law - Amperes circuital law - Curl-Stokes theorem - magnetic flux and flux density - scalar and vector magnetic potentials. Magnetic forces - force between differential current elements -magnetic boundary conditions - potential energy. Inductance of co-axial cable, torroidal coil."
+                android:id="@+id/textView542"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module – IV"
+                android:id="@+id/textView543"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time varying fields and Maxwell&apos;s equations – Faraday’s laws - displacement current - Maxwell&apos;s equations in point form-integral form. Uniform plane wave-general solution-TEM waves-relation between electric and magnetic fields-phase and group velocity-plane waves in lossy medium-skin depth-propagation  constant and intrinsic impedance. Harmonically varying field. Poynting’s theoreminterpretation-application. Transmission lines: uniform transmission line-VI solution-characteristic impedance-VSWRimpedance matching."
+                android:id="@+id/textView544"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:id="@+id/textView545"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Cheng D. K., Field and Wave Electromagnetics, Pearson Education, 2013."
+                android:id="@+id/textView546"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Hayt W. H. And J. A. Buck, Engineering Electromagnetics, 8/e, McGraw-Hill, 2012."
+                android:id="@+id/textView547"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Inan U. S. and A. S. Inan, Engineering Electromagnetics, Pearson Education, 2010."
+                android:id="@+id/textView548"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Sadiku M. N. O., Elements of Electromagnetics, Oxford University Press, 2010."
+                android:id="@+id/textView549"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:id="@+id/textView550"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                android:id="@+id/textView551"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView552"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

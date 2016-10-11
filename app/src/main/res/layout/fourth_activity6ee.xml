@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECTS"
+        android:id="@+id/textView801"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced Control Systems "
+        android:id="@+id/textView917"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Induction Machines and Special Machines"
+        android:id="@+id/textView918"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microprocessors &amp; Applications"
+        android:id="@+id/textView919"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numerical Techniques &amp; Computer Programming"
+        android:id="@+id/textView920"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power System Analysis and Stability"
+        android:id="@+id/textView921"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elective II"
+        android:id="@+id/textView922"
+        android:layout_weight="0.06"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microprocessor Lab"
+        android:id="@+id/textView923"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Lab"
+        android:id="@+id/textView924"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Systems &amp; Control Lab"
+        android:id="@+id/textView1556"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

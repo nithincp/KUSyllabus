@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:text="HUMANITIES"
+                    android:id="@+id/textView354"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PART I ECONOMICS"
+                    android:id="@+id/textView393"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView394"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition of Economics –Central Economic Problems – Choice of techniques –Production possibility curve – Opportunity Cost-Micro &amp; Macro Economics Meaning of Demand – Utility-Marginal Utility and Law of Diminishing Marginal Utility-Law of demand - Determinants of Demand – Changes in Demand – Market Demand—Demand, forecasting-Meaning of supply-Law of Supply- Changes in Supply-- Market Price Determination – Implications of Government Price Fixation Production function – Law of Variable proportion – Returns to scale – Iso-quants and Isocost line- Least cost combination of inputs – Cost concepts – Private cost and Social Cost - Short run and Long run cost- cost curves – Revenue – Marginal, Average and Total RevenueBreak even Analysis"
+                    android:id="@+id/textView395"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView396"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="National Income concepts - GNP – GDP – NNP– Per Capita Income – Measurement of National Income-Output method- Income method and Expenditure method -Sectoral Contribution to GDP– Money-Static and Dynamic Functions of Money-Inflation – causes of inflation – measures to control inflation – Demand Pull inflation – cost push inflation – Effects of Inflation – Deflation. Global Economic Crisis India’s Economic crisis in 1991 – New economic policy – Liberalization – Privatization and Globalization-Multinational Corporations and their impacts on the Indian Economy- Foreign Direct Investment (FDI) Performance of India-Issues and Concerns. Industrial sector in India – Role of Industrialization -Industrial Policy ResolutionsIndustry wise analysis – Electronics – Chemical – Automobile – Information Technology. Environment and Development – Basic Issues – Sustainable Development- Environmental Accounting – Growth versus Environment – The Global Environmental Issues- PovertyMagnitude of Poverty in India- -Poverty and Environment"
+                    android:id="@+id/textView397"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PART-II- ACCOUNTANCY"
+                    android:id="@+id/textView398"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView399"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book-Keeping and Accountancy- Elements of Double Entry- Book –Keeping-rules for journalizing-Ledger accounts-Cash book- Banking transactions- Trial Balance- Method of Balancing accounts-the journal proper(simple problems). Final accounts: Preparation of trading and profit and loss Account- Balance sheet (with simple problems) - Introduction to accounting packages (Description only)."
+                    android:id="@+id/textView400"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView401"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Dewett K. K., Modern Economic Theory, S Chand and Co. Ltd., New Delhi, 2002."
+                    android:id="@+id/textView402"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Todaro M., Economic Development, Addison Wesley Longman Ltd., 1994."
+                    android:id="@+id/textView403"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Sharma M. K., Business Environment in India, Commonwealth Publishers, 2011."
+                    android:id="@+id/textView404"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Mithani D. M., Money, Banking, International Trade and Public Finance, Himalaya Publishing House, New Delhi, 2012."
+                    android:id="@+id/textView405"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView406"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part I Economics (70 marks) "
+                    android:id="@+id/textView1802"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 Marks) - Ten short answer questions of 2 marks each, covering entire syllabus of Part I (five questions each from Module I and Module II). All questions are compulsory. "
+                    android:id="@+id/textView408"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (50 marks) - Candidates have to answer one full question out of the two from Part I (Module I and Module II). Each question carries 25 marks."
+                    android:id="@+id/textView763"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part II Accountancy (30 marks)"
+                    android:id="@+id/textView761"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candidates have to answer two full questions out of the three from Part II (Module III). Each question carries 15 marks."
+                    android:id="@+id/textView762"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text=" POWER ELECTRONICS "
+                    android:id="@+id/textView365"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView569"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SCR- structure –VI characteristics-two transistor analogy- turn-on methods- gate control – dynamic (turn on and turn off) characteristics - voltage , current, dv/dt and di/dt ratingsthyristor protection- snubber circuit. Series and parallel connections of SCR – static and dynamic equalization circuit. Thermal equivalent circuit - heat sink. Commutation Techniques – Introduction, Natural commutation, Forced commutation, self commutation, impulse commutation, resonant pulse commutation and complementary commutation (concept only)."
+                    android:id="@+id/textView570"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView571"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gate characteristics of SCRs – single pulse triggering – carrier triggering – isolation using pulse transformers and opto-couplers. Triggering circuits for SCR - synchronization- R and RC triggering circuits-UJT triggeringsimple design of firing circuits using UJT, op-amp and digital IC. Triac characteristics – device operation and VI characteristics- gate triggering modes-diac triggering circuit for triac in phase control - operation and VI characteristics of GTO. Power transistor, Power MOSFET, IGBTs- turn on and turn off process of IGBTs and MOSFETs."
+                    android:id="@+id/textView572"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView573"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SCR circuits for phase controlled rectifiers- single phase half wave and full wave convertersSemi converter and full converter with R, RL and RLE loads – output voltage expressioneffect of freewheeling diode- inverter operation of converter- continuous and discontinuous current mode of operation. 3 phase converters- 3 pulse and 6 pulse converters- output voltage expression for m-phase converter - 3 phase fully controlled bridge converter- 3 phase half controlled bridge converter- effect of source inductance (single phase only)."
+                    android:id="@+id/textView574"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – IV"
+                    android:id="@+id/textView575"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choppers- step down and step up choppers- voltage and current commutated choppersoutput voltage control of choppers. Switching regulators - Buck, Boost and Buck-Boost (basic principle only). Inverters - voltage source inverters- Basic parallel inverters - basic series inverters – voltage control in inverters - pulse width modulation- multiple and sinusoidal PWM. Harmonic reduction in inverters. Three phase full bridge inverters- 120 and 180 degree conduction mode -current source inverter."
+                    android:id="@+id/textView576"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView577"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Mohan N., T. M. Undeland and W. P. Robbins., Power Electronics, Converters, Application and Design, John Wiley and Sons, 2007."
+                    android:id="@+id/textView578"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Rashid M. H., Power Electronic Circuits, Devices and Applications, Pearson Education, 2013."
+                    android:id="@+id/textView579"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Sen P .C., Power Electronics, Tata McGraw-Hill, 1987."
+                    android:id="@+id/textView580"
+                    android:layout_gravity="left|center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView581"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView582"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView583"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

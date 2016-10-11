@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECTS"
+        android:id="@+id/textView182"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engineering Mathematics -III "
+        android:id="@+id/textView15"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manufacturing Process "
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:id="@+id/textView199"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrical Technology"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:id="@+id/textView200"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metullargy and Material Science "
+        android:id="@+id/textView201"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fluid Machinery "
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:id="@+id/textView202"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Machine Drawing"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:id="@+id/textView203"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fluid Mechanics &amp; Machines Lab"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:id="@+id/textView204"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:text="IC Engines Lab"
+        android:id="@+id/textView205"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light" />
+</LinearLayout>

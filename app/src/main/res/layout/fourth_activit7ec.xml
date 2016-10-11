@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECTS"
+        android:id="@+id/textView811"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nanoelectronics"
+        android:id="@+id/textView869"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optical Fiber Communications"
+        android:id="@+id/textView870"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microwave &amp; Radar Engineering "
+        android:id="@+id/textView871"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information Theory &amp; Coding"
+        android:id="@+id/textView872"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elective III "
+        android:id="@+id/textView873"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elective IV "
+        android:id="@+id/textView874"
+        android:layout_weight="0.06"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microwave &amp; Optical Communications Lab "
+        android:id="@+id/textView875"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modeling &amp; Simulation of Communication Systems Lab"
+        android:id="@+id/textView876"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seminar "
+        android:id="@+id/textView1627"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Design "
+        android:id="@+id/textView1628"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

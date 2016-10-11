@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EXPERIMENTAL METHODS IN ENGINEERING"
+                    android:id="@+id/textView1419"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView111"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure measurement devices – U tube manometer – Well type manometer– Different types of manometers. Elastic pressure transducers – Bourdon tubes – Diaphragms – Bellows. Capacitance pressure gauge. Diaphragm type strain gauge pressure pickup. LVDT diaphragm differential pressure gauge. High-pressure measurement – very high-pressure transducer. Low-pressure measurement – Mc Leod-gauge pirani thermal conductivity gauge – Knudsen gauge – lonization gauge. Dead weight tester for static calibration of pressure gauges. Methods for flow measurement – Positive displacement methods – rotary vane flow meter – Lobed impeller flow meter. Flow obstruction methods – Venturi – flow nozzle – orifice. Practical considerations for obstruction flow meters. Recommended proportions for venturi tubes, flow nozzles and orifices. Flow measurement by drag effects – rotameter – turbine meter – vortex shedding flow meter. Hot wire and hot film anemometers. Thermal mass flow meter. Magnetic flow meter."
+                    android:id="@+id/textView112"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView113"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure probes – pitot tube – pitot static tube – Kiel probe. Yaw angle – yaw angle characteristics of various static pressure probes. Fluid factors, application factors and installation factors of different types of flow meters. Temperature measurement by mechanical effects – mercury in glass thermometer – bimetallic strip type – fluid expansion thermometers. Temperature measurement by electrical effects – electrical resistance thermometer. Methods of correction for lead resistance – Siemens three lead arrangement – callender four lead arrangement and floating-potential arrangement. Thermostats. Temperature measurement due to thermo-electric effects – thermocouples – different types and its range – law of temperature –emf vs. temp relationships for different thermocouples – sensitivity of thermocouples – thermopile and its practical application – installation of thermocouple on a metal plate – Thin foil thermocouples for rapid transient response. Temperature measurement by radiation – optical pyrometer."
+                    android:id="@+id/textView114"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView115"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thermal conductivity measurement – guarded hot plate apparatus –measurement of thermal conductivity of metals. Thermal conductivity of liquids and gases – guarded hot plate apparatus – concentric cylinder method – apparatus for determination of thermal conductivity of gases at high temperatures. Measurement of viscosity – rotating concentric cylinder apparatus – Saybolt viscometer. Gas diffusion – measurement of diffusion coefficients in gases. Convection heat transfer measurements – forced convection heat transfer coefficients in smooth tubes. Humidity measurements. Heat flux meters. Elastic elements for force measurements – simple cantilever and thin ring elastic elements – Proving ring. Torque measurements – hollow cylinder for torque measurement – Prony brake – hydraulic dynamometer – Cradled dynamometer."
+                    android:id="@+id/textView116"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView117"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Strain measurements – electrical resistance strain gauges-different types – characteristics of strain gauge materials. Temperatures compensation for electrical resistance strain gauges strain gauge rosettes –bonded and unbounded resistance strain gauges. Cantilever beam used as a frequency measurement device. Principles of seismic instrument – practical considerations for seismic instruments –electrical resistance strain gauge seismic instrument – piezoelectric transducer type seismic instrument. Sound measurements – microphones – characteristics of microphones. Psychoacoustics factors – sound level meter– acoustic properties of materials – sound absorption coefficient – noise reduction coefficient. Air pollution measurement – units for pollution measurement – air pollution standards – Air sampling train."
+                    android:id="@+id/textView118"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView119"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Holman J.P., Experimental Methods for Engineers, McGraw-Hill."
+                    android:id="@+id/textView120"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Ernest O. Doebelin, Measurement System – Application and Design, McGraw-Hill."
+                    android:id="@+id/textView121"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Donald P. Eckman, Industrial Instrumentation, John Wiley."
+                    android:id="@+id/textView122"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView124"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView125"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView126"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

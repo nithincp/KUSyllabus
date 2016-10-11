@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="SWITCHGEAR AND PROTECTION"
+                        android:id="@+id/textView1258"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1259"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction – Need for power system protection. Switchgear: General requirements of circuit breakers- Auto re-closing feature – three pole &amp; single pole auto re-closing. Formation of electric arc- Elementary principles of arc phenomenon - quenching theory - interruption of capacitive currents and low current chopping -resistance switching - Restriking voltage, recovery voltage and RRRV, Arc re-striking phenomena. Rating of circuit breakers and effect of transient current on it - specifications of circuit breaker."
+                        android:id="@+id/textView1260"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Different types of arc quenching media and special devices for arc quenching -Principles of operations of various types of circuit breakers - air break – oil filled - air blast -vacuum and SF6 circuit breakers. -Vacuum Circuit Breaker-Operating Mechanism-relative merits and demerits of different types of Circuit Breakers. Specific field of usage. Testing of circuit breakers, D.C circuit breaking. Ethics and Aesthetics for Substation Switchyard. Fuses: Fuse Characteristics, Types of Fuses, Selection of Fuses."
+                        android:id="@+id/textView1261"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1262"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Protective relays - Introduction - evolution of protective relays, zones of protection, primary and backup protection, essential qualities of protection- Classification of Protective relays - Basic Relay Terminology and characteristics- attracted armature, balanced beam, induction disc, thermal relays- over current, earth fault and over voltage relays."
+                        android:id="@+id/textView1263"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Directional and non- directional relays-Principle and application of directional over current and earth fault relays- Distance relays&amp; their settings – impedance, reactance, mho and off set mho relays, errors and remedies to errors- Differential relays current and voltage comparison - circulating current and opposite voltage differential scheme. Negative sequence relays. Principle of Relay coordination."
+                        android:id="@+id/textView1264"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1265"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Static Relays: Introduction – basic component of static relays. Merits and DemeritsComparators – amplitude and phase comparators. Over current relays –instantaneous over current relay – inverse time over current relays – differential relays. Microprocessor based  Protective relays: Block schematic and flow charts of over current relay, impedance relay and directional relay. Principle of numerical protection."
+                        android:id="@+id/textView1266"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1267"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Protection of alternators, transformers and transmission lines: Differential protection for generators, transformers and transmission lines - field suppression of alternator - Buchholz’s relay - over current and distance protection for feeders - Translay relay."
+                        android:id="@+id/textView1268"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Grounding: Neutral grounding - solid grounding. Power System earthing –objective-tolerable limits of body current –step and touch voltage."
+                        android:id="@+id/textView1269"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Over voltages and insulation requirements - Generation of over voltages - Switching surges - Protection against over voltages - Surge diverters - Insulation co-ordination - propagation of surges -Termination in inductance and capacitance - Determination of system voltages produced by travelling waves – Bewley lattice diagram - effects of line loss."
+                        android:id="@+id/textView1270"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1271"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Rao S. S., Switchgear &amp; Protection, Khanna Publishers, 1986."
+                        android:id="@+id/textView1272"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Paithankar Y. G. and S. R. Bhide, Fundamentals of Power System Protection, PHI, 2003."
+                        android:id="@+id/textView1273"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Blackburn J. L., Protective Relaying Principles and applications, Marcel and Dekker Publishers, 1987."
+                        android:id="@+id/textView1274"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Badriram and D. N. Vishwakarma, Power System Protection and Switchgear, Tata McGraw Hill, 2001."
+                        android:id="@+id/textView1275"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1276"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:id="@+id/textView1277"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:id="@+id/textView1278"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

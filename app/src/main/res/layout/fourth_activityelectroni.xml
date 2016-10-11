@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECTS"
+        android:id="@+id/textView181"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engineering Mathematics III - Probability &amp; Random Processes "
+        android:id="@+id/textView191"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humanities"
+        android:id="@+id/textView192"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Organisation &amp; Architecture"
+        android:id="@+id/textView193"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Signal Processing "
+        android:id="@+id/textView194"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Programming"
+        android:id="@+id/textView195"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analog Integrated Circuits "
+        android:id="@+id/textView196"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Integrated Circuits Lab"
+        android:id="@+id/textView197"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analog Integrated Circuits Lab "
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:id="@+id/textView198"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:textStyle="bold"
+        android:textColor="@color/dim_foreground_material_light" />
+</LinearLayout>

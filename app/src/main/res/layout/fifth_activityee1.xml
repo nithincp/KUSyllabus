@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="69dp"
+                    android:text="ENGINEERING MATHEMATICS  - III "
+                    android:id="@+id/textView361"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView506"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complex Differentiation: Limits, continuity and differentiation of complex functions. Analytic functions – Cauchy Riemann equations in Cartesian form (proof of necessary part only).Properties of analytic functions – harmonic functions. Milne Thomson method. Conformal mapping: Conformality and properties of the transformations w = 1/z, w = pow(z,2), w = z+1/z, w = sin z , w = pow(e,z) - Bilinear transformations.    "
+                    android:id="@+id/textView505"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView507"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complex Integration: Line integral – Cauchy’s integral theorem – Cauchy’s integral formula – Taylor’s and Laurent’s series – zeros and singularities – residues and residue theorem. Evaluation of real definite integrals (Proof of theorems not required)."
+                    android:id="@+id/textView508"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView509"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Linear programming - Formation of LPP - General linear programming problem - Slack and surplus variables - Standard form - Solution of LPP - basic solution - Basic feasible solution - Degenerate and non-degenerate solutions - Optimal solution - Solution by simplex method - Artificial variables - Big-M method. "
+                    android:id="@+id/textView510"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – IV"
+                    android:id="@+id/textView511"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vector spaces and subspaces- Null spaces, Column spaces ,Row space of matrices and linear transformations- Linearly independent sets-Bases –Bases for nulA and ColA-Rank and nullity. Inner product spaces -Length and orthogonality - Orthogonal and orthonormal bases-GramSchmidt process."
+                    android:id="@+id/textView512"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView513"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Bali N. P. and M. Goyal, Engineering Mathematics, 7/e, Laxmi Publications, India, 2012."
+                    android:id="@+id/textView514"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Kreyszig E., Advanced Engineering Mathematics, 9/e, Wiley India, 2013."
+                    android:id="@+id/textView515"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Swarup K., P. K. Gupta and Manmohan, Operations Research, 13/e, Sultan Chand and Sons, 2008."
+                    android:id="@+id/textView516"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Sharma S.D, Operations Research, Kedar Nath Ram Nath and Co., 2002."
+                    android:id="@+id/textView517"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView518"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                    android:id="@+id/textView519"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView520"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

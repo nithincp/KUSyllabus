@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:text="ELECTIVE - II"
+                        android:id="@+id/textView1675"
+                        android:gravity="top|center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="39dp"
+                        android:text="Pre-stressed Concrete"
+                        android:id="@+id/textView1676"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
+                        android:text="Mechanics of Composite Materials"
+                        android:id="@+id/textView1677"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+                        android:text="Ground Improvement"
+                        android:id="@+id/textView1678"
+                        android:textStyle="bold"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+                        android:text="Geo Environmental Engineering "
+                        android:id="@+id/textView1679"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:text="Ground Water Engineering"
+                        android:id="@+id/textView1680"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Solid Waste Management"
+                        android:id="@+id/textView1681"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Transportation Planning "
+                        android:id="@+id/textView1682"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="78dp"
+                        android:text="Advanced Computational Methods"
+                        android:id="@+id/textView1683"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="68dp"
+                        android:text="Optimization Techniques in Engineering "
+                        android:id="@+id/textView1684"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Design of Offshore Structures "
+                        android:id="@+id/textView1673"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:text="Transportation System Management "
+                        android:id="@+id/textView1685"
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

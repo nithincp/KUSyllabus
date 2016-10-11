@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="ELECTRICAL MEASUREMENTS AND MEASURING INSTRUMENTS "
+                    android:id="@+id/textView364"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:layout_weight="0.05"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView553"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Measuring Instruments: Accuracy &amp; precision - sensitivity &amp; resolution- error analysis - combination of component errors - loading effects. Analog instruments – classification – principles of operation. Electromechanical indicating instruments – operating forces – constructional details-moving system-control system-damping system. Ammeters and Voltmeters: moving coil - moving iron- electrodynamometer- constructiontorque equation –effect of shunt and multipliers. Wattmeters : electrodynamometer type - construction - errors and compensation. Energymeters: Induction type - construction - working principle - testing and adjustment - rotating substandard. Maximum demand indicator (Merz Price Type only) - trivector meterTOD meter. Significance of IS standards of Instruments."
+                    android:id="@+id/textView554"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView555"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Magnetic Measurements: Ballistic Galvanometer –principle-logarithmic decrement factor – calibration. Flux meter and Gauss meter - principle - calibration –applications – determination of BH curve - hysteresis loop. Lloyd Fisher square — measurement of iron losses Instrument transformers: Need of instrument transformers. Constructional details-Theory of current transformer - Phasor diagram, expression for ratio error and phase angle error. Theory of potential transformer - Phasor diagram - expression for ratio error and phase angle error. Testing of current transformers - mutual inductance method and Biffi method. Testing of potential transformers (absolute method only)-applications."
+                    android:id="@+id/textView556"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView557"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bridges and Potentiometers: DC bridges: Wheatstones bridge - Kelvin&apos;s double bridge. AC bridges: Maxwell&apos;s bridge- - Schering bridge DC potentiometers: Vernier potentiometer - calibration of ammeter, voltmeter and wattmeter. AC potentiometers : polar and coordinate type  Cathode Ray Oscilloscope: Principle of operation - Block diagram of general purpose CRO. Vertical deflecting system - vertical amplifier - delay lines - purpose and principle. Horizontal deflection system - basic sweep generator – synchronization – triggering - principle of delayed sweep - XY mode of operation of CRO. Lissajous patterns - applications of CRO - determination of frequency and phase angle - double beam CRO."
+                    android:id="@+id/textView558"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – IV"
+                    android:id="@+id/textView559"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="High voltage measurements: Measurement of high DC voltages - series resistance - microammeters – resistance potential divider - generating voltmeters - measurement of high AC voltages - electrostatic voltmeters – sphere gaps - high frequency and impulse voltage measurements with CRO using resistance and capacitance dividers - peak voltmeter - Impulse voltage generators. Measurement of insulation resistance - loss of charge method, insulation megger. Measurement of earth resistance using earth megger, determination of resistivity of earth. High current measurements - DC Hall effect sensors - high current AC magnetic potentiometers. Study of Phasor Measurement Units (PMU), Measurement of rotational speed – tachogenerators."
+                    android:id="@+id/textView560"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView561"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Golding E.W. and F. C. Widdies, Electrical Measurements and Measuring Instruments, 5/e, Wheeler, 2011."
+                    android:id="@+id/textView562"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Sawhney A. K., A Course in Electrical and Electronic Measurements &amp; Instrumentation, Dhanpat Rai &amp; Sons, 2004."
+                    android:id="@+id/textView563"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Helfrick A. D. and W. D. Cooper: Modern Electronic Instrumentation and Measurement Technique, Prentice Hall, 1992."
+                    android:id="@+id/textView564"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Naidu M. S. and V. Kamaraju, High Voltage Engineering, Tata McGraw Hill, 2009."
+                    android:id="@+id/textView565"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView566"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView567"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView568"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="boots.com.fan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SecondActivity"/>
+        <activity android:name=".ThirdActivity"/>
+        <activity android:name=".FourthActivity"/>
+        <activity android:name=".FifthActivitymaths"/>
+        <activity android:name=".ThirdActivityb"/>
+        <activity android:name=".ThirdActivityc"/>
+        <activity android:name=".ThirdActivityd"/>
+        <activity android:name=".ThirdActivitye"/>
+        <activity android:name=".FifthActivitycod"/>
+        <activity android:name=".FifthActivitydc"/>
+        <activity android:name=".FifthActivitydbd"/>
+        <activity android:name=".FifthActivityflat"/>
+        <activity android:name=".FifthActivityoot"/>
+        <activity android:name=".FifthActivitydslab"/>
+        <activity android:name=".FifthActivitydiglab"/>
+        <activity android:name=".FourthActivitycivil"/>
+        <activity android:name=".FourthActivityelectrical"/>
+        <activity android:name=".FourthActivityelectron"/>
+        <activity android:name=".FouthActivitymech"/>
+        <activity android:name=".FifthActivityc1"/>
+        <activity android:name=".FifthActivityc2"/>
+        <activity android:name=".FifthActivityc3"/>
+        <activity android:name=".FifthActivityc4"/>
+        <activity android:name=".FifthActivityc5"/>
+        <activity android:name=".FifthActivityc6"/>
+        <activity android:name=".FifthActivityc7"/>
+        <activity android:name=".FifthActivityc8"/>
+        <activity android:name=".FifthActivitym1"/>
+        <activity android:name=".FifthActivitym2"/>
+        <activity android:name=".FifthActivitym3"/>
+        <activity android:name=".FifthActivitym4"/>
+        <activity android:name=".FifthActivitym5"/>
+        <activity android:name=".FifthActivitym6"/>
+        <activity android:name=".FifthActivitym7"/>
+        <activity android:name=".FifthActivitym8"/>
+        <activity android:name=".FifthActivityec1"/>
+        <activity android:name=".FifthActivityec2"/>
+        <activity android:name=".FifthActivityec3"/>
+        <activity android:name=".FifthActivityec4"/>
+        <activity android:name=".FifthActivityec5"/>
+        <activity android:name=".FifthActivityec6"/>
+        <activity android:name=".FifthActivityec7"/>
+        <activity android:name=".FifthActivityec8"/>
+        <activity android:name=".FifthActivityee1"/>
+        <activity android:name=".FifthActivityee2"/>
+        <activity android:name=".FifthActivityee3"/>
+        <activity android:name=".FifthActivityee4"/>
+        <activity android:name=".FifthActivityee5"/>
+        <activity android:name=".FifthActivityee6"/>
+        <activity android:name=".FifthActivityee7"/>
+        <activity android:name=".FifthActivityee8"/>
+        <activity android:name=".FourthActivity5ci"/>
+        <activity android:name=".FourthActivity5cs"/>
+        <activity android:name=".FourthActivity5ee"/>
+        <activity android:name=".FourthActivity5ec"/>
+        <activity android:name=".FourthActivity5m"/>
+        <activity android:name=".FourthActivity6cs"/>
+        <activity android:name=".FourthActivity6ci"/>
+        <activity android:name=".FourthActivity6ee"/>
+        <activity android:name=".FourthActivity6ec"/>
+        <activity android:name=".FourthActivity6m"/>
+        <activity android:name=".FourthActivity7cs"/>
+        <activity android:name=".FourthActivity7ci"/>
+        <activity android:name=".FourthActivity7ee"/>
+        <activity android:name=".FourthActivity7ec"/>
+        <activity android:name=".FourthActivity7m"/>
+        <activity android:name=".FourthActivity8cs"/>
+        <activity android:name=".FourthActivity8ci"/>
+        <activity android:name=".FourthActivity8m"/>
+        <activity android:name=".FourthActivity8ee"/>
+        <activity android:name=".FourthActivity8ec"/>
+        <activity android:name=".FifthActivity5c1"/>
+        <activity android:name=".FifthActivity5c4"/>
+        <activity android:name=".FifthActivity5c2"/>
+        <activity android:name=".FifthActivity5c3"/>
+        <activity android:name=".FifthActivity5c5"/>
+        <activity android:name=".FifthActivity5c6"/>
+        <activity android:name=".FifthActivity5c7"/>
+        <activity android:name=".FifthActivity5c8"/>
+        <activity android:name=".FifthActivity5cs1"/>
+        <activity android:name=".FifthActivity5cs2"/>
+        <activity android:name=".FifthActivity5cs3"/>
+        <activity android:name=".FifthActivity5cs4"/>
+        <activity android:name=".FifthActivity5cs5"/>
+        <activity android:name=".FifthActivity5cs6"/>
+        <activity android:name=".FifthActivity5cs7"/>
+        <activity android:name=".FifthActivity5cs8"/>
+        <activity android:name=".FifthActivity5m1"/>
+        <activity android:name=".FifthActivity5m2"/>
+        <activity android:name=".FifthActivity5m3"/>
+        <activity android:name=".FifthActivity5m4"/>
+        <activity android:name=".FifthActivity5m5"/>
+        <activity android:name=".FifthActivity5m6"/>
+        <activity android:name=".FifthActivity5m7"/>
+        <activity android:name=".FifthActivity5m8"/>
+        <activity android:name=".FifthActivity5ee1"/>
+        <activity android:name=".FifthActivity5ee2"/>
+        <activity android:name=".FifthActivity5ee3"/>
+        <activity android:name=".FifthActivity5ee4"/>
+        <activity android:name=".FifthActivity5ee5"/>
+        <activity android:name=".FifthActivity5ee6"/>
+        <activity android:name=".FifthActivity5ee7"/>
+        <activity android:name=".FifthActivity5ee8"/>
+        <activity android:name=".FifthActivity5ec1"/>
+        <activity android:name=".FifthActivity5ec2"/>
+        <activity android:name=".FifthActivity5ec3"/>
+        <activity android:name=".FifthActivity5ec4"/>
+        <activity android:name=".FifthActivity5ec5"/>
+        <activity android:name=".FifthActivity5ec6"/>
+        <activity android:name=".FifthActivity5ec7"/>
+        <activity android:name=".FifthActivity5ec8"/>
+        <activity android:name=".FifthActivity6c1"/>
+        <activity android:name=".FifthActivity6c4"/>
+        <activity android:name=".FifthActivity6c2"/>
+        <activity android:name=".FifthActivity6c3"/>
+        <activity android:name=".FifthActivity6c5"/>
+        <activity android:name=".FifthActivity6c6"/>
+        <activity android:name=".FifthActivity6c7"/>
+        <activity android:name=".FifthActivity6c8"/>
+        <activity android:name=".FifthActivity6cs1"/>
+        <activity android:name=".FifthActivity6cs2"/>
+        <activity android:name=".FifthActivity6cs3"/>
+        <activity android:name=".FifthActivity6cs4"/>
+        <activity android:name=".FifthActivity6cs5"/>
+        <activity android:name=".FifthActivity6cs6"/>
+        <activity android:name=".FifthActivity6cs7"/>
+        <activity android:name=".FifthActivity6cs8"/>
+        <activity android:name=".FifthActivity6m1"/>
+        <activity android:name=".FifthActivity6m2"/>
+        <activity android:name=".FifthActivity6m3"/>
+        <activity android:name=".FifthActivity6m4"/>
+        <activity android:name=".FifthActivity6m5"/>
+        <activity android:name=".FifthActivity6m6"/>
+        <activity android:name=".FifthActivity6m7"/>
+        <activity android:name=".FifthActivity6m8"/>
+        <activity android:name=".FifthActivity6ee1"/>
+        <activity android:name=".FifthActivity6ee2"/>
+        <activity android:name=".FifthActivity6ee3"/>
+        <activity android:name=".FifthActivity6ee4"/>
+        <activity android:name=".FifthActivity6ee5"/>
+        <activity android:name=".FifthActivity6ee6"/>
+        <activity android:name=".FifthActivity6ee7"/>
+        <activity android:name=".FifthActivity6ee8"/>
+        <activity android:name=".FifthActivity6ee9"/>
+        <activity android:name=".FifthActivity6ec1"/>
+        <activity android:name=".FifthActivity6ec2"/>
+        <activity android:name=".FifthActivity6ec3"/>
+        <activity android:name=".FifthActivity6ec4"/>
+        <activity android:name=".FifthActivity6ec5"/>
+        <activity android:name=".FifthActivity6ec6"/>
+        <activity android:name=".FifthActivity6ec7"/>
+        <activity android:name=".FifthActivity6ec8"/>
+        <activity android:name=".FifthActivity7c1"/>
+        <activity android:name=".FifthActivity7c2"/>
+        <activity android:name=".FifthActivity7c3"/>
+        <activity android:name=".FifthActivity7c4"/>
+        <activity android:name=".FifthActivity7c5"/>
+        <activity android:name=".FifthActivity7c6"/>
+        <activity android:name=".FifthActivity7c7"/>
+        <activity android:name=".FifthActivity7c8"/>
+        <activity android:name=".FifthActivity7cs1"/>
+        <activity android:name=".FifthActivity7cs2"/>
+        <activity android:name=".FifthActivity7cs3"/>
+        <activity android:name=".FifthActivity7cs4"/>
+        <activity android:name=".FifthActivity7cs5"/>
+        <activity android:name=".FifthActivity7cs6"/>
+        <activity android:name=".FifthActivity7cs7"/>
+        <activity android:name=".FifthActivity7cs8"/>
+        <activity android:name=".FifthActivity7ec1"/>
+        <activity android:name=".FifthActivity7ec2"/>
+        <activity android:name=".FifthActivity7ec3"/>
+        <activity android:name=".FifthActivity7ec4"/>
+        <activity android:name=".FifthActivity7ec5"/>
+        <activity android:name=".FifthActivity7ec6"/>
+        <activity android:name=".FifthActivity7ec7"/>
+        <activity android:name=".FifthActivity7ec8"/>
+        <activity android:name=".FifthActivity7ec9"/>
+        <activity android:name=".FifthActivity7ec10"/>
+        <activity android:name=".FifthActivity7ee1"/>
+        <activity android:name=".FifthActivity7ee2"/>
+        <activity android:name=".FifthActivity7ee3"/>
+        <activity android:name=".FifthActivity7ee4"/>
+        <activity android:name=".FifthActivity7ee5"/>
+        <activity android:name=".FifthActivity7ee6"/>
+        <activity android:name=".FifthActivity7ee7"/>
+        <activity android:name=".FifthActivity7ee8"/>
+        <activity android:name=".FifthActivity7ee9"/>
+        <activity android:name=".FifthActivity7ee10"/>
+        <activity android:name=".FifthActivity7m1"/>
+        <activity android:name=".FifthActivity7m2"/>
+        <activity android:name=".FifthActivity7m3"/>
+        <activity android:name=".FifthActivity7m4"/>
+        <activity android:name=".FifthActivity7m5"/>
+        <activity android:name=".FifthActivity7m6"/>
+        <activity android:name=".FifthActivity7m7"/>
+        <activity android:name=".FifthActivity7m8"/>
+        <activity android:name=".FifthActivity7m9"/>
+        <activity android:name=".SixthActivity5ec1"/>
+        <activity android:name=".SixthActivity5ec2"/>
+        <activity android:name=".SixthActivity5ec3"/>
+        <activity android:name=".SixthActivity5ec4"/>
+        <activity android:name=".SixthActivity5ec5"/>
+        <activity android:name=".SixthActivity5ec6"/>
+        <activity android:name=".SixthActivity5ec7"/>
+        <activity android:name=".SixthActivity5ee1"/>
+        <activity android:name=".SixthActivity5ee2"/>
+        <activity android:name=".SixthActivity5ee3"/>
+        <activity android:name=".SixthActivity5ee4"/>
+        <activity android:name=".SixthActivity5ee5"/>
+        <activity android:name=".SixthActivity5ee6"/>
+        <activity android:name=".SixthActivity5ee7"/>
+        <activity android:name=".SixthActivity5m1"/>
+        <activity android:name=".SixthActivity5m2"/>
+        <activity android:name=".SixthActivity5m3"/>
+        <activity android:name=".SixthActivity5m4"/>
+        <activity android:name=".SixthActivity5m5"/>
+        <activity android:name=".SixthActivity5m6"/>
+        <activity android:name=".SixthActivity5m7"/>
+        <activity android:name=".SixthActivity5m8"/>
+        <activity android:name=".SixthActivity5m9"/>
+        <activity android:name=".SixthActivity5m10"/>
+        <activity android:name=".SixthActivity5m11"/>
+        <activity android:name=".SixthActivity6ec1"/>
+        <activity android:name=".SixthActivity6ec2"/>
+        <activity android:name=".SixthActivity6ec3"/>
+        <activity android:name=".SixthActivity6ec4"/>
+        <activity android:name=".SixthActivity6ec5"/>
+        <activity android:name=".SixthActivity6ec6"/>
+        <activity android:name=".SixthActivity6ec7"/>
+        <activity android:name=".SixthActivity6ee1"/>
+        <activity android:name=".SixthActivity6ee2"/>
+        <activity android:name=".SixthActivity6ee3"/>
+        <activity android:name=".SixthActivity6ee4"/>
+        <activity android:name=".SixthActivity6ee5"/>
+        <activity android:name=".SixthActivity6ee6"/>
+        <activity android:name=".SixthActivity6m1"/>
+        <activity android:name=".SixthActivity6m2"/>
+        <activity android:name=".SixthActivity6m3"/>
+        <activity android:name=".SixthActivity6m4"/>
+        <activity android:name=".SixthActivity6m5"/>
+        <activity android:name=".SixthActivity6m6"/>
+        <activity android:name=".SixthActivity6m7"/>
+        <activity android:name=".SixthActivity6m8"/>
+        <activity android:name=".SixthActivity6m9"/>
+        <activity android:name=".SixthActivity6m10"/>
+        <activity android:name=".SixthActivity6m11"/>
+        <activity android:name=".SixthActivity6m12"/>
+        <activity android:name=".SixthActivity6m13"/>
+        <activity android:name=".SixthActivity6m14"/>
+        <activity android:name=".SixthActivity7c11"/>
+        <activity android:name=".SixthActivity7c12"/>
+        <activity android:name=".SixthActivity7c13"/>
+        <activity android:name=".SixthActivity7c14"/>
+        <activity android:name=".SixthActivity7c15"/>
+        <activity android:name=".SixthActivity7c16"/>
+        <activity android:name=".SixthActivity7c17"/>
+        <activity android:name=".SixthActivity7c18"/>
+        <activity android:name=".SixthActivity7c19"/>
+        <activity android:name=".SixthActivity7c110"/>
+        <activity android:name=".SixthActivity7c111"/>
+        <activity android:name=".SixthActivity7c112"/>
+        <activity android:name=".SixthActivity7c21"/>
+        <activity android:name=".SixthActivity7c22"/>
+        <activity android:name=".SixthActivity7c23"/>
+        <activity android:name=".SixthActivity7c24"/>
+        <activity android:name=".SixthActivity7c25"/>
+        <activity android:name=".SixthActivity7c26"/>
+        <activity android:name=".SixthActivity7c27"/>
+        <activity android:name=".SixthActivity7c28"/>
+        <activity android:name=".SixthActivity7c29"/>
+        <activity android:name=".SixthActivity7c210"/>
+        <activity android:name=".SixthActivity7c211"/>
+        <activity android:name=".SixthActivity7cs21"/>
+        <activity android:name=".SixthActivity7cs22"/>
+        <activity android:name=".SixthActivity7cs23"/>
+        <activity android:name=".SixthActivity7cs24"/>
+        <activity android:name=".SixthActivity7cs25"/>
+        <activity android:name=".SixthActivity7cs11"/>
+        <activity android:name=".SixthActivity7cs12"/>
+        <activity android:name=".SixthActivity7cs13"/>
+        <activity android:name=".SixthActivity7cs14"/>
+        <activity android:name=".SixthActivity7cs15"/>
+        <activity android:name=".SixthActivity7ec11"/>
+        <activity android:name=".SixthActivity7ec12"/>
+        <activity android:name=".SixthActivity7ec13"/>
+        <activity android:name=".SixthActivity7ec14"/>
+        <activity android:name=".SixthActivity7ec15"/>
+        <activity android:name=".SixthActivity7ec16"/>
+        <activity android:name=".SixthActivity7ec21"/>
+        <activity android:name=".SixthActivity7ec22"/>
+        <activity android:name=".SixthActivity7ec23"/>
+        <activity android:name=".SixthActivity7ec24"/>
+        <activity android:name=".SixthActivity7ec25"/>
+        <activity android:name=".SixthActivity7ec26"/>
+        <activity android:name=".SixthActivity7ee1"/>
+        <activity android:name=".SixthActivity7ee2"/>
+        <activity android:name=".SixthActivity7ee3"/>
+        <activity android:name=".SixthActivity7ee4"/>
+        <activity android:name=".SixthActivity7ee5"/>
+        <activity android:name=".SixthActivity7ee6"/>
+        <activity android:name=".SixthActivity7ee7"/>
+        <activity android:name=".SixthActivity7m1"/>
+        <activity android:name=".SixthActivity7m2"/>
+        <activity android:name=".SixthActivity7m3"/>
+        <activity android:name=".SixthActivity7m4"/>
+        <activity android:name=".SixthActivity7m5"/>
+        <activity android:name=".SixthActivity7m6"/>
+        <activity android:name=".SixthActivity7m7"/>
+        <activity android:name=".SixthActivity7m8"/>
+        <activity android:name=".SixthActivity7m9"/>
+        <activity android:name=".SixthActivity7m10"/>
+        <activity android:name=".SixthActivity7m11"/>
+        <activity android:name=".SixthActivity7m12"/>
+        <activity android:name=".SixthActivity7m13"/>
+        <activity android:name=".SixthActivity7m14"/>
+        <activity android:name=".SixthActivity7m15"/>
+        <activity android:name=".SixthActivity7m16"/>
+        <activity android:name=".SixthActivity7m17"/>
+        <activity android:name=".SixthActivity7m18"/>
+        <activity android:name=".SixthActivity7m19"/>
+        <activity android:name=".SixthActivity7m20"/>
+        <activity android:name=".Later"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

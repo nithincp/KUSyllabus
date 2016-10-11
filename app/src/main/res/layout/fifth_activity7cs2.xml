@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:text="SEMINAR, PROJECT DESIGN AND INDUSTRIAL VISIT"
+                        android:id="@+id/textView1166"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SEMINAR"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Each student is required to present a seminar on a topic of current relevance in Computer Science and Engineering. They are expected to refer research and review papers from standard journals like ACM, IEEE, ELSEVIER, IEE, COMPUTER JOURNAL, etc. Each student shall give a power point presentation of 30 minutes duration on his/her seminar topic in an audience of students and staff members from the department.Students from lower semesters may also attend the seminar presentation. The seminar presentation shall be assessed by a panel consisting of the Head of the Department, seminar coordinator, and 2/3 faculty members. The Head of the Department shall be the chairman of the panel.Each student should also prepare a well-documented report on the seminar topic as per an approved format and submit to the department at the time of his/her seminar presentation. While preparing the report, at least three cross references must be used. The seminar report must not be the reproduction of the original report. The seminar report will also be evaluated for the award of sessional marks."
+                        android:id="@+id/textView1168"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PROJECT DESIGN"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The project is aimed at improving the professional skill and competency of the students. The project is for a period of two semesters and students (not more than 4 members in a group) are expected to carry out a complete project. The titles of the projects and the guiding faculty members should be identified at the beginning of the seventh semester.The design and development of the project may include hardware and/or software. The project is expected to be completed in the eighth semester. The seventh semester is mainly for the preliminary works of the project viz. design of the project, literature survey,collection of materials and fabrication methodology etc. An interim report is to be submitted by each student at the end of the seventh semester.For the award of the sessional marks, the interim report and the students’ involvement in the preliminary works of the project shall be assessed by a panel consisting of the Head of the Department, project coordinator, project guide, and a senior faculty member. The Head of the Department shall be the chairman of the panel. The students may be assessed individually and in groups."
+                        android:id="@+id/textView1170"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INDUSTRIAL VISIT"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Industrial visit is considered as one of the tactical methods of teaching. The main reason behind this- it lets student to know things practically through interaction, working methods and employment practices. Moreover, it gives exposure from academic point of view. Main aim industrial visit is to provide an exposure to students about practical working environment .They also provide students a good opportunity to gain full awareness about industrial practices. Through industrial visit students get awareness about new technologies. Technology development is a main factor, about which a students should have a good knowledge. Visiting different companies actually help students to build a good relationship with those companies. We know building relationship with companies always will always help to gain a good job in future. After visiting an industry students can gain a combined knowledge about both theory and practical. Students will be more concerned about earning a job after having an industrial visit."
+                        android:id="@+id/textView1172"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internal Continuous Assessment (Maximum Marks-150)"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50 Marks - Seminar"
+                        android:id="@+id/textView1176"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="60 Marks - Project Design (20 Marks by Guide and 40 Marks by Evaluation Committee)"
+                        android:id="@+id/textView1177"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20 Marks - Industrial Visit"
+                        android:id="@+id/textView1178"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20 Marks - Regularity in the class"
+                        android:id="@+id/textView1179"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

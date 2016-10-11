@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/abc_search_url_text_normal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp"
+                    android:gravity="center_horizontal"
+                    android:text="PROBABILITY, RANDOM PROCESSES AND NUMERICAL TECHNIQUES "
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="223dp"
+                    android:layout_height="39dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="Module - I"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Random Variables -Discrete and continuous random variables -Probability distributions.- Mathematical Expectation and properties. Special probability distributions-Binomial distribution, Poisson distribution, Poisson approximation to Binomial, Uniform distribution, Exponential Distribution, Normal distribution- mean and variance of the above distributions (derivations except for normal distribution)."
+                    android:id="@+id/textView27"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView28"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Two dimensional random variables-Joint and marginal distributions-ExpectationsConditional probability distributions -independence - correlation and covariance of pairs of random variables. Random processes-Types of random processes-Ensemble mean- Stationarity -Strict sense stationary process (SSS) and Wide sense stationary (WSS) process.-Autocorrelation, autocovariance and their properties(without proof)."
+                    android:id="@+id/textView29"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:layout_weight="0.75"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView30"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special types of processes-Poisson process-mean and variance-simple problems Ergodicity-Time averages of sample functions, ergodic processes, mean ergodic theorem (without proof). Power spectral density (PSD) -PSD of real processes and its properties. Relation between autocorrelation and power spectral density."
+                    android:id="@+id/textView31"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView32"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numerical techniques-Solutions of algebraic and transcendental equations-Bisection method-Regula falsi method- Newton- Raphson method. Solution of system of equationsGauss elimination, Gauss- Siedel iteration. Interpolation – Newton’s Forward and backward formulae - Lagrange’s interpolation formula .Numerical integration-Trapezoidal rule and Simpson’s one third rule."
+                    android:id="@+id/textView33"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView36"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Veerarajan T., Probability, Statistics and Random Processes, 3/e, Tata McGraw Hill, 2002."
+                    android:id="@+id/textView37"
+                    android:layout_gravity="left|center_horizontal"
+                    android:gravity="left"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:text="2. Papoulis A. and S.U. Pillai, Probability, Random Variables and Stochastic Processes, 3/e, Tata McGraw Hill, 2002."
+                    android:id="@+id/textView38"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Koneru S. R., Engineering Mathematics, 2/e, Universities Press (India) Pvt. Ltd., 2012."
+                    android:id="@+id/textView39"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Sastry S. S., Introductory Methods of Numerical Analysis, 5/e, PHI Learning, 2012."
+                    android:id="@+id/textView40"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView34"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                    android:id="@+id/textView42"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView43"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</ScrollView>

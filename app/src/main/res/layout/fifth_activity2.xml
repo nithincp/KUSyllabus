@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/abc_search_url_text_normal"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="87dp"
+                    android:text="COMPUTER ORGANIZATION AND DESIGN"
+                    android:id="@+id/textView44"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:layout_weight="5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView45"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:layout_weight="0.08" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basic Structure of computers – functional units – basic operational concepts – bus structures – software. Memory locations and addresses – memory operations – instructions and instruction sequencing –addressing modes –ARM Example (programs not required). Basic I/O operations – stacks subroutine calls."
+                    android:id="@+id/textView46"
+                    android:layout_weight="1.94"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView47"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:layout_weight="1.11" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basic processing unit – fundamental concepts – instruction cycle - execution of a complete instruction – multiple-bus organization – sequencing of control signals. Processor Logic Design: Register transfer logic – inter register transfer – arithmetic, logic and shift micro operations – conditional control statements. Processor organization:– design of arithmetic unit, logic unit, arithmetic logic unit and shifter – status register – processor unit – design of accumulator."
+                    android:id="@+id/textView48"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView49"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.28"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Control Logic Design: Control organization – design of hardwired control – control of processor unit – PLA control – Micro programmed control – microinstructions – horizontal and vertical micro instructions – micro program sequencer – micro programmed CPU organization."
+                    android:id="@+id/textView50"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -IV"
+                    android:id="@+id/textView51"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I/O organization: – accessing of I/O devices – interrupts – direct memory access – buses – interface circuits – standard I/O interfaces (PCI, SCSI, USB). Memory system: – basic concepts – semiconductor RAMs – memory system considerations – semiconductor ROMs – flash memory – cache memory and mapping functions. References 1. Hamacher C., Z. Vranesic and S. "
+                    android:id="@+id/textView52"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView53"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Hamacher C., Z. Vranesic and S. Zaky, Computer Organization, 6/e, McGraw Hill, 2011. [Chapters: 2, 3, 4 (4.1 , 4.2, 4.4 – 4.7), 5 (5.2, 5.3, 5.5, 5.6)]"
+                    android:id="@+id/textView54"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Mano M. M., Digital Logic &amp; Computer Design, 4/e, Pearson Education, 2013. [Chapters: 8 - 10]"
+                    android:id="@+id/textView55"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Patterson D.A. and J. L. Hennessey, Computer Organization and Design, 5/e, Morgan Kauffmann Publishers, 2013."
+                    android:id="@+id/textView56"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Chaudhuri P., Computer Organization and Design, 2/e, Prentice Hall, 2008."
+                    android:id="@+id/textView57"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView58"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module"
+                    android:id="@+id/textView59"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question (question may contain subdivisions), out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView60"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:textStyle="normal|bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

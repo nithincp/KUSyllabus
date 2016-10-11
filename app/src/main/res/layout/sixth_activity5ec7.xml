@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ELECTROMAGNETIC COMPATIBILITY"
+                    android:id="@+id/textView1397"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView111"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to Electro-magnetic Interference (EMI) - Definitions, Different Sources of EMI, Electro-static discharge (ESD), Electro-magnetic pulse (EMP), Lightning, Mechanism of transferring Electro-magnetic Energy: Radiated emission, radiated susceptibility, conducted emission, conducted susceptibility, Differential &amp; common mode currents. Introduction to EMC - Concepts of EMC, EMC units. EMC requirements for electronic systems - World regulatory bodies- FCC, CISPR etc. Class-A devices, class-B devices."
+                    android:id="@+id/textView112"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView113"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Different Mitigation Techniques for preventing EMI. Grounding: Fundamental grounding concepts, Floating ground, Single-point &amp; Multi-point ground, advantages &amp; disadvantages of different grounding processes. Shielding: Basic concepts of shielding, Different types of shielding, Shielding effectiveness(S.E), S.E of a conducting barrier to a normal incident plane wave, multiple reflection within a shield, mechanism of attenuation provided by shield, shielding against magnetic field &amp; Electric field, S.E for Electronic metal &amp; Magnetic metal, Skin-depth, S.E for far-field sources, shield seams. "
+                    android:id="@+id/textView114"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cross-talks &amp; Coupling, Measurement set for measuring Cross-talk. Filtering &amp; decoupling. "
+                    android:id="@+id/textView1398"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Non-ideal behaviour of different electronic components - Examples: Communication equipment, Microwave oven, Personal Computers, Health Hazards limits, EMC in healthcare environment."
+                    android:id="@+id/textView1399"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView115"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Antennas - Characteristics of antennas, fields due to short electric dipole &amp; small magnetic pole, near field &amp; Far-field sources &amp; their characteristics. Broadband antenna measurements, antenna factor."
+                    android:id="@+id/textView116"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time-domain &amp; Frequency-domain Analysis of Different Signals - identifying the frequency, phase &amp; power spectrum of different signals. Time-domain Reflectrometry (TDR) basics for determining the properties of a transmission line. System Design For EMC - Simple susceptibility models for wires &amp; PCB, Simplified lumped model of the pick-up of incident field for a very short two-conductor line."
+                    android:id="@+id/textView1400"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cables, connectors, components: EMI suppression cables, EMC connectors, EMC gaskets, Isolation transformers, optoisolators. Choice of capacitors, inductors, transformers and resistors"
+                    android:id="@+id/textView1401"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView117"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Digital and Analogue circuit design : Design for emission control and design for immunity, Radiation from logic circuits, analogue circuits and SMPS. Microprocessor watchdog, defensive programming."
+                    android:id="@+id/textView118"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Radiated and conducted interference measurements and ESD : Anechoic chamber, TEM cell, GH TEM Cell, characterization of conduction currents / voltages, conducted EM noise on power lines, conducted EMI from equipment, Immunity to conducted EMI detectors and measurements. ESD, Electrical fast transients / bursts, electrical surges. Measurements of radiated emission in open test range &amp; in Anechoic chamber, Conducted emission testing by Line Impedance Stabilization network (LISN)."
+                    android:id="@+id/textView1394"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView119"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Kodali P., Engineering Electromagnetic Compatibility, S. Chand, 2000."
+                    android:id="@+id/textView120"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Williams T., EMC for Product Designers, B-H Newnes, Oxford. "
+                    android:id="@+id/textView121"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Tesche F. M, M. V. Ianoz and T. Karlsson, EMC Analysis Methods &amp; Computational Models, John Wiley, 1997."
+                    android:id="@+id/textView122"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Paul C. R., Introduction to Electromagnetic compatibility, John Wiley, 2006."
+                    android:id="@+id/textView123"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView124"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView125"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks"
+                    android:id="@+id/textView126"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

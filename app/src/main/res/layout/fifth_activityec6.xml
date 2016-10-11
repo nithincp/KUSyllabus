@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="69dp"
+                    android:text="ANALOG INTEGRATED CIRCUITS "
+                    android:id="@+id/textView358"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView457"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Operational Amplifier: Introduction, Ideal op-amp parameters, Non ideal op-amp. Effect of finite open loop gain, bandwidth and slew rate on circuit performance. Inverting and noninverting amplifier, summing amplifier, integrator, differentiator. Differential amplifiers, Instrumentation amplifiers, V to I and I to V converters, Comparators, precision rectifiers, Log and antilog amplifier."
+                    android:id="@+id/textView458"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView459"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oscillators -Phase-shift, Wein-Bridge, Multivibrators - Astable, Monostable, Schmitt Trigger, Square and triangular waveform generator. Filters: Butterworth 1st order Low pass and high pass. Biquadratic filter (single op-amp with finite gain non inverting-Sallen and key) of Low pass, High pass, Band pass and Notch filters. Generalized Impedance Converter and its applications. "
+                    android:id="@+id/textView460"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView461"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switched capacitor Resistor, switched capacitor Integrator, First order SC filter. D/A converters: DAC characteristics and Parameters- Weighted resistor, R-2R network, DAC080. A/D converter: ADC characteristics, Types - Dual slope, Counter ramp, Successive approximation, flash ADC - AD670. Principle of oversampled ADC."
+                    android:id="@+id/textView462"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – IV"
+                    android:id="@+id/textView463"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Analog multipliers – emitter coupled pair as simple multiplier, Gilbert multiplier cell, four quadrant multiplier, Gilbert multiplier as a balanced modulator and phase detector, AD532. Basic PLL topology and principle, Major building blocks of PLL – analog and digital phase detector, VCO, filter. Applications of PLL. Monolithic PLL 565. Monolithic Voltage Regulators – three terminal voltage regulators 78XX and 79XX series, IC723 and its Applications, Current boosting, short circuit and fold back protection."
+                    android:id="@+id/textView464"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView465"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Salivahanan S. and V. S. K. Bhaaskaran, Linear Integrated Circuits, Tata McGraw Hill, 2008."
+                    android:id="@+id/textView466"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Razavi B., Designs Of Analog CMOS Integrated Circuits, Tata McGraw Hill, 2008."
+                    android:id="@+id/textView467"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Franco S., Design with Operational Amplifiers and Analog Integrated Circuits, 3/e, Tata McGraw Hill, 2008."
+                    android:id="@+id/textView468"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Gayakwad R. A., Op-Amps and Linear Integrated Circuits, Prentice Hall, 4/e, 2010."
+                    android:id="@+id/textView469"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView470"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView471"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView472"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="63dp"
+                    android:text="FLUID MACHINERY"
+                    android:id="@+id/textView374"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – I"
+                    android:id="@+id/textView697"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Impact of jets: Introduction to hydrodynamic thrust of jet on a fixed and moving surface (flat &amp; curve), Series of vanes, work done and efficiency, fundamental equation of energy transfer in turbo machines, Euler’s equation and its alternate forms Hydraulic Turbines: Impulse and Reaction Turbines, Degree of reaction, Pelton Wheel, Constructional features, Velocity triangles, Euler’s equation, Speed ratio, jet ratio &amp; work done, losses and efficiencies, design of Pelton wheel. Inward and outward flow reaction turbines, Francis Turbine, Constructional features, Velocity triangles, work done and efficiencies. Axial flow turbine (Kaplan), Constructional features, Velocity triangles, work, done and efficiencies, Characteristic curves of turbines, theory of draft tubes, surge tanks, Cavitation in turbines, Governing of turbines, Specific speed of turbine, Type Number, Characteristic curves, scale Laws, Unit speed, Unit discharge and unit power."
+                    android:id="@+id/textView698"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – II"
+                    android:id="@+id/textView699"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rotary motion of liquids - free, forced and spiral vortex flows, rotodynamic pumps, centrifugal pump impeller types, velocity triangles, manometric head, work, efficiency and losses, H-Q characteristics. Cavitation in centrifugal pumps- NPSH required and available-Type number-Pumps in series and parallel operations. Performance characteristics- Specific speed-Shape numbers, Impeller shapes based on shape numbers."
+                    android:id="@+id/textView700"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – III"
+                    android:id="@+id/textView701"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Positive displacement pumps- reciprocating pump, Single acting and double acting, slip, negative slip and work required and efficiency, indicator diagram, acceleration head,- effect of acceleration and friction on indicator diagram, speed calculation. Air vessels and their purposes, saving in work done to air vessels multi cylinder pumps. Multistage pumps-selection of pumps-pumping devices, hydraulic ram, Accumulator, Intensifier, Jet pumps, gear pumps, vane pump and lobe pump."
+                    android:id="@+id/textView702"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module – IV"
+                    android:id="@+id/textView703"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compressors:- classification of compressors, reciprocating compressor-single stage compressor, equation for work with and without clearance volume, efficiencies, multistage compressor, intercooler, free air delivered (FAD) Rotary compressors:- classification, centrifugal compressor-working, velocity diagram, work done, power required, width of blades of impeller and diffuser, isentropic efficiency, slip factor and pressure coefficient, surging and chocking. Axial flow compressors:- working, velocity diagram, degree of reaction, performance. Roots blower, vane compressor, screw compressor."
+                    android:id="@+id/textView704"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView705"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Shepherd D. G., Principles of Turbo Machinery, Macmillan, 1969."
+                    android:id="@+id/textView706"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Stepanoff A. J., Centrifugal and Axial Flow Pumps, John Wiley &amp; Sons, 1991."
+                    android:id="@+id/textView707"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Binder R. C., Advanced Fluid Mechanics- 1, Prentice Hall, 1962."
+                    android:id="@+id/textView708"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Bansal R. K., A Textbook of Fluid Mechanics and Hydraulic Machines, Laxmi Publications, 2005."
+                    android:id="@+id/textView709"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView710"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView711"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView712"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>

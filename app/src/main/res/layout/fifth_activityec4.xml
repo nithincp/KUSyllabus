@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:text="DIGITAL SIGNAL PROCESSING "
+                    android:id="@+id/textView356"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView425"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Discrete Fourier Transform , Properties of DFT, Linear Convolution and correlation Methods based on the DFT, Frequency Analysis of Signals using DFT. Computation of DFT: Decimation in time and decimation in frequency FFT Algorithms (Radix 2 only), Efficient computation of DFT of Two Real Sequences and a 2N-Point Real Sequence, IDFT computation using DFT. Introduction to DCT and properties."
+                    android:id="@+id/textView426"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - II"
+                    android:id="@+id/textView427"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Design of FIR Filters- Symmetric and Antisymmetric FIR Filters, Design of linear phase FIR Filters using Window method and Frequency Sampling Method, Design of Optimum Equiripple Linear-Phase FIR Filters. Design of IIR Digital Filters from Analog Filters (Butterworth and Chebyshev)- IIR Filter Design by Impulse Invariance, IIR Filter Design by Bilinear Transformation, Frequency Transformations in the Analog and Digital Domain."
+                    android:id="@+id/textView428"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - III"
+                    android:id="@+id/textView429"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filter structures: FIR Systems- Direct Form, Cascade Form and Lattice Structure. IIR SystemsDirect Form, Transposed Form, Cascade Form and Parallel Form. Lattice structures for FIR and IIR filters. Analysis of finite word length effects- Quantization noise, round off errors, input and output quantization error, limit cycles in IIR filters, round off errors in FFT algorithms."
+                    android:id="@+id/textView430"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - IV"
+                    android:id="@+id/textView431"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Multi-rate Digital Signal Processing- Decimation and Interpolation (Time domain and Frequency Domain Interpretation), Sampling Rate Conversion, Multistage Implementation of Sampling-Rate Conversion, Applications of Multi-rate Signal Processing- Sub band Coding, Trans-multiplexers. Computer architecture for signal processing - Architecture of TMS320C6713 processor. Programming Tools for DSP Processors."
+                    android:id="@+id/textView432"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reference"
+                    android:id="@+id/textView433"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Oppenheim A. V., R. W. Schafer and J. R. Buck, Discrete Time Signal Processing, 2/e, Prentice Hall, 2007."
+                    android:id="@+id/textView434"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Proakis J. G. and D. G. Manolakis, Digital Signal Processing, 4/e, Prentice Hall, 2007."
+                    android:id="@+id/textView435"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Chassaing R. and D. Reay Digital Signal Processing and Applications with the TMS320C6713 and TMS320C6416 DSK, John Wiley &amp;Sons, 2011."
+                    android:id="@+id/textView436"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView437"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView438"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView439"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>
