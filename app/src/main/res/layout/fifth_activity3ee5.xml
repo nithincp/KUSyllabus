@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:text=" DC MACHINES AND TRANSFORMERS"
+                    android:id="@+id/textView35"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DC machines - constructional features - principle of generator and motor- Armature winding – types – DC generator - e.m.f equation. Different types of excitation. Armature reaction, effects, methods of compensation - Commutation - Open Circuit and Load Characteristics - Applications - parallel operation of dc generators."
+                    android:id="@+id/textView61"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -II"
+                    android:id="@+id/textView62"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DC motor - production of torque - torque equation - performance characteristics - starting of dc motors. Starters - design of starter resistances. Speed control of dc motors - field control - armature control. Braking of dc motors - Losses and efficiency - Testing of dc motors -Hopkinson&apos;s test, Swinburne&apos;s test and retardation test - dc motor applications. Permanent magnet DC motors."
+                    android:id="@+id/textView63"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -III"
+                    android:id="@+id/textView64"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single phase transformers - principle of operation - constructional details - operation on no load – Magnetising Current phasor diagram - Equivalent circuit - transformer losses - Methods of cooling. Testing of transformers - polarity test, OC test, SC test, Sumpner&apos;s test - separation of losses - efficiency - voltage regulation - effect of load and load power factor - all day efficiency - parallel operation of transformers "
+                    android:id="@+id/textView65"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -IV"
+                    android:id="@+id/textView66"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Auto transformers - dry type transformers. 3-phase transformers - 3-phase transformer connections - choice of transformer connections - Transformer harmonics - oscillating neutral. 3-phase bank of single-phase transformers - Parallel operation of 3-phase transformers– Scott Connection - Vector groups – Three winding transformers - stabilization by tertiary winding – equivalent circuit - Tap changing transformers - no load tap changing - on load tap changing."
+                    android:id="@+id/textView67"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView68"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Bimbra P. S., Electrical Machinery, 7/e, Khanna Publishers, 2006."
+                    android:id="@+id/textView69"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Nagarath I. J. and D. P. Kothari, Electrical Machines, 4/e, Tata McGraw Hill, 2010."
+                    android:id="@+id/textView70"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Gupta B. R. and V. Singhal, Fundamentals of Electric Machines, 3/e, New Age International, 2013."
+                    android:id="@+id/textView71"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Partab H., Art and Utilization of Electrical Energy, Dhanpat Rai &amp; Sons, Delhi, 1986."
+                    android:id="@+id/textView72"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView73"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView74"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView75"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
+

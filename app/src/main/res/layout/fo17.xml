@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="ELECTRICAL AND ELECTRONICS WORKSHOP"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView633"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PART I (ELECTRICAL)"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Study of electrical wiring systems, safety, symbols, tools, accessories, wires and cables: This topic covers the safety measures and protection against electric shocks, first aid, tools used for electrical wiring, electrical accessories, wires and cables and standard symbols."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="2. Simple wiring circuits: This topic covers Series and Parallel circuits using SPST switches with plug point in PVC conduit system, PVC casing and caping system."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="a. Circuits for light, fan and call bell control"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="b. Circuit with SPDT switches – Staircase wiring"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="c. Circuit with fluorescent tube light"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="d. Godown / tunnel wiring"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="e. Distribution board wiring with ELCB, MCB, isolator (with two sub circuits)"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Testing of circuits: This topic covers the testing of phase and neutral with Earth using Test lamp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView635"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PART II (ELECTRONICS)"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complex Integration: Line integral – Cauchy’s integral theorem – Cauchy’s integral formula – Taylor’s and Laurent’s series – zeros and singularities – residues and residue theorem. Evaluation of real definite integrals (Proof of theorems not required)."
+                android:id="@+id/textView636"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Study of meters (Multimeter - Digital and Analog): This topic covers the use of multimeter to check voltage, current and also to check various electronic components"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2266"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Study of CRO: This topic covers the procedure to check the frequency and amplitude of a signal waveform"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2265"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Study of electronic components: This topic covers the familiarization of some basic electronic components and circuit symbols (Resistors, Capacitors Diodes, transistors, IC’s etc.) and identification of component values using colour codes."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2264"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Testing of electronic components: This topic covers how to test electronic components using multimeters"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2263"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Soldering practice: Circuit assembling practice using printed circuit board with electronic components."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2262"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Assembling of simple electronic circuits: This topic covers the use of breadboards for assembly of the following circuits"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2269"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="a. Half wave rectifier circuit"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="b. Full wave rectifier circuit"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2267"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="c. Simple LED flashing circuit using Transistors / ICs"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Dhogal P.S., Basic Electrical Engineering -I, Tata McGraw Hill, 2011."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Singh R.P., Electrical Workshop -Safety, Commissioning, Maintenance and Testing of Electrical equipment, I. K. International (P) Ltd, 2013."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Raina R. B. and S. K. Bhattacharya, Electrical Design Estimating and Costing, New Age International (P) Limited."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Examination duration: 3 hours"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView795"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Maximum Total Marks: 50"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="For university examination, the following guidelines should be followed:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2274"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Wiring diagram/circuit diagram  - 30%"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2273"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Wiring / Soldering  - 30%"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2272"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Result  - 20%"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Viva voce - 20%"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

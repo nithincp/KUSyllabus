@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView1166"
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="NANOPHOTONICS"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1167"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Module - I"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1168"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Introduction Nanophotonics, Photons and Electrons: Similarities and Differences, Free-Space Propagation, Confinement of Photons and Electrons, Propagation Through a Classically Forbidden Zone, Tunneling , Localization Under a Periodic Potential: Bandgap Cooperative Effects for Photons and Electrons, Nanoscale Optical Interactions, Axial Nanoscopic Localization, Lateral Nanoscopic Localization, Nanoscale Confinement of Electronic Interactions, Quantum Confinement Effects, Nanoscopic Interaction, Dynamics, New Cooperative Electronic Energy Transfer, Cooperative Emission."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1169"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Module - II"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1170"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Near-Field Interaction and Microscopy Near-Field Optics. Theoretical Modeling of Near-Field Nanoscopic Interactions Near-Field Microscopy, Study of Quantum Dots Single-Molecule Spectroscopy, Study of Nonlinear Optical Processes, Apertureless Near-Field Spectroscopy and Microscopy, Nanoscale Enhancement of Optical Interactions, Time- and Space-Resolved Studies, Nanoscale Dynamics, Quantum-Confined Materials, Inorganic Semiconductors , Quantum Wells, Quantum Wires Quantum Dots Quantum Rings, Manifestations of Quantum Confinement, Optical Properties, Nonlinear Optical Properties, Quantum- Confined Stark Effect, Dielectric Confinement Effect, Core-Shell Quantum Dots, Dot- Quantum Wells , Quantum-Confined Structures."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1171"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Module -III"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1172"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Plasmonics, Metallic Nanoparticles and Nanorods, Metallic Nanoshells Local Field Enhancement Subwavelength, Aperture Plasmonics, Plasmonic Wave Guiding Applications of Metallic Nanostructures, Nanocontrol of Excitation, Dynamics Nanostructure and Excited States, Rare-Earth Doped Nanostructures, Up-Converting, Nanophores, Photon Avalanche Quantum Cutting, Site Isolating Nanoparticles, Nanochemistry, Nanostructured Molecular Architectures, Nanostructured Polymeric Media Molecular Machines, Dendrimers, Supramolecular Structures, Monolayer and Multilayer Molecular Assembly, Photonic Crystals, Basics Concepts Theoretical Modeling of Photonic Crystal, Features of Photonic Crystals, Nonlinear Photonic Crystals , Photonic Crystal Sensors."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1173"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Module - IV"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1174"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Nanocomposite Waveguides, Random Lasers, Laser Paints, Nanocomposites for Optoelectronics, Polymer-Dispersed Liquid Crystals, Nanocomposite Metamaterials, Nanolithograph, Biomaterials and Nanophotonics, Bioderived Materials, Bioinspired Materials, Bacteria as Biosynthesizers, Nanophotonics for Biotechnology and Nanomedicine, Near-Field Bioimaging Nanoparticles for Optical Diagnostics, Semiconductor Quantum Dots for Bioimaging, Up-Converting Nanophores for Bioimaging, Biosensing, Nanoclinics for Optical Diagnostics and Targeted Therapy, Nanoclinic Gene Delivery, Nanoclinics for Photodynamic Therapy, Optical Nanomaterials, Nanoparticle Coatings, Sunscreen Nanoparticles, Self-Cleaning Glass Fluorescent QD, Nanobarcodes, Quantum-Confined Lasers."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1175"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="References"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1176"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.Paras N. Prasad, Nanophotonics, Wiley, 2004."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1177"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="2.Paras N. Prasad, Introduction to Biophotonics, Wiley, 2003."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1178"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="3.Sergey V. Gaponenka, Nanophotonics, Cambidge University Press, 2010."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1179"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="4.Motoichi Ohtsu, Principles of Nanophotonics, CRC Press, 2008."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1180"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="University Examination Pattern"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1181"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1182"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,6 +31,8 @@
         android:text="Design of Steel Structures "
         android:id="@+id/textView853"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:textStyle="bold"
@@ -36,6 +46,8 @@
         android:id="@+id/textView854"
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
+        style="?android:attr/buttonStyle"
+
         android:textStyle="bold"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
@@ -47,6 +59,8 @@
         android:text="Advanced Structural Analysis"
         android:id="@+id/textView855"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textStyle="bold"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -60,6 +74,8 @@
         android:id="@+id/textView856"
         android:layout_weight="0.06"
         android:textSize="@dimen/abc_dialog_padding_material"
+        style="?android:attr/buttonStyle"
+
         android:textColor="@color/dim_foreground_material_light"
         android:textStyle="bold"
         android:layout_gravity="center" />
@@ -70,6 +86,8 @@
         android:text="Elective – II"
         android:id="@+id/textView857"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:gravity="center_horizontal"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -82,6 +100,8 @@
         android:text="Environmental Engineering Lab"
         android:id="@+id/textView858"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textStyle="bold"
@@ -95,6 +115,8 @@
         android:id="@+id/textView859"
         android:layout_weight="0.06"
         android:textStyle="bold"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:gravity="center_horizontal"
@@ -105,6 +127,8 @@
         android:layout_height="wrap_content"
         android:text="(a) Seminar (b) Survey Camp &amp; Industrial Visit "
         android:id="@+id/textView860"
+        style="?android:attr/buttonStyle"
+
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
         android:textStyle="bold"
@@ -112,3 +136,4 @@
         android:textSize="@dimen/abc_dialog_padding_material"
         android:layout_gravity="center" />
 </LinearLayout>
+</ScrollView>

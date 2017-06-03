@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView1166"
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="CONTINUUM MECHANICS"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1168"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Continuum Theory- The Continuum Concept, Continuum Mechanics, Essential Mathematics - Scalars, Vectors, and Cartesian Tensors, Tensor Algebra in Symbolic Notation, Summation Convention, Indicial Notation, Matrices and Determinants, Transformations of Cartesian Tensors, Principal Values and Principal Directions of Symmetric, Second-Order Tensors, Tensor Fields, Tensor Calculus, Integral Theorems of Gauss and Stokes."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1170"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Stress Principles - Body and Surface Forces, Mass Density, Cauchy Stress Principle, The Stress Tensor, Force and Moment Equilibrium, Stress, Tensor Symmetry, Stress Transformation Laws, Principal Stresses, Principal Stress Directions, Maximum and Minimum Stress Values, Mohr’s Circles for Stress, Plane Stress, Deviator and Spherical Stress States, Octahedral Shear Stress."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2126"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Kinematics of Deformation and Motion - Particles, Configurations, Deformation, and Motion, Material and Spatial Coordinates, Lagrangian and Eulerian Descriptions, The Displacement Field The Material Derivative, Deformation Gradients, Finite Strain Tensors, Infinitesimal Deformation Theory, Stretch Ratios, Rotation Tensor, Stretch Tensors, Velocity Gradient, Rate of Deformation, Vorticity, Material Derivative of Line Elements, Areas, Volumes."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1172"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Fundamental Laws and Equations - Balance Laws, Field Equations, Constitutive Equations, Material Derivatives of Line, Surface, and Volume Integrals, Conservation of Mass, Continuity Equation, Linear Momentum Principle, Equations of Motion, The Piola-Kirchhoff Stress Tensors, Lagrangian Equations of Motion, Moment of Momentum (Angular Momentum) Principle."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1174"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Law of Conservation of Energy, The Energy Equation, Entropy and the Clausius-Duhem Equation, Restrictions on Elastic Materials by the Second Law of Thermodynamics, Invariance, Restrictions on Constitutive Equations from Invariance, Constitutive Equations. Linear Elasticity -Elasticity, Hooke’s Law, Strain Energy, Hooke’s Law for Isotropic Media, Elastic Constants, Elastic Symmetry; Hooke’s Law for Anisotropic Media, Isotropic Elastostatics and Elastodynamics, Superposition Principle, Plane Elasticity, Linear Thermoelasticity, Airy Stress Function, Torsion, Three-Dimensional Elasticity."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1176"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="1. Mase G. T. and G. E. Mase, Continuum Mechanics for Engineers, CRC, 1999."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1177"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="2. Reddy J. N., An Introduction to Continuum Mechanics, Cambridge University Press, 2013."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1178"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Shaums Outline, Continuum Mechanics, McGraw Hill, 1970."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1179"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="4. Sudhakar Nair, An Introduction to Continuum Mechanics, Cambridge University Press, 2009."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1181"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1182"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

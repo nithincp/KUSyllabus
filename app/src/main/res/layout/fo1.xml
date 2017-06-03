@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="ENGINEERING MATHEMATICS - I"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Applications of differentiation: Definition of Hyperbolic functions and their derivatives- successive differentiation-Leibnitz’ Theorem (without proof)-Curvature-Radius of curvature- centre of curvature - evolutes (Cartesian, polar and parametric forms) – indeterminate forms. Evaluation of limits by L’Hospital rule"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView952"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Partial differentiation: Partial derivatives-Euler’s theorem on homogenous functions-Total derivatives-Jacobians of transformations-Maxima and Minima of functions of 2 variables - Lagrange’s method."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Multiple Integrals: Double integrals –Properties- Evaluation of double integrals (Cartesian only) –Change of order of integration- Change of variables (Cartesian to polar)-Area enclosed by plane curves (Cartesian only) - Triple integrals-Evaluation of triple integrals in Cartesian coordinates- Volume as triple integrals."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Laplace transforms: Transforms of elementary functions – shifting property-inverse transforms- transforms of derivatives and integrals – Transform functions multiplied by t and divided t convolution theorem (without proof)- Transforms of unit step function, unit impulse function and periodic functions – second shifting theorem."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView953"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Differential Equations: Linear differential equations with constant coefficients-Method of variation of parameters – Simultaneous linear equations with constant coefficients. – Cauchy and Legendre differential equations. Solution of ordinary differential equations with constant coefficients using Laplace transforms"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Matrices: Rank of a matrix- elementary transformations – equivalent matrices- Echelon form – LU Decomposition – System of linear equations -consistency – solution of a system linear equations – Non homogeneous and homogeneous equations – Linear dependence and independence of vectors – Eigen values and Eigen vectors –Cayley-Hamilton Theorem - Properties of Eigen Values and Eigen vectors – Diagonalisation of matrices – Quadratic forms – Reduction to Canonical Forms."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Kreyszig, Advanced Engineering Mathematics, 9/e, Wiley India, 2013."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Grewal B.S., Higher Engineering Mathematics, Khanna Publications, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Ramana B.V., Higher Engineering Mathematics, Tata McGraw Hill, 2007."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView954"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bali N. P. and Manish Goyal, Engineering Mathematics, 7/e, Laxmi Publications, India, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                android:id="@+id/textView794"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

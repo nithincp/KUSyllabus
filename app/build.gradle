@@ -13,8 +13,8 @@ android {
         applicationId "boots.com.fan"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 4
+        versionName "2.78"
     }
     buildTypes {
         release {

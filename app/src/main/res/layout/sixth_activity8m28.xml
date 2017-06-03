@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView1166"
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="PRODUCTION AND OPERATIONS MANAGEMENT"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - I"
+                        android:id="@+id/textView1167"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1168"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Demand forecasting:- basic models, Long and Short-term demand forecasting methods, Regression analysis and smoothing methods, Estimation of trend, cycle, and seasonality components, Analysis of forecast error and computer control of forecasting systems, multi item forecasting, slow-moving item forecasting. Basic inventory models:- assumptions, performance measures, multi-item joint replacement model. Inventory systems under risk:- service levels, safety stock, joint determination of Q and R, time-varying demands."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - II"
+                        android:id="@+id/textView1169"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1170"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Aggregate inventory management:- Exchange curves, stock out situations, safety stock policies, distribution inventory systems. Design of layout of factories, Office, Storage area etc. on consideration of facilities of working people, Storage facilities and general equipment for amenities of working people – Product, Process and combination layout – Systematic layout planning – Design of Assembly lines, Line balancing methods, Computer applications in layout designs. Routing problems:-algorithms, Dispatching."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module -III"
+                        android:id="@+id/textView1171"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1172"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Aggregate planning:- definition, value of decision rules, aggregate planning strategies, methods. Master production schedule:- bill of material, structuring BOM, disaggregation techniques, managing and maintenance of MPS. Material Requirements Planning:- MRP and MRP II, MRP concepts and advantages, implementation."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Module - IV"
+                        android:id="@+id/textView1173"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1174"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Capacity planning and control, controlling continuous production, batch processing technique, Just-in-time, KANBAN system. Job Shop production activity planning:- scheduling, shop loading, sequencing, priority rules for dispatching jobs, mathematical programming and heuristics. Introduction to Business Process Re-engineering, Enterprise Resource Planning, and software packages."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="References"
+                        android:id="@+id/textView1175"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1176"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="1.Narasimhan et al., Production Planning and Inventory Control, PHI, 1995."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1177"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="2.White R. L. and J. A. White, Facilities Location and Layout –an Analytical Approach, PHI, 1992."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1178"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="3.Buffa, Production and Operations Management, John Wiley and Sons."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1179"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="4.Krajewski L. J., Operations Management: Strategy and Analysis, Pearson Education, 1998"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="University Examination Pattern"
+                        android:id="@+id/textView1180"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/abc_dialog_padding_material" />
+
+                    <TextView
+                        android:id="@+id/textView1181"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView1182"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

@@ -42,6 +42,8 @@
                         android:layout_height="51dp"
                         android:text="Speech Processing"
                         android:id="@+id/textView1518"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -55,20 +57,24 @@
                         android:id="@+id/textView1519"
                         android:gravity="center_horizontal"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:layout_gravity="center" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="49dp"
-                        android:text="DSP Systems &amp; Architectur"
                         android:id="@+id/textView1520"
-                        android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+
+                        android:text="DSP Systems &amp; Architecture"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
-                        android:gravity="center_horizontal"
-                        android:layout_gravity="center" />
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -76,6 +82,8 @@
                         android:text="Professional Ethics"
                         android:id="@+id/textView1521"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
@@ -83,9 +91,11 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="45dp"
+                        android:layout_height="wrap_content"
                         android:text="Wavelets &amp; Applications"
                         android:id="@+id/textView1522"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
@@ -94,11 +104,13 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="69dp"
+                        android:layout_height="wrap_content"
                         android:text="High Speed Semiconductor Devices"
                         android:id="@+id/textView1523"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
                         android:layout_gravity="center" />
@@ -110,6 +122,8 @@
                         android:id="@+id/textView1524"
                         android:layout_weight="0.06"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:gravity="center_horizontal"

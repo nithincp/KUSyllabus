@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="SEMICONDUCTOR DEVICES"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Elemental and compound semiconductor materials: Crystal Structures -Planes and Directions. Energy bands in solids, intrinsic and extrinsic semiconductors, Variation of Energy band gap with alloy composition. Energy momentum relation for electrons in solids, effective mass. Fermi-dirac distribution. Equilibrium and steady state conditions, Equilibrium concentration of electrons and holes (graphical and analytical representation), Temperature dependence of carrier concentration."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Carrier transport in semiconductors – drift, conductivity and mobility, variation of mobility with temperature and doping, High Field Effects, Hall Effect."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Excess carriers in semiconductors – Generation and recombination mechanisms of excess carriers, quasi Fermi levels, diffusion, Einstein relations. Continuity equations."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="PN junctions - Contact potential, Electrical Field, Potential and Charge Density at the junction, Energy band diagram, Minority Carrier Distribution, Ideal diode equation, Electron and hole component of current in forward biased p-n junction."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Forward and reverse characteristics of PN Junction diode. Effect of Temperature on I-V characteristics. Real diodes, Diode capacitances, switching transients."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Electrical Breakdown in PN junctions - Zener and avalanche break down (abrupt PN junctions only), junction capacitance."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Metal Semiconductor contacts, Energy band diagram of Ohmic and Rectifying Contacts, Current Equation, Comparison with PN Junction Diode."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Hetero Junctions – Energy band diagram, Applications."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Bipolar junction transistor - current components, Minority Carrier Distributions basic parameters, Evaluation of terminal currents and dc parameters (based on physical dimensions), Switching, Base width modulation, Avalanche multiplication in collector-base junction, Punch Through, Base resistance, Static I-V characteristics of CB and CE configurations."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Field Effect Transistors: JFET - principle of operation, current equation, static I-V characteristics, and device parameters."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="MOS Capacitor - Ideal MOS Capacitor, Energy Band Diagram, Carrier Concentrations in the Space Charge Region, C-V characteristics, threshold voltage, effect of real surfaces"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="MOSFET- Basic structure and principle of operation, I-V characteristics, Derivation of Drain Current (Square Law Model Only) and device parameters, Channel length modulation, Velocity saturation, Body effect, DIBL, Hot Electron Effect, Sub threshold Conduction."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Photo diodes- Current and voltage in illuminated junction, solar cells, photo detectors."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Light Emitting Diodes–Light emitting materials, Heterojunction LED -Principle of operation."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="LASER – Basic principle, semiconductor Laser."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="UJT- Structure, equivalent circuit, characteristics, principle of operation."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="PNPN diode, SCR, DIAC, IGBT and TRIAC – Principles of operation and static characteristics (no derivation)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Streetman and Banerjee, Solid State Electronic Devices, Prentice Hall of India, 6/e, 2010."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Tyagi M.S., Introduction to Semiconductor Materials and Devices, Wiley India, 5/e, 2008."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Warner and Grung, Semiconductor Device Electronics, Holt Rinehart and Winston, 1991."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Sze S.M., Physics of Semiconductor Devices, John Wiley, 3/e, 2005."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

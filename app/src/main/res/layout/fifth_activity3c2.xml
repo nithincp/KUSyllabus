@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:text="MECHANICS OF STRUCTURES"
+                    android:id="@+id/textView35"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rigid and deformable bodies – Self weight – external loads –Concept of internal stresses – Normal stress and shear stress – Concept of strain – Normal strain and shear strain – Constitutive relation – Hooke’s law – Poisson’s ratio – Stress-strain diagram for mild steel and tor steel – Working stress. Deformation of axially loaded bars of constant and varying section – Principle of superposition – Composite sections – Elastic constants - Relationship between elastic constants – Temperature stresses. Stress on inclined plane for axial and biaxial stress fields – Principal stresses and strains – Mohr’s circle of stress"
+                    android:id="@+id/textView61"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -II"
+                    android:id="@+id/textView62"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to analysis of beams - Concept of bending moment and shear force - Relationship connecting intensity of loading, shear force and bending moment – Shear force and bending moment diagrams for cantilever, simply supported and overhanging beams for different loadings such as point load, UDL, uniformly varying load and applied moment. Theory of simple bending – Limitations – Flexural Rigidity - Bending stress distribution in beams of different cross-sections – Moment of resistance – Beams of uniform strength"
+                    android:id="@+id/textView63"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -III"
+                    android:id="@+id/textView64"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shear stress distribution in beams of different cross-sections. Introduction to shear centre and shear flow (concept only – no numerical examples). Theory of columns – Short columns – Direct and bending stresses in short columns - Kern of section - Pressure distribution of dams and retaining walls. Torsion of solid and hollow circular shafts – Torsion of rectangular shafts – Power transmission – Closely coiled and open coiled helical springs"
+                    android:id="@+id/textView65"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -IV"
+                    android:id="@+id/textView66"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Analysis of pin-jointed plane frames by the method of joints and sections. Strain energy – Strain energy due to normal stress, shear stress and bending stress – Instantaneous stresses and strains due to suddenly applied and impact loading. Stresses in thin cylindrical and spherical shells – stresses in thick cylindrical shells."
+                    android:id="@+id/textView67"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView68"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Junarkar S. B. and Shah S. J., Mechanics of Structures (Vol. I), 30/e,Charotar Publishing House Pvt. Ltd., New Delhi, 2012. "
+                    android:id="@+id/textView69"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Egor P. Popov, Engineering Mechanics of Solids, Prentice-Hall of India, New Delhi, 1993. "
+                    android:id="@+id/textView70"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Timoshenko S. P. and J. M. Gere, Mechanics of Materials, CBS Publishers &amp; Distributors, New Delhi.1996. "
+                    android:id="@+id/textView71"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Gere J. M., Mechanics of Materials, Thomson Books, New Delhi, 2003."
+                    android:id="@+id/textView72"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView73"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                    android:id="@+id/textView74"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView75"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
+

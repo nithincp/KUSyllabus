@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="ENGINEERING THERMODYNAMICS"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Introduction: Basic Concepts -Macroscopic and Microscopic viewpoints, Concept of Continuum ,Thermodynamic System and Control Volume, Surrounding, Boundaries, Types of Systems, Universe, Thermodynamic properties, Process, Cycle, Thermodynamic Equilibrium, Quasi – static Process, State, Point and Path function."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Zeroth Law of Thermodynamics and its significance, Measurement of Temperature- Thermometry, reference Points, Temperature Scales, Comparison of thermometers- Constant Volume gas Thermometer, Ideal gas temperature scale, Thermocouple, Resistance thermometer."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Definition of Work, Pdv work and other types of work transfer, free expansion work .Heat and heat capacity."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Joule’s Experiment- First law of Thermodynamics - First law applied to Non flow Process- Energy-Enthalpy- specific heats- PMM1, First law applied to Flow Process, Mass and Energy balance in simple steady flow process. Application of SFEE, Unsteady flow –Filling and Emptying Process. (Problems)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Limitations of the First Law- Second Law of Thermodynamics, Kelvin-Planck and Clausius Statements, Thermal Reservoir, Heat Engine, Heat pump - Performance factors, Equivalence of two statements, Reversibility, Irreversible Process, Causes of Irreversibility, Corollaries of second law-PMM2, Carnot’s theorem and its corollaries, Absolute Thermodynamic Temperature scale."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Clausius Inequality, Entropy- Causes of Entropy Change, Entropy changes in various thermodynamic processes, principle of increase of entropy and its applications, Entropy generation in open and closed system, Entropy and Disorder, Reversible adiabatic process- isentropic process"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Available Energy, Availability and Irreversibility- Useful work, Dead state, Availability function, Availability and irreversibility open and closed systems Gouy-Stodola theorem"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Nernst-Simon and Fowler-Guggenheim statement of third law."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="General Thermodynamic Relations – Combined First and Second law equations – Helmholtz and Gibb’s functions - Maxwell’s Relations, equations for internal energy, enthalpy and entropy, specific heats, ideal and real gases, Tds Equations. The Clapeyron Equation, Throttling process, Joule Thomson Coefficient, inversion curve."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Pure Substances, T-h, p-v and p-T diagram of pure substance, p-v-T surface, Saturation pressure and Temperature, T-s and h-s diagrams or Mollier Charts, Phase Transformations, Triple point, properties during change of phase, Dryness Fraction, Clausius Clapeyron Equation, steam tables. Property calculations using steam tables."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="The ideal Gas Equation, Characteristic and Universal Gas constants, Deviations from ideal Gas Model: Equation of state of real substances-Vander Waals Equation of State, Berthelot, Dieterici, Redlich-Kwong equation of state , Virial Expansion, Compressibility factor, Law of corresponding state, Compressibility charts"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Mixtures of ideal Gases – Mole Fraction, Mass friction Gravimetric and volumetric Analysis, Dalton’sLaw of partial pressure, Amagat’s Laws of additive volumes – Mole fraction , Volume fraction and partial pressure, Gibbs-Dalton’s law -Equivalent Gas constant and Molecular Weight, Properties of gas mixtures: Internal Energy, Enthalpy, specific heats and Entropy, (problems), Introduction to real gas mixtures- Kay’s rule"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Mixture of Gases and Vapours, Atmospheric air - Psychrometric Properties – Dry bulb Temperature,Wet Bulb Temperature, Dew point Temperature, Psychrometers, Specific Humidity, Relative Humidity, saturated Air, Vapour pressure, Degree of saturation, Adiabatic Saturation, Psychrometric chart."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Gordon J. Van Wylen, Richard E Sonnttag, Fundamentals of Classical Thermodynamics, Wiley."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Holman J.P., Thermodynamics, McGraw - Hill Book Company."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Nag P.K., Engineering Thermodynamics, Tata McGraw-Hill."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Yunus A, Cengal, Michael A. Boles, Thermodynamics, Tata McGraw-Hill."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

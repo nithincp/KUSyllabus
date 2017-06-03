@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:text=" NETWORKS AND SYSTEMS "
+                    android:id="@+id/textView35"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Review of mesh analysis and node analysis. Coupled circuits – analysis of coupled circuits. Analysis of 3-phase circuits - star and delta connections, 3-wire and 4-wire systems, neutral displacement. "
+                    android:id="@+id/textView61"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dynamic circuits with periodic input: Periodic waveforms in circuit analysis. The exponential Fourier series, trigonometric Fourier series, condition for existence of Fourier series. Waveform symmetry and Fourier coefficients. Circuit applications, Average Power and RMS Values, Discrete magnitude and phase spectrum, Rate of decay of harmonic amplitude, Normalised power in a periodic waveform and Parseval&apos;s theorem, Power and power factor in AC system with distorted waveforms."
+                    android:id="@+id/textView1940"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -II"
+                    android:id="@+id/textView62"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Analysis of dynamic circuits by Laplace Transforms - The s- domain equivalent circuit, Total response of circuits using s-domain equivalent circuit, Network functions and Pole-Zero plots, Impulse response of network functions from Pole -Zero plots. "
+                    android:id="@+id/textView63"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to Network Topology- Linear Oriented Graph, Incidence matrix, Kirchoff&apos;s Laws in incidence matrix formulation, Nodal analysis of networks circuit matrix of linear oriented Graph, Kirchoff&apos;s Laws in fundamental circuit matrix formulation, Loop analysis of electrical networks, The Cut-Set matrix of linear oriented graph, Kirchoff&apos;s Law in fundamental Cut-Set formulation, Node-pair analysis of networks, Analysis using generalized Branch model."
+                    android:id="@+id/textView1941"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -III"
+                    android:id="@+id/textView64"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Two Port Network and Passive Filters- Parameters of two-port network, Impedance parameters, Admittance parameters, Hybrid parameters, Transmission parameters, Relationships between parameters, Interconnection of networks conversion formulae-two port symmetry – Pi and T equivalent – Image parameter description of a reciprocal two port network. Characteristic impedance and propagation constant of symmetric T and Pi  networks under sinusoidal steady state. Introduction to filters - low pass, high pass, band pass and band elimination filters, design of constant k and m derived filters."
+                    android:id="@+id/textView65"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -IV"
+                    android:id="@+id/textView66"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Synthesis of One-Port Network- Properties of L-C Immittance functions, Synthesis of L-C Driving-Point immittances, Properties of R-L and R-C Driving-Point immittances, Synthesis of R-C and R-L networks. "
+                    android:id="@+id/textView67"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="System as interconnection of elements-Introduction of continuous- time signals and discrete- time signals. Continuous time systems – Representation of continuous time systems using differential equations. Classification of continuous time systems - Static and dynamic, Causal and non-causal, Linear and non-linear, Time Invariant and time variant, Stable and non-stable, Invertible and non-invertible systems. Discrete time systems – Representation of discrete time systems using difference equations. Classification of discrete time systems - Static and dynamic, causal and non-causal Linear and non-linear, Time Invariant and time variant, Stable and non-stable systems. "
+                    android:id="@+id/textView1942"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView68"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Suresh Kumar K. S., Electric Circuits and Networks, Pearson Education South Asia, 2009."
+                    android:id="@+id/textView69"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Suresh Kumar K. S., Electric Circuit Analysis, Pearson Education South Asia, 2013."
+                    android:id="@+id/textView70"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Valkenburg M. E. V., Network Analysis, 3/e, Pearson Education, 2006."
+                    android:id="@+id/textView71"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Wadhwa C. L., Network Analysis and Synthesis, New Age International, 2004."
+                    android:id="@+id/textView72"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView73"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView74"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView75"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
+

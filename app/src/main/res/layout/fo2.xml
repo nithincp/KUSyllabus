@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="ENGINEERING PHYSICS"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Harmonic Oscillations: Basic ideas of harmonic oscillations – Differential equation of free harmonic oscillation, damped harmonic oscillation, forced harmonic oscillation and their solutions- Resonance."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView957"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Waves: One dimensional wave- differential equation. Three dimensional wave- differential equation and solution. Transverse vibrations of a stretched string."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView955"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Electromagnetic Theory: Del operator – grad, div, curl and their physical significance. Concept of displacement current. Deduction of Maxwell’s equations. Prediction of electromagnetic waves. Transverse nature of electromagnetic waves. E and H are at right angles. Poynting’s theorem (qualitative only)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Crystal Structure: Space lattice. Unit cell and lattice parameters. Crystal systems. Co- ordination number and packing factor with reference to simple cubic, body centered cubic and face centered cubic crystals. Directions and planes. Miller indices. Interplanar spacing in terms of Miller indices."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView959"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Special Theory of Relativity: Postulates. Lorentz transformation equations (no derivation). Simultaneity. Length contraction. Time dilation. Relativistic mass. Mass energy relation."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView958"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Superconductivity: Superconducting phenomena. Meissner effect. Type-I and Type-II superconductors. BCS theory (qualitative). High temperature superconductors. Applications of superconductors."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Interference and Diffraction of Light: Coherence. Interference in thin films and wedge shaped films. Newton’s rings. Interference filters. Antireflection coating. Fresnel and Fraunhofer diffraction. Fraunhofer diffraction at a single slit. Fraunhofer diffraction at a circular aperture (qualitative). Rayleigh’s criterion for resolution. Resolving power of telescope and microscope. Plane transmission grating. Grating equation."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView961"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Polarization of Light: Types of polarized light. Double refraction. Nicol Prism. Retardation plates. Theory of plane, circular and elliptically polarized light. Production and analysis of circularly and elliptically polarized light. Polaroids and applications. Induced birefringence - Kerr effect."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView963"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Ultrasonics: Production of ultrasonicwaves - Magnetostriction oscillator, Piezoelectric oscillator. Detection of ultrasonics –Thermal and Piezoelectric methods. Applications of ultrasonics - industrial, medical etc."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Quantum Mechanics: Dual nature of matter. Wave function. Uncertainty principle. Energy and momentum operators. Eigen values and functions. Expectation values. Time Dependent and Time Independent Schrodinger equations. Particle in one dimensional box. Tunnelling (qualitative)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView966"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Statistical Mechanics: Macrostates and Microstates. Phase space. Basic postulates of Maxwell- Boltzmann, Bose-Einstein and Fermi Dirac statistics. Distribution equations in the three cases (no derivation). Density of states. Derivation of Planck’s formula. Free electrons in a metal as a Fermi gas. Fermi energy."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView965"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Laser : Population inversion and stimulated emission. Optical resonant cavity. Ruby Laser, Helium-Neon Laser, Semiconductor Laser (qualitative). Holography- Recording-reading and applications."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Hugh Young, Roger Freedman, Francis Sears and Mark Zemansky, University Physics, 12/e, Pearson"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Frank and Leno, Introduction to Optics, 3/e, Pearson"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Upadhyaya J.C., Mechanics, Ram Prasad and Sons"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView968"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. David J Griffiths, Introduction to Electrodynamics, 3/e, Pearson"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

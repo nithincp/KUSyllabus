@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,6 +30,8 @@
         android:text="Computer Graphics"
         android:id="@+id/textView861"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:textStyle="bold"
@@ -35,6 +44,8 @@
         android:text="Seminar, Project Design and Industrial Visit"
         android:id="@+id/textView862"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:gravity="center_horizontal"
         android:textStyle="bold"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -46,6 +57,8 @@
         android:layout_height="wrap_content"
         android:text="Embedded Systems"
         android:id="@+id/textView863"
+        style="?android:attr/buttonStyle"
+
         android:layout_weight="0.06"
         android:textStyle="bold"
         android:textColor="@color/dim_foreground_material_light"
@@ -59,6 +72,8 @@
         android:text="Software Engineering and Project Management"
         android:id="@+id/textView864"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:textStyle="bold"
@@ -70,6 +85,8 @@
         android:layout_height="wrap_content"
         android:text="Elective I "
         android:id="@+id/textView865"
+        style="?android:attr/buttonStyle"
+
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
         android:textColor="@color/dim_foreground_material_light"
@@ -83,6 +100,8 @@
         android:text="Elective II"
         android:id="@+id/textView866"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textStyle="bold"
@@ -97,6 +116,8 @@
         android:layout_weight="0.06"
         android:textStyle="bold"
         android:textSize="@dimen/abc_dialog_padding_material"
+        style="?android:attr/buttonStyle"
+
         android:textColor="@color/dim_foreground_material_light"
         android:gravity="center_horizontal"
         android:layout_gravity="center" />
@@ -107,9 +128,12 @@
         android:text="Operating Systems and Network Programming Lab"
         android:id="@+id/textView868"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:gravity="center_horizontal"
         android:textStyle="bold"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:layout_gravity="center" />
 </LinearLayout>
+</ScrollView>

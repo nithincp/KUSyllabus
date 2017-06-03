@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,6 +29,8 @@
         android:layout_height="wrap_content"
         android:text="Engineering Mathematics III "
         android:id="@+id/textView172"
+        style="?android:attr/buttonStyle"
+
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
         android:textStyle="bold"
@@ -34,6 +43,8 @@
         android:text="Humanities"
         android:id="@+id/textView173"
         android:layout_gravity="center_horizontal"
+        style="?android:attr/buttonStyle"
+
         android:layout_weight="0.05"
         android:textStyle="bold"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -44,6 +55,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Structural Analysis - I "
+        style="?android:attr/buttonStyle"
+
         android:id="@+id/textView174"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
@@ -56,6 +69,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fluid Mechanics II "
+        style="?android:attr/buttonStyle"
+
         android:id="@+id/textView175"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
@@ -69,6 +84,8 @@
         android:layout_height="wrap_content"
         android:text="Surveying II "
         android:id="@+id/textView176"
+        style="?android:attr/buttonStyle"
+
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
         android:textStyle="bold"
@@ -81,6 +98,8 @@
         android:layout_height="wrap_content"
         android:text="Building Planning and Drawing "
         android:id="@+id/textView177"
+        style="?android:attr/buttonStyle"
+
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
         android:textStyle="bold"
@@ -92,6 +111,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Strength of Materials Lab"
+        style="?android:attr/buttonStyle"
+
         android:id="@+id/textView178"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
@@ -103,6 +124,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="?android:attr/buttonStyle"
+
         android:text="Fluid Mechanics Lab"
         android:id="@+id/textView179"
         android:layout_gravity="center_horizontal"
@@ -112,3 +135,5 @@
         android:textColor="@color/dim_foreground_material_light" />
 
 </LinearLayout>
+
+</ScrollView>

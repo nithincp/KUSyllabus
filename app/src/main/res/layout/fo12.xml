@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="BASIC ELECTRICAL AND ELECTRONICS ENGINEERING"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Elementary concepts of electric circuits and Circuit Theorems: Ohm’s Law, Kirchhoff’s laws, Solution of DC networks by node voltage and mesh current methods. Thevenin's and Norton's theorem, Source transformation, linearity of a circuit and superposition theorem, star-delta transformation, reciprocity theorem, maximum power transfer theorem and application of theorems to circuit analysis."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Time Domain Analysis of dynamic circuits: Series RL circuit - dynamic equations, initial condition, natural response, step response of RL circuit through Laplace Transforms. Concept of time constant in dynamic circuit, Step response of series RC circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Resonance in series and parallel circuits - Energy, bandwidth and quality factor, variation of impedance and admittance in series and parallel resonant circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Magnetic circuits and Electromagnetic induction: MMF, field strength, flux density, reluctance, Simple problems in magnetic circuits. Faraday’s laws, Lenz’s law-statically induced and dynamically induced emfs- self-inductance and mutual inductance."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Alternating current fundamentals: Generation of alternating voltages. Waveforms- frequency, period, average and RMS values, form factor. Phasor representation of alternating quantities- rectangular, polar and exponential forms. Power and power factor in ac circuits- active, reactive and apparent power. Solution of RL, RC and RLC circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Three phase systems: Generation of three phase voltages, advantages of three-phase systems, star and delta connections, three wire and four wire systems, relation between line and phase voltages and line and phase currents. Expressions for power in three phase circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Electrical and Electronic Measurements: Operating principle of moving coil and moving iron instruments (ammeters and voltmeters), dynamometer type watt meters and energy meters. Principle and block diagram of analog and digital multi-meter, working principle of CRT, block diagram of CRO, measurements using CRO, Principle of digital storage oscilloscope, principle and block diagram of function generator."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Electric machines: Transformer- Construction of single phase and three phase transformers (core type only) – EMF equation, losses and efficiency, simple problems."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="D.C. Generator: – Construction, types – separately excited, shunt, series and compound, EMF equation."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="D.C. Motor: Types, characteristics, applications. Single phase induction motor – principle of operation, methods of starting- resistance split phase starting, capacitor start capacitor run motors, Servo and stepper motors."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Wiring systems: Basic concepts of wiring (conduit wiring only), service mains, meter board and distribution board. Earthing of installations - necessity of earthing, plate and pipe earthing, protective fuses, MCB, ELCB."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="PN junction diodes, V-I characteristics, dynamic and static resistance. The P-N junction as a rectifier - Half Wave Rectifier, Full Wave Rectifier, Bridge Rectifier, Comparison of Ripple Factor. Filters- Inductor and, Capacitor Filters. Principle, working and V-I characteristics of Zener diode. Working of simple Zener voltage regulator. Block diagram description of a dc power supply."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Bipolar Junction Transistor (BJT) - Construction, Principle of Operation, Amplifying Action, Common Emitter, Common Base and Common Collector configurations"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Field Effect Transistor (FET) - Comparison of BJT and FET. Construction of Field Effect Transistor, Principle of Operation of N channel and P channel Junction Field Effect Transistors, Pinch-Off Voltage, Volt- Ampere Characteristics. – MOSFET – Enhancement and depletion types – Construction operation and characteristics, Applications."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Special Semiconductor Devices: Working principle and applications of SCR, Diac, Triac, Photo diode, Phototransistor, Solar cell, LED, LCD, and CCD. Working principles of UPS and SMPS."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Hughes, Electrical and Electronic Technology, Pearson Education South Asia, 2011"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Giorgio Rizzoni, Principles and Applications of Electrical Engineering, Fifth Edition Tata McGraw Hill."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Bhattacharya S.K., Basic Electrical and Electronics Engineering, Pearson Education South Asia, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Vincent Del Toro, Electrical Engineering Fundamentals, Prentice Hall of India, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

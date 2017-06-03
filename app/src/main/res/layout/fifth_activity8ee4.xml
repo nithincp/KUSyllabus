@@ -27,11 +27,12 @@
                     android:layout_gravity="center_horizontal" >
 
                     <TextView
+                        android:id="@+id/textView1166"
                         android:layout_width="wrap_content"
                         android:layout_height="58dp"
-                        android:text="DATABASE DESIGN"
-                        android:id="@+id/textView1166"
                         android:layout_gravity="center_horizontal"
+                        android:text="ELECTRIC POWER UTILISATION AND ELECTRICAL SAFETY"
+                        android:textAlignment="center"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold" />
 
@@ -44,13 +45,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1168"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Introduction: Concept &amp; Overview of DBMS, Data Models, Database Languages, Database Administrator, Database Users, Three Schema architecture of DBMS. Entity-Relationship Model: Basic concepts, Design Issues, Mapping Constraints, Keys, EntityRelationship Diagram, Weak Entity Sets, Extended E-R features."
-                        android:id="@+id/textView1168"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Electric Heating- Advantages of electric of heating, resistance ovens, induction heating, dielectric heating. Electric welding- resistance and arc welding. Electrolytic Process - Fundamental principles, extraction, refining of metals and electroplating. Power supply for electrolytic process."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -61,13 +62,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1170"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Relational Model: Structure of relational Databases, Integrity Constraints, relational algebra, tuple relational calculus, Extended Relational Algebra Operations. Database Languages: Concept of DDL and DML, Basic SQL Structure, examples, Set operations, Aggregate Functions, nested sub-queries, assertions, triggers, views."
-                        android:id="@+id/textView1170"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Electric Traction - Introduction, requirements of an ideal traction, systems of traction, speed time curve. Selection of traction motors, method of speed control, energy saving by series parallel control, ac traction equipment. AC series motor, characteristics, regenerative braking, linear induction motor and their use. AC traction, diesel electric equipment, trains lighting system, specific energy, factors affecting specific energy consumption."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -78,13 +79,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1172"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Relational Database Design: Different anomalies in designing a database. Synthesizing ER diagram to relational schema, normalization, functional dependency, Armstrong’s Axioms, closures, Equivalence of FDs, minimal Cover (proofs not required). Normalization using functional dependencies, INF, 2NF, 3NF and BCNF, lossless and dependency preserving decompositions."
-                        android:id="@+id/textView1172"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Laws of illumination, lighting calculation, factory lighting, flood lighting, street lighting, different types of lamps-incandescent, fluorescent, vapour, CFL and LED lamps and their working, comparison, Glare and its remedy. Design of lighting scheme, conservation approach to be considered. Refrigeration and Air-conditioning - Refrigeration systems - COP - Domestic refrigerator - principle - Air conditioning systems- Human comfort - air conditioning of theatres."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -95,13 +96,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1174"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Physical Data Organization: Secondary storage, buffering, file operations, un-ordered and ordered-files, hashing, index structures, primary, secondary and clustering indices, multilevel indexing and B-Trees (algorithms not needed). Query Optimization: algorithms for relational algebra operations, heuristics-based query optimization. Transaction Processing Concepts: over view of concurrency control and recovery acid properties, serial and concurrent schedules, conflict serializability. Two-phase locking, failure classification, storage structure, stable storage, log based recovery, immediate and deferred database modification, check-pointing, database security. Recent topics (preliminary ideas only): RDF and Big Data."
-                        android:id="@+id/textView1174"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Electrical Safety - Safety aspects of resistance - capacitance and inductance aspects - Electrical Shock and human body - modelling and conditions - Ground Grid Design - IEEE standard 80 - Safety aspects of ground grid operation and maintenance - grounding of distribution systems."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -112,35 +113,31 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="1. Elmasri R. and S. Navathe, Database Systems: Models, Languages, Design and Application Programming, Pearson Education, 2013. [Chapters 1, 2, 3, 4, 5.1-5.3, 6.1- 6.6, 7.1-7.13, 8.1-8.2, 14.1-14.5, 15.1-15.2, 16.1-16.8, 17.1-17.3, 18.1-18.4, 18.6, 18.7, 20, 21.1, 22.1-22.3, 25.1, 25.2]"
                         android:id="@+id/textView1176"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Rajput R. K., Utilisation of Electrical Power, Laxmi Publication Pvt Ltd"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2. Sliberschatz A., H. F. Korth and S. Sudarshan, Database System Concepts, 5/e, McGraw Hill, 2006. [Chapters 16.1 (except 16.1.4-16.1.5), 17.1 – 17.7]."
                         android:id="@+id/textView1177"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Taylor E. O., Utilisation of Electric Energy, Orient Longman"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="3. Powers S., Practical RDF, O’Reilly Media, 2003. [Chapter 1]."
                         android:id="@+id/textView1178"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Wadhwa C. L., Generation, Distribution and Utilisation of Electrical Energy, New Age International Pvt Ltd"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView1179"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4. Plunkett T., B. Macdonald, et al., Oracle Big Data Hand Book, Oracle Press, 2013. [Chapters 1, 2]"
-                        android:id="@+id/textView1179"
-                        android:layout_gravity="center_horizontal"
+                        android:text="4. John Cadick, Mary Capelli - Schellpfeffer and Dennis Nietzel, Electrical Safety Handbook, McGraw Hill Companies"
                         android:textStyle="bold" />
 
                     <TextView
@@ -152,22 +149,22 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1181"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
-                        android:id="@+id/textView1181"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView1182"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Part B (80 Marks) - Candidates have to answer one full question (question may contain subdivisions), out of the two from each module. Each question carries 20 marks."
-                        android:id="@+id/textView1182"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

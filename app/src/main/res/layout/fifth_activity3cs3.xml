@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:text=" DISCRETE STRUCTURES "
+                    android:id="@+id/textView35"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Statement calculus: Statements, connectives, statement formulas, truth tables, conditional, biconditional, well formed formulas, tautology, contradiction, equivalence of formulas, duality law, tautological implications, formulas with distinct truth tables, functionally complete set of connectives, two state devices and statement logic, Theory of inference for statement calculus, validity using truth tables, rules of inference, consistency of premises and indirect method of proof. "
+                    android:id="@+id/textView61"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Predicate calculus: predicates, statement functions, variables and quantifiers, predicate formulas, free and bound variables, universe of discourse, theory of inference for predicate calculus"
+                    android:id="@+id/textView1850"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -II"
+                    android:id="@+id/textView62"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Set Theory: basic concepts of set theory, Representation of discrete structures. Relations and ordering : relations – properties of binary relations in a set, relation matrix and graph of a relation, Partition and covering of a set, equivalence relations, compatibility relations, composition of binary relations, Partial ordering, Partially ordered set representation."
+                    android:id="@+id/textView63"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Functions: one to one, onto, bijection, composition of functions, inverse functions, binary and n-ary operations, natural numbers – Peano Axioms and Mathematical induction, Pigeon hole principle. Cardinality – countable and uncountable sets, Cantor&apos;s theorem of power sets."
+                    android:id="@+id/textView1851"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -III"
+                    android:id="@+id/textView64"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Algebraic structures: simple algebraic systems and general properties, morphism, congruence relation, subalgebra, product algebra and factor algebra, semigroups &amp; monoids - morphism, cyclic semi groups and monoids, subsemigroups and submonoids, groups – abelian groups, permutation groups, cyclic groups, subgroups and homomorphism, cosets  and Lagrange&apos;s theorem, normal subgroups. Algebraic systems with two binary operations – ring, integral domain, field."
+                    android:id="@+id/textView65"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -IV"
+                    android:id="@+id/textView66"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lattices: as partially ordered sets, properties of lattices, lattices as algebraic systems, sub lattices, direct product and homomorphism, Boolean algebra, subalgebra, direct product and homomorphism, Boolean functions. Graph theory – basic concepts, basic definitions of graphs, trees, paths, reachability and connectedness (No theorems and proofs for Graph theory topics)"
+                    android:id="@+id/textView67"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView68"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Tremblay J. P. and R. Manohar, Discrete Mathematical Structures with Applications to Computer Science, Tata McGraw-Hill, 1997."
+                    android:id="@+id/textView69"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Kolman B., Discrete Mathematical Structures for Computer Science, Prentice Hall, 1987."
+                    android:id="@+id/textView70"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Thomas Koshy, Discrete Mathematics with Applications, Elsevier, 2004."
+                    android:id="@+id/textView71"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Liu C. L., Elements of Discrete Mathematics, TMH, 2000."
+                    android:id="@+id/textView72"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView73"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView74"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question (question may contain subquestions) out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView75"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
+

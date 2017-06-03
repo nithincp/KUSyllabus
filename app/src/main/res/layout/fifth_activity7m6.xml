@@ -43,6 +43,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Plant Engineering &amp; Maintenance"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1641"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
@@ -54,6 +56,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Fracture Mechanics"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1642"
                         android:gravity="center_horizontal"
                         android:textStyle="bold"
@@ -65,6 +69,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Entrepreneurship Development"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1643"
                         android:textStyle="bold"
                         android:textColor="@color/dim_foreground_material_light"
@@ -77,6 +83,8 @@
                         android:layout_height="wrap_content"
                         android:text="Finite Element Methods"
                         android:id="@+id/textView1664"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -88,6 +96,8 @@
                         android:layout_height="wrap_content"
                         android:text="Metal Forming"
                         android:id="@+id/textView1665"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
@@ -96,8 +106,10 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="58dp"
+                        android:layout_height="wrap_content"
                         android:text="Non-Conventional Machining Techniques"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1723"
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
@@ -109,6 +121,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Experimental Methods In Engineering"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1728"
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
@@ -122,6 +136,8 @@
                         android:text="Mechanical Vibration &amp; Noise Control"
                         android:id="@+id/textView1746"
                         android:gravity="center_horizontal"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
@@ -132,6 +148,8 @@
                         android:layout_height="match_parent"
                         android:text="Failure Analysis"
                         android:id="@+id/textView1737"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -144,6 +162,8 @@
                         android:layout_height="wrap_content"
                         android:text="Industrial Automation"
                         android:id="@+id/textView1738"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -156,6 +176,8 @@
                         android:layout_height="wrap_content"
                         android:text="Advanced Thermodynamics"
                         android:id="@+id/textView1739"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -168,6 +190,8 @@
                         android:layout_height="wrap_content"
                         android:text="Industrial Heat Transfer"
                         android:id="@+id/textView1750"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -180,6 +204,8 @@
                         android:layout_height="wrap_content"
                         android:text="Computer Graphics"
                         android:id="@+id/textView1749"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -192,6 +218,8 @@
                         android:layout_height="wrap_content"
                         android:text="Marketing Management"
                         android:id="@+id/textView1748"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -205,6 +233,8 @@
                         android:text="Industrial Hydraulics"
                         android:id="@+id/textView1747"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
@@ -216,6 +246,8 @@
                         android:layout_height="wrap_content"
                         android:text="Machine Tool Technology"
                         android:id="@+id/textView1745"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -229,6 +261,8 @@
                         android:text="Turbo Machines"
                         android:id="@+id/textView1744"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
@@ -240,6 +274,8 @@
                         android:layout_height="wrap_content"
                         android:text="Bio Materials"
                         android:id="@+id/textView1743"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -255,6 +291,8 @@
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="0.25" />
@@ -265,6 +303,8 @@
                         android:text="Alternate Energy Sources"
                         android:id="@+id/textView1741"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"

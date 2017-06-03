@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="ENGINEERING MECHANICS"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Idealizations of Mechanics: Elements of vector algebra"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2069"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Statics of Rigid Bodies: -Classification of force systems- principle of transmissibility of a force-composition and resolution- Resultant and Equilibrant of coplanar concurrent force systems-various analytical methods- - Lami’s theorem, method of resolution- Conditions of equilibrium-Moment of a force, couple, properties of couple- Varignon's theorem- Resultant and equilibrant of coplanar non-concurrent force systems- Conditions of equilibrium. Equilibrium of rigid bodies-free body diagrams. (Simple problems)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2068"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Forces in space: Equations of equilibrium, Vector approach."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Friction: Laws of friction-angle of friction- cone of friction- ladder friction- wedge friction."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Properties of Surfaces: Centroid of composite areas- Theorems of Pappus-Gouldinus- Moment of inertia of areas, Parallel and perpendicular axes theorems- Radius of Gyration- moment of inertia of composite areas."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Principle of Virtual Work: Equilibrium of ideal systems, stable and unstable equilibrium."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Types of Supports: Types of beams - types of loading- Support reactions of simply supported and overhanging beams under different types of loading."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Dynamics: Kinematics-Combined motion of translation and rotation- Differential equation of rectilinear motion. Instantaneous centre, motion of link, motion of connecting rod and piston, wheel rolling without slipping."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Kinetics: Newton's laws of translatory motion- D'Alembert's principle- Motion of lift- Motion of connected bodies."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Curvilinear motion: D'Alembert's principle in curvilinear motion- Mass moment of inertia of rings, solid discs and solid spheres (no derivations required) - Angular momentum-Angular impulse."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Work, Power and Energy:- Work-Energy principle- Impulse, Momentum, Collision of elastic bodies- Law of conservation of momentum-Direct and oblique impact between elastic bodies and impact with fixed plane."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Kinetics of Rigid Bodies: Under combined translatory and rotational motion - work - energy principle for rigid bodies."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Centrifugal and Centripetal Forces: Motion of vehicles on curved paths in horizontal and vertical planes - super elevation."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Simple Harmonic Motion: Vibration of mechanical systems - basic elements of a vibrating system - spring mass model - undamped free vibrations - angular free vibration - simple pendulum."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Relative velocity: Basic concepts-analysis of different types of problems"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beer and Johnston, Vector Mechanics for Engineers - Statics and Dynamics, Tata Mc- Graw Hill Publishing Company Limited, New Delhi, 2005."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Irving. H. Shames, Engineering Mechanics, Prentice Hall Book Company, 1966."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Timoshenko S. and Young D. H., Engineering Mechanics, Mc-Graw Hill -International Edition"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Popov, Mechanics of Solids, Pearson Education, 2007"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                android:id="@+id/textView794"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

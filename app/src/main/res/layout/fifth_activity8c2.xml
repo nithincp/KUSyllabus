@@ -27,11 +27,12 @@
                     android:layout_gravity="center_horizontal" >
 
                     <TextView
+                        android:id="@+id/textView1166"
                         android:layout_width="wrap_content"
                         android:layout_height="58dp"
-                        android:text="DATABASE DESIGN"
-                        android:id="@+id/textView1166"
                         android:layout_gravity="center_horizontal"
+                        android:text="DESIGN AND DRAWING OF STEEL STRUCTURES"
+                        android:textAlignment="center"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold" />
 
@@ -44,13 +45,31 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1168"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Introduction: Concept &amp; Overview of DBMS, Data Models, Database Languages, Database Administrator, Database Users, Three Schema architecture of DBMS. Entity-Relationship Model: Basic concepts, Design Issues, Mapping Constraints, Keys, EntityRelationship Diagram, Weak Entity Sets, Extended E-R features."
-                        android:id="@+id/textView1168"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Water tanks- Design of rectangular steel tanks- Pressed steel tanks- Cylindrical tanks with hemispherical bottom- Design of supporting towers and its foundation."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView948"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Roofs -Design of purlins and trusses for dead load, live load and wind loads - rolled steel angle and tubular sections."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView940"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Drawings of the structures designed above."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -61,47 +80,31 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Relational Model: Structure of relational Databases, Integrity Constraints, relational algebra, tuple relational calculus, Extended Relational Algebra Operations. Database Languages: Concept of DDL and DML, Basic SQL Structure, examples, Set operations, Aggregate Functions, nested sub-queries, assertions, triggers, views."
                         android:id="@+id/textView1170"
-                        android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
-
-                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Module -III"
-                        android:id="@+id/textView1171"
                         android:layout_gravity="center_horizontal"
-                        android:textSize="@dimen/abc_dialog_padding_material" />
+                        android:gravity="center_horizontal"
+                        android:text="Steel chimneys-Types of chimneys, IS Specifications-Design of self supporting chimneys."
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textView964"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Relational Database Design: Different anomalies in designing a database. Synthesizing ER diagram to relational schema, normalization, functional dependency, Armstrong’s Axioms, closures, Equivalence of FDs, minimal Cover (proofs not required). Normalization using functional dependencies, INF, 2NF, 3NF and BCNF, lossless and dependency preserving decompositions."
-                        android:id="@+id/textView1172"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Steel bridges –Types of bridges, Railway modified BG and modified MG loading -Design of plate girder bridges - Truss girder bridges (only design concept) -bracings and bearings."
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textView956"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Module - IV"
-                        android:id="@+id/textView1173"
                         android:layout_gravity="center_horizontal"
-                        android:textSize="@dimen/abc_dialog_padding_material" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Physical Data Organization: Secondary storage, buffering, file operations, un-ordered and ordered-files, hashing, index structures, primary, secondary and clustering indices, multilevel indexing and B-Trees (algorithms not needed). Query Optimization: algorithms for relational algebra operations, heuristics-based query optimization. Transaction Processing Concepts: over view of concurrency control and recovery acid properties, serial and concurrent schedules, conflict serializability. Two-phase locking, failure classification, storage structure, stable storage, log based recovery, immediate and deferred database modification, check-pointing, database security. Recent topics (preliminary ideas only): RDF and Big Data."
-                        android:id="@+id/textView1174"
-                        android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Drawings of the structures designed above."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -112,35 +115,35 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="1. Elmasri R. and S. Navathe, Database Systems: Models, Languages, Design and Application Programming, Pearson Education, 2013. [Chapters 1, 2, 3, 4, 5.1-5.3, 6.1- 6.6, 7.1-7.13, 8.1-8.2, 14.1-14.5, 15.1-15.2, 16.1-16.8, 17.1-17.3, 18.1-18.4, 18.6, 18.7, 20, 21.1, 22.1-22.3, 25.1, 25.2]"
                         android:id="@+id/textView1176"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="1. Raghupathy, Design of Steel Structures, Tata McGraw Hill, 1995."
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2. Sliberschatz A., H. F. Korth and S. Sudarshan, Database System Concepts, 5/e, McGraw Hill, 2006. [Chapters 16.1 (except 16.1.4-16.1.5), 17.1 – 17.7]."
                         android:id="@+id/textView1177"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="2. Ramachandra, Design of Steel Structures, Standard books, 2011."
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="3. Powers S., Practical RDF, O’Reilly Media, 2003. [Chapter 1]."
                         android:id="@+id/textView1178"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="3. Arya A. S. and J. L. Ajmani, Design of Steel Structures, Nemchand and Bros, 1996."
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView1179"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4. Plunkett T., B. Macdonald, et al., Oracle Big Data Hand Book, Oracle Press, 2013. [Chapters 1, 2]"
-                        android:id="@+id/textView1179"
                         android:layout_gravity="center_horizontal"
+                        android:text="4. Ramamrutham S., Design of Steel and Timber Structures, Dhanapath Rai, 1986."
                         android:textStyle="bold" />
 
                     <TextView
@@ -152,22 +155,22 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1181"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
-                        android:id="@+id/textView1181"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Part A (40 marks) - From Module I and Module II. Two questions of 20 marks eac"
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView1182"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Part B (80 Marks) - Candidates have to answer one full question (question may contain subdivisions), out of the two from each module. Each question carries 20 marks."
-                        android:id="@+id/textView1182"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Part B (110 Marks) - Candidates have to answer one full question out of the two from each module. The question consists of design and drawing part. Each question carries 55 marks (30 marks for design and 25 marks for drawing)."
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

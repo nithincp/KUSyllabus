@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="ENGINEERING GRAPHICS"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Plain Curves: Conic sections by eccentricity method. Construction of ellipse: (i) Arc of circles method (ii) Rectangle method (iii) Parallelogram method (iv) Concentric circles method. Construction of parabola - (i) Rectangle method (ii) Tangent method. Construction of hyperbola - (i) Arc of circles method (ii) given ordinate, abscissa and the transverse axis (iii) given the asymptotes and a point on the curve. Construction of Tangent and Normal at any point on these curves."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2064"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Miscellaneous Curves: Construction of Cycloid, Epicycloid and Hypocycloid, Involute of a circle. Archimedean spiral, Logarithmic spiral and Helix. Construction of Tangent and Normal at any point on these curves."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Projection of Points and Lines: Types of projections, Principles of Orthographic projection. Projections of points and lines. Determination of true length, inclination with planes of projection and traces of lines."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2065"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Projection of Solids: Projection of simple solids such as prisms, pyramids, cone, cylinder, tetrahedron, octahedron, hemisphere and sphere and also their combinations. Projection of solids on auxiliary inclined plane or auxiliary vertical plane."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Auxiliary Projection of Solids: Auxiliary projection of simple solids such as prisms, pyramids, cone, cylinder, tetrahedron and octahedron inclined to both reference planes."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2067"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Sections of Solids: Types of cutting planes, section of simple solids cut by parallel, perpendicular and inclined cutting planes. Their projections and true shape of cut sections."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2066"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Development of Surfaces: Development of surfaces of (i) simple solids like prisms, pyramids, cylinder and cone (ii) Cut regular solids."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Isometric Projection: Isometric scale, Isometric view and projections of simple solids like prisms, pyramids, cylinder, cone sphere, frustum of solids and also their combinations."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2071"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Intersection of Surfaces: Intersection of Surfaces of two solids - (i) Cylinder and cylinder, (ii) Prism and prism and (iii) Cone and Cylinder"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2070"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="(Note: Only cases where the axes are perpendicular to each other and intersecting or with offset.)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Perspective Projection: Principles of perspective projection, definition of perspective terminology. Perspective projection of simple solids like prisms, pyramids, with axis perpendicular to ground plane, auxiliary ground plane or picture plane."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2072"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="CAD: Introduction to CAD systems, Benefits of CAD, Various software for CAD, Demonstration of any one CAD software."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="General Note: First angle projection to be followed"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Anil Kumar K.N., Engineering Graphics , Adhyuth Narayan Publishers, Kottayam."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Varghese P.I, Engineering Graphics, VIP Publishers, Thrissur."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Bhatt N.D, Engineering Drawing, Charotar Publishing House Pvt. Ltd, Anand."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Shah M.B and B.C Rana, Engineering Drawing, Dorling Kindersley (India) Pvt. Ltd. New Delhi."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="1. Candidates have to answer one question out of two, each from Module I and Module II. Each question carries 16 marks."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView795"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="2. Candidates have to answer two questions out of three, each from Module III and Module IV (except from CAD). Each question carries 17 marks."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="3. Distribution of Marks: Module I 1 x 16 = 16 Marks. Module II 1 x 16 = 16 Marks. Module III 2 x 17 = 34 Marks. Module IV 2 x 17= 34 Marks"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

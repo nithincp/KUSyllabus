@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="BASIC MECHANICAL ENGINEERING"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView633"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Module – I (Thermodynamics and Fluid Mechanics)"
+                android:textAlignment="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Thermodynamics: Basic concepts, properties, process and cycles- Zeroth, first and second laws of thermodynamics- Concept of reversibility and entropy - Carnot cycle - Pressure- Volume and Temperature Entropy diagrams - Steady flow process and significance of flow work.- Heat engine, heat pump and refrigerator – efficiency, Coefficient of Performance(COP)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Fluid Mechanics: Properties of fluids, density, viscosity and surface tension- Simple problems on properties- Pascal's law-- Stream lines- laminar and turbulent flows- steady and incompressible flow- continuity, Euler and Bernoulli’s equations -Applications and simple problems."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView635"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Module – II (Energy conversion systems)"
+                android:textAlignment="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Air cycles: Otto and Diesel cycles-Air standard efficiency (simple problems)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="IC Engines: Working and comparison of two stroke and four stroke petrol and diesel engines - general description of various systems using block diagrams, air system, fuel system, ignition system -governing system- Brief description of CRDI, MPFI, GDI and Hybrid Vehicles"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Steam boilers: Classification – Cochran boiler, Babcock and Wilcox boiler, Benson boiler - fluidized bed combustion"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView637"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Module – III (Fluid Machines and Thermal Engineering)"
+                android:textAlignment="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Fluid machines: Centrifugal and reciprocating pumps- Reaction and Impulse turbines- Pelton, Francis and Kaplan turbines - Reciprocating and centrifugal compressors - fans and blowers.-Rotary compressors."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Thermal Engineering: Steam turbines, Gas turbine cycles, open and closed gas turbines, T-S diagram, Efficiency, Applications."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Refrigeration and Air Conditioning: Vapour compression refrigeration system-Refrigerants, eco friendly refrigerants. Comfort and Industrial air conditioning, typical window air conditioning unit (general description only)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Power plants: thermal, hydro and nuclear power plants."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView639"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Module – IV (Power Transmission and Manufacturing)"
+                android:textAlignment="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Mechanical Power transmission systems: Belt, rope and gear drives-types- Derivation of ratio of tensions, comparison and fields of application, velocity ratio, slip (simple problems). Friction disc, single plate clutch, gear trains (no derivations)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Manufacturing processes: Elementary ideas of casting, forging, rolling, welding, soldering and brazing. Machining processes: turning, taper turning, thread cutting, shaping, drilling, grinding, milling (simple sketches and short notes). Principle, application and advantages of C N C machine"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Non conventional machining: Electro discharge machining (EDM) and Electrochemical machining (ECM)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Spalding and Cole, Engineering Thermodynamics, Hodder and Stoughton Educational."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Gill, Smith and Zuirys, Fundamentals of IC Engines, Oxford and IBH publishing Company Pvt. Ltd. New Delhi."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Amstead, Ostwald and Begeman, Manufacturing Processes, John Wiley and Sons."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Crouse, Automobile Engineering, Tata Mc-Graw-Hill, New Delhi."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

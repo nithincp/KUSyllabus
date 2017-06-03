@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="BUILDING TECHNOLOGY"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Construction Materials: General Requirements– factors considered during selection."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Building stones – Classification of rocks – Quarrying of stones. Dressing – Properties and uses of common stones. Timber – Classification – seasoning, defects in Timber – decay – preservation – Manufacture, properties and uses of plywood, fibre board, particle board. Bricks and tiles – manufacture – BIS specifications - properties and testing. Blocks - Concrete block-interlocking block. Lime – BIS Classification – manufacture – properties and uses. Cement – types of cement – uses – Properties. Mortar – Types – Sand – properties – uses. Iron and Steel – Reinforcing steel – types – specifications. Structural steel – Market forms-specifications – Miscellaneous materials: Glass, Plastics, A.C. Sheets, Bitumen, Adhesives, Aluminium, Geotextiles (only properties, classifications and their use in construction industry)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Building construction – Type of Buildings - Components of Building, Selection of Site -– site clearing - Setting out of building, Excavation - Timbering."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Foundation -Function and requirements of foundations-Bearing capacity of soils-Test for bearing capacity -method of improving Bearing Capacity–– Shallow Foundation –Different types-Spread footing-Isolated footing-Combined Footing-Raft Foundation –Grillage Foundation etc. Introduction to: Deep foundations-Pile Foundation, Different Types -Well Foundation."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Masonry: Stone masonry-Type - Ashlar, Random rubble, Coarse rubble and Dry Rubble."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Brick Masonry-Types of Bond-English bond-Flemish bond (1 , 1 1⁄2 and 2 brick wall), Composite walls - cavity walls and partition walls, construction details and features – Comparison of Stone and brick masonry - Corbels, Cornice , Copings, Lintels and Arches - types and construction details."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Scaffoldings - parts-type-materials –Shoring-Types-Under pinning-Methods."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Floors and flooring – different types of floors and floor coverings. Roofs and roof coverings – different types of roofs – suitability – types and uses of roofing materials."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Doors, windows and ventilators – Types and construction details"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Stairs – types - layout and planning. Finishing works – Plastering, pointing, white washing, colour washing, distempering, painting. Methods of providing DPC. Termite proofing."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Rangwala, Building Materials, Charotar Publishing House."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Arora S. P. and S. P. Bindra, Building Construction, Dhanpat Rai Publishers."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Rangwala, Building Construction, Charotar Publishing House."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Jha J. and S. K. Sinha, Construction and Foundation Engineering, Khanna Publishers."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                android:id="@+id/textView794"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView795"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part B (80 Marks) - Candidates have to answer one question out of the two from each module. Each question carries 20 marks."
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

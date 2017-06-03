@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,6 +29,8 @@
         android:layout_height="wrap_content"
         android:text="Image Processing"
         android:id="@+id/textView909"
+        style="?android:attr/buttonStyle"
+
         android:layout_weight="0.06"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
@@ -36,6 +45,8 @@
         android:id="@+id/textView910"
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
+        style="?android:attr/buttonStyle"
+
         android:textStyle="bold"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
@@ -47,6 +58,8 @@
         android:text="Control Systems "
         android:id="@+id/textView911"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textStyle="bold"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -59,6 +72,8 @@
         android:text="Digital Communications"
         android:id="@+id/textView912"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:textStyle="bold"
@@ -70,6 +85,8 @@
         android:text="Antenna &amp; Wave Propagation"
         android:id="@+id/textView913"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:gravity="center_horizontal"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -82,6 +99,8 @@
         android:text="Elective II "
         android:id="@+id/textView914"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textStyle="bold"
@@ -94,6 +113,8 @@
         android:text="Microcontroller Lab"
         android:id="@+id/textView915"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textStyle="bold"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
@@ -106,9 +127,12 @@
         android:text="Electronic Product Design &amp; Mini Project"
         android:id="@+id/textView916"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:gravity="center_horizontal"
         android:textStyle="bold"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:layout_gravity="center" />
 </LinearLayout>
+</ScrollView>

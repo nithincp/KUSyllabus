@@ -17,6 +17,25 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setContentView(R.layout.second_activity);
 
+
+
+
+        TextView s1 = (TextView) findViewById(R.id.textView951);
+        s1.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(SecondActivity.this, ThirdActivityz.class));
+            }
+        });
+
+
+        TextView s3 = (TextView) findViewById(R.id.textView1806);
+        s3.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(SecondActivity.this, ThirdActivitya.class));
+            }
+        });
+
+
         TextView s4 = (TextView) findViewById(R.id.textView4);
         s4.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -51,10 +70,9 @@ public class SecondActivity extends AppCompatActivity {
         TextView s8 = (TextView) findViewById(R.id.textView8);
         s8.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(SecondActivity.this, Later.class));
+                startActivity(new Intent(SecondActivity.this, ThirdActivitye.class));
             }
         });
-
 
 
 

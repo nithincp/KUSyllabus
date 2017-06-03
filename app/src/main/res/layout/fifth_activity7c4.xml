@@ -39,9 +39,11 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="63dp"
+                        android:layout_height="wrap_content"
                         android:text="Structural Analysis for Dynamic Loads "
                         android:id="@+id/textView1641"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -50,9 +52,11 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="69dp"
+                        android:layout_height="74dp"
                         android:text="Advanced Design of Reinforced Concrete Structures"
                         android:id="@+id/textView1642"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:textStyle="bold"
                         android:textSize="@dimen/abc_dialog_padding_material"
@@ -61,8 +65,10 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="41dp"
+                        android:layout_height="wrap_content"
                         android:text="Earth dam Engineering"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1643"
                         android:textStyle="bold"
                         android:textColor="@color/dim_foreground_material_light"
@@ -72,9 +78,11 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="41dp"
+                        android:layout_height="wrap_content"
                         android:text="Soil Exploration "
                         android:id="@+id/textView1664"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -83,9 +91,11 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="44dp"
+                        android:layout_height="wrap_content"
                         android:text="Geoinformatics"
                         android:id="@+id/textView1665"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
@@ -94,45 +104,53 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="40dp"
+                        android:layout_height="wrap_content"
                         android:text="Free Surface Flow "
                         android:id="@+id/textView1666"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
                         android:layout_gravity="center" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="43dp"
+                        android:layout_height="wrap_content"
                         android:text="Air Quality Management"
                         android:id="@+id/textView1667"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="64dp"
+                        android:layout_height="wrap_content"
                         android:text="Highway and Airfield Pavement Materials"
                         android:id="@+id/textView1668"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="42dp"
+                        android:layout_height="wrap_content"
                         android:text="Sustainable Development"
                         android:id="@+id/textView1669"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal" />
 
@@ -144,28 +162,34 @@
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="63dp"
+                        android:layout_height="77dp"
                         android:text="Environmental Science and Management"
                         android:id="@+id/textView1671"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="42dp"
+                        android:layout_height="match_parent"
                         android:text="Modern Construction Materials"
                         android:id="@+id/textView1672"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal" />
 

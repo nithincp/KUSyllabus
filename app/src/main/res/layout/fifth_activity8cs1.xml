@@ -27,11 +27,12 @@
                     android:layout_gravity="center_horizontal" >
 
                     <TextView
+                        android:id="@+id/textView1166"
                         android:layout_width="wrap_content"
                         android:layout_height="58dp"
-                        android:text="DATABASE DESIGN"
-                        android:id="@+id/textView1166"
                         android:layout_gravity="center_horizontal"
+                        android:text="CRYPTOGRAPHY AND NETWORK SECURITY"
+                        android:textAlignment="center"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold" />
 
@@ -44,13 +45,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1168"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Introduction: Concept &amp; Overview of DBMS, Data Models, Database Languages, Database Administrator, Database Users, Three Schema architecture of DBMS. Entity-Relationship Model: Basic concepts, Design Issues, Mapping Constraints, Keys, EntityRelationship Diagram, Weak Entity Sets, Extended E-R features."
-                        android:id="@+id/textView1168"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Symmetric Cipher Models- Substitution techniques- Transposition techniques- Rotor machines-Steganography- DES: Simplified DES- Block Cipher principals- The Data Encryption Standard. The Strength of DES- Differential and linear Cryptanalysis- Block Cipher Design principles- Block Cipher modes of operations- IDEA: Primitive operations- Key expansions- One round, Odd round, Even Round- Inverse keys for description. AES: Basic Structure- Primitive operation- Inverse Cipher- Key Expansion, Rounds, Inverse Rounds."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -61,13 +62,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1170"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Relational Model: Structure of relational Databases, Integrity Constraints, relational algebra, tuple relational calculus, Extended Relational Algebra Operations. Database Languages: Concept of DDL and DML, Basic SQL Structure, examples, Set operations, Aggregate Functions, nested sub-queries, assertions, triggers, views."
-                        android:id="@+id/textView1170"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Public key Cryptography: - Principles of Public key Cryptography Systems, Number theory- Modular arithmetic, Prime numbers. RSA algorithms- Key Management - Diffie-Hellman Key Exchange, Elliptic curve cryptography- Authentication requirements- Authentication functions- Message authentication codes- Hash functions- SHA, MD5, Security of Hash functions and MACS- Digital signatures- Authentication protocols- Digital signature standards."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -78,13 +79,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1172"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Relational Database Design: Different anomalies in designing a database. Synthesizing ER diagram to relational schema, normalization, functional dependency, Armstrong’s Axioms, closures, Equivalence of FDs, minimal Cover (proofs not required). Normalization using functional dependencies, INF, 2NF, 3NF and BCNF, lossless and dependency preserving decompositions."
-                        android:id="@+id/textView1172"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Network security: Electronic Mail Security: Pretty good privacy- S/MIME IP Security: Architecture- authentication Header- Encapsulating Security payload- Combining Security associations- Key management."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -95,13 +96,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1174"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Physical Data Organization: Secondary storage, buffering, file operations, un-ordered and ordered-files, hashing, index structures, primary, secondary and clustering indices, multilevel indexing and B-Trees (algorithms not needed). Query Optimization: algorithms for relational algebra operations, heuristics-based query optimization. Transaction Processing Concepts: over view of concurrency control and recovery acid properties, serial and concurrent schedules, conflict serializability. Two-phase locking, failure classification, storage structure, stable storage, log based recovery, immediate and deferred database modification, check-pointing, database security. Recent topics (preliminary ideas only): RDF and Big Data."
-                        android:id="@+id/textView1174"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Web Security: Web Security considerations- secure Socket Layer and Transport layer Security- Secure electronic transaction. Firewalls-Packet filters- Application Level Gateway- Encrypted tunnels."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -112,35 +113,35 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="1. Elmasri R. and S. Navathe, Database Systems: Models, Languages, Design and Application Programming, Pearson Education, 2013. [Chapters 1, 2, 3, 4, 5.1-5.3, 6.1- 6.6, 7.1-7.13, 8.1-8.2, 14.1-14.5, 15.1-15.2, 16.1-16.8, 17.1-17.3, 18.1-18.4, 18.6, 18.7, 20, 21.1, 22.1-22.3, 25.1, 25.2]"
                         android:id="@+id/textView1176"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="1. William Stallings, Cryptography and Network Security, Pearson Education, 2014."
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2. Sliberschatz A., H. F. Korth and S. Sudarshan, Database System Concepts, 5/e, McGraw Hill, 2006. [Chapters 16.1 (except 16.1.4-16.1.5), 17.1 – 17.7]."
                         android:id="@+id/textView1177"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="2. Behrouz A. Forouzan, Cryptography and Network Security, Tata McGraw-Hill, 2007."
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="3. Powers S., Practical RDF, O’Reilly Media, 2003. [Chapter 1]."
                         android:id="@+id/textView1178"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="3. Schneier B., Applied Cryptography, Protocols, Algorithms, and Souce Code in C, 2nd Edn, Wiley, 2015."
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView1179"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4. Plunkett T., B. Macdonald, et al., Oracle Big Data Hand Book, Oracle Press, 2013. [Chapters 1, 2]"
-                        android:id="@+id/textView1179"
                         android:layout_gravity="center_horizontal"
+                        android:text="4. Charlie Kaufman, Radia Perlman, Mike Speciner, Network Security, Pearson publication, Second edition, 2002."
                         android:textStyle="bold" />
 
                     <TextView
@@ -161,13 +162,13 @@
                         android:gravity="center_horizontal" />
 
                     <TextView
+                        android:id="@+id/textView1182"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Part B (80 Marks) - Candidates have to answer one full question (question may contain subdivisions), out of the two from each module. Each question carries 20 marks."
-                        android:id="@+id/textView1182"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,6 +30,8 @@
         android:text="Metrology &amp; Instrumentation"
         android:id="@+id/textView925"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:textStyle="bold"
@@ -36,6 +45,8 @@
         android:id="@+id/textView926"
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
+        style="?android:attr/buttonStyle"
+
         android:textStyle="bold"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
@@ -48,6 +59,8 @@
         android:id="@+id/textView927"
         android:layout_weight="0.06"
         android:textStyle="bold"
+        style="?android:attr/buttonStyle"
+
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
         android:gravity="center_horizontal"
@@ -59,6 +72,8 @@
         android:text="Heat and Mass Transfer"
         android:id="@+id/textView928"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:textStyle="bold"
@@ -70,6 +85,8 @@
         android:text="Design of Machine Elements - I "
         android:id="@+id/textView929"
         android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
         android:gravity="center_horizontal"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -81,6 +98,8 @@
         android:layout_height="wrap_content"
         android:text="Elective - II"
         android:id="@+id/textView930"
+        style="?android:attr/buttonStyle"
+
         android:layout_weight="0.06"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
@@ -95,6 +114,8 @@
         android:id="@+id/textView931"
         android:layout_weight="0.06"
         android:textStyle="bold"
+        style="?android:attr/buttonStyle"
+
         android:textSize="@dimen/abc_dialog_padding_material"
         android:textColor="@color/dim_foreground_material_light"
         android:gravity="center_horizontal"
@@ -105,6 +126,8 @@
         android:layout_height="wrap_content"
         android:text="Machine Tools Lab"
         android:id="@+id/textView932"
+        style="?android:attr/buttonStyle"
+
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
         android:textStyle="bold"
@@ -112,3 +135,4 @@
         android:textSize="@dimen/abc_dialog_padding_material"
         android:layout_gravity="center" />
 </LinearLayout>
+</ScrollView>

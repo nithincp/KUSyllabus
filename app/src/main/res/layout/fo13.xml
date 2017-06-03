@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="BASIC ELECTRONICS ENGINEERING"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Diodes: PN junction diodes, principle of doping, formation of barrier potential, forward and reverse biasing. V-I characteristics, principle of working of Zener diode, Photo diode, LED and Solar cell."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Bipolar Junction Transistors: NPN and PNP transistors, structure, typical doping, working of NPN transistor, concepts of common base, common emitter and common collector configurations, current gain of each, input and output characteristics of common emitter configuration, comparison of three configurations with reference to voltage and current gain, input and output resistances and applications."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Field Effect Transistors: basic principles of JFET and MOSFET, comparison with BJT. Concept of common source, common gate and common drain configurations."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Digital ICs: Advantages of ICs, logic gates, realization of logic functions, principle of combinational and sequential logic circuits, JK flip flop."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Rectifiers and power supplies: Block diagram description of a dc power supply, rectifying action of diodes. circuit diagram and working of half-wave and full wave (including bridge) rectifier, final equations of V rms , V dc ripple factor and peak inverse voltage in each case, principle of working of series inductor and shunt capacitor filters, need of voltage regulator, working of simple zener voltage regulator."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Amplifiers and Oscillators: Circuit diagram and working of common emitter amplifier, function of each component in the circuit, need of proper biasing, frequency response, voltage gain and 3dB bandwidth, Principle of power amplifiers, Block diagram of Public Address system, concepts of feedback, working principles of oscillators, circuit diagram and working of RC phase shift oscillator."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Analogue Integrated circuits: Functional block diagram of operational amplifier, ideal operational amplifier, use as amplifier and comparator."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Transducers and Instrumentation: Working principles of resistance strain gauge and typical uses, use of thermistor for temperature measurement, LVDT, principle of resistance and condenser microphone and moving coil loudspeaker. Principle and block diagram of analog and digital multimeter, principle of digital storage oscilloscope, block diagram of DSO, measurements using CRO, principle and block diagram of function generator."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Radio communication: principle of AM and FM, wave-forms, bandwidths, block diagrams of AM and FM transmitters, principle of AM and FM demodulation, comparison of AM and FM, principle and block diagram of super heterodyne receiver."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Radar system: Principle, block diagram of pulsed radar, radar range equation, factors affecting the range."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Satellite communication: microwave frequency bands, concept of geo-stationary satellite, frequency bands used, satellite transponder, block diagram of earth station transmitter and receiver, advantages of satellite communication, principle of Global Positioning System (GPS)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Data communication: overview, analog and digital data transmission, transmission media, digitization of wave forms, PCM , digital modulation techniques- ASK, PSK, FSK."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Mobile communication: basic principles of cellular communications, concepts of cells, frequency reuse, principle and block diagram of GSM, principle of CDMA, WLL and GPRS technologies."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Optical communication: block diagram of the optical communication system, principle of light transmission through fiber, concepts of Single Mode and Multi Mode optical fiber, working principle of source (semiconductor Laser) and detector ( PIN, APD), advantages of optical communication."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Entertainment Electronics Technology: working principle of Colour television, basic principles of cable TV, CCTV system, basic principles of HDTV, LCD and LED displays."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Bhargava N. N., D C Kulshreshtha and S C Gupta, Basic Electronics and Linear Circuits, Tata McGraw Hill, 2/e, 2013."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Somanathan Nair, Basic Electronics Communication and Information Engineering, 2/e, I K International, 2013."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Louis E. Frenzel, Principles of Electronic Communication Systems, Tata McGraw Hill, 3/e, 2008."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Gupta J.B., Electronic Devices and Circuits, S. K. Kataria and Sons, 5/e, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

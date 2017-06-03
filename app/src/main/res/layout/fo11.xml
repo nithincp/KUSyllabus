@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="FUNDAMENTALS OF ELECTRICAL ENGINEERING"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Fundamental Concepts of Circuit Elements and circuit variables: Electromotive force, potential and voltage - EMF and terminal voltage of a steady source. Steady state charge distribution with a conducting substance connected to steady voltage source. Conduction and energy transfer process."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Two terminal elements: Resistors- terminal v-i relations (Ohm's law, graphical representation of v-i characteristics). Two terminal capacitors - terminal v-i relation , Capacitors in series and parallel. Faraday's law and induced EMF. Two-terminal inductor - terminal v-i relations of two-terminal inductor ."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Ideal independent two-terminal electrical sources - voltage and current sources, v-i relations."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Power and energy relationships for two-terminal elements- Passive sign convention, Power and energy in two terminal elements (R, L and C) Classification of two-terminal elements - lumped and distributed linear and non-linear, bilateral and non-bilateral, passive and active, time-variant and time-invariant elements."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Multi-terminal circuit elements: The mutual inductance element, terminal v-i relations, Coupling, coupling coefficient, inductances in series and parallel."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Ideal dependent sources: Voltage controlled Voltage source, Current controlled voltage source, Current Controlled current source, Voltage controlled current source. Terminal v-i relations."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Basic Circuit Laws: Kirchhoff's current and voltage laws, analysis of resistive circuits - mesh, node analysis , super mesh and super node analysis."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Circuit Theorems: Thevenin's and Norton's theorem- Source transformation - linearity of a circuit and superposition theorem, substitution theorem, star-delta transformation, reciprocity theorem, maximum power transfer theorem, Millman's theorem. Application of theorems to circuit analysis."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Magnetic Circuits: Magneto motive force, flux, reluctance, analysis of series and parallel magnetic circuits, magnetic circuits with air-gaps."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Sinusoidal Steady State in Electric Circuits: Power and energy in periodic waveforms, evaluation of RMS and average values, peak factor and form factor of periodic waveforms (pure ac and composite waveforms)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="ac analysis: Concept of phasor, complex representation (exponential, polar and rectangular forms) of sinusoidal voltages and currents, phasor diagrams, concept of complex impedance - series and parallel impedances. Phasor analysis of RL, RC, RLC circuits. Concept of power factor - active and reactive power, complex power. Admittances- admittances in series and parallel."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Application of circuit theorems to ac circuit analysis, maximum power transfer theorem in ac circuits, mesh and node analysis of ac networks."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Three-phase systems: Star and delta connections, three-phase three wire and three-phase four-wire systems, analysis of balanced loads, power in three-phase circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Time Domain Analysis of dynamic circuits: Series RL circuit - dynamic equations, initial condition, natural response, step response of RL circuit through Laplace Transforms. The concept of time constant in dynamic circuits, step response of series RC circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Analysis of RL , RC and RLC Circuits with non-zero initial condition, natural response and forced response, dc steady state, sinusoidal steady state and periodic steady state."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Resonance in series and parallel circuits- Energy, bandwidth and quality factor, variation of impedance and admittance in series and parallel resonant circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Wiring systems: Basic concepts of wiring (conduit wiring only), service mains, meter board and distribution board. Earthing of installations - necessity of earthing, plate and pipe earthing, protective fuses, MCB, ELCB."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Suresh Kumar K. S, Electric Circuits and Networks, Pearson Education South Asia, 2009."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Hayt W.H., J. E. Kemmerly and S.M. Durbin Engineering Circuit Analysis, Tata McGraw Hill, 7/e, 2010."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Van Valeknburg, Network Analysis, Prentice Hall of India, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Desoer and Kuh, Electric Circuit Theory,Tata McGraw Hill,2011."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

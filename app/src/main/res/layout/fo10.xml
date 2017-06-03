@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="BASIC ELECTRICAL ENGINEERING"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Elementary concepts of electric circuits: Kirchhoff’s laws, constant voltage and current sources, formation of network equations by node voltage and mesh current methods. Matrix representation - solution of network equations by matrix methods, star-delta conversion (Analysis of resistive networks only)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Magnetic circuits: MMF, field strength, flux density, reluctance, energy stored in magnetic circuits, problems in magnetic circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Electromagnetic induction: Faraday’s laws, Lenz’s law-statically induced and dynamically induced emfs- self-inductance and mutual inductance."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Alternating current fundamentals: Generation of alternating voltages, waveforms- frequency, period, average and RMS values and form factor. Phasor representation of alternating quantities- rectangular, polar and exponential forms. Analysis of simple ac circuits - concept of impedance, admittance, conductance and susceptance. Phasor representation, j notation. Power and power factor in ac circuits- active, reactive and apparent power. Solution of RL, RC and RLC circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Three phase systems: Generation of three phase voltages- advantages of three phase systems, star and delta connection, three wire and four wire systems, relation between line and phase voltages, line and phase currents. Expressions for power in three phase circuits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Measurement of power: Construction and principle of operation of dynamometer type wattmeter, Measurement of power in three phase circuits - Three wattmeter and two wattmeter methods. Measurement of energy - Working of single phase energy meter."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Generation of power: Block schematic representation of generating stations- hydroelectric, thermal and nuclear power plants. Renewable energy sources - solar, wind, tidal, wave and geothermal energy."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Power transmission and distribution: Typical electrical power transmission scheme, need for high voltage transmission, substation equipments, primary and secondary transmission and distribution systems. Power factor improvement using capacitor banks – numerical examples."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Transformers: construction of single phase and three phase transformers (core type only) – EMF equation, losses and efficiency, simple problems."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="D.C. Machines: D.C. Generator – construction, types - separately excited, shunt, series and compound, emf equation, D.C. motor – types, characteristics, applications."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="A.C. Machines: Three phase induction motor- construction, principle of operation, slip, (types), speed-torque characteristics. Single phase induction motor – principle of operation, methods of starting – resistance, split phase starting, capacitor start capacitor run motors, applications. Three-phase alternator - construction, principle of operation, emf equation (coil span factor and distribution factor not needed). Synchronous motor–principle, methods of starting, applications."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Tariff: Different types of LT and HT consumers, tariff schemes - uniform tariff and differential tariff."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Wiring systems: Basic concepts of wiring (conduit wiring only), service mains, meter board and distribution board. Earthing of installations - necessity of earthing, plate and pipe earthing, protective fuses, MCB, ELCB."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Lamps: Characteristics of different types of lamps - Incandescent lamps, fluorescent, mercury vapour, sodium vapour, metal halide and LED lamps. Control accessories for discharge lamps. Performance comparison of different types of lamps."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Storage batteries: Principle of operation of lead-acid batteries. Ah rating, types of lead-acid batteries and their characteristics, charging methods–constant current and constant voltage charging, trickle charging. Need to avoid overcharging."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Mittle V.N. and A. Mittal, Basic Electrical Engineering, Tata McGraw Hill Second Edition, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Kothari D.P., L. J. Nagrath, Basic Electrical Engineering, Tata McGraw Hill, 2011."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Theraja B. L., A Text Book of Electrical Technology -I, S. Chand and Co, New Delhi, 2013."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Kulshreshtha C., Basic Electrical Engineering, Tata McGraw Hill, 2012."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

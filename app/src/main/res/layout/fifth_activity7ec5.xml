@@ -43,6 +43,8 @@
                         android:layout_height="50dp"
                         android:text="Pattern Recognition"
                         android:id="@+id/textView1641"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -55,6 +57,8 @@
                         android:text="MOS Device Modeling"
                         android:id="@+id/textView1642"
                         android:gravity="center_horizontal"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
@@ -62,10 +66,12 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="47dp"
+                        android:layout_height="wrap_content"
                         android:text="Real Time Operating Systems"
                         android:id="@+id/textView1643"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:gravity="center_horizontal"
@@ -73,8 +79,10 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="45dp"
+                        android:layout_height="wrap_content"
                         android:text="Optoelectronic Devices"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1664"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
@@ -88,6 +96,8 @@
                         android:text="Computer Vision"
                         android:id="@+id/textView1665"
                         android:gravity="center_horizontal"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
@@ -97,6 +107,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="CDMA Systems"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1722"
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"

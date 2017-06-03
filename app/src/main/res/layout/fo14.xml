@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="FOUNDATIONS OF COMPUTING AND PROGRAMMING IN C"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Introduction to digital computer – Von Newman concept – A simple model of computer with acquisition of data, storage of data, processing of data, output of processed data. Details of functional units of a computer. Storage – primary storage and secondary storage."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Data representation – Number systems – Binary numbers - representation of integers – representation of fractions – octal and hexadecimal representations - conversion from one system to another - representation of BCD numbers. Simple arithmetic operations (addition, subtraction, multiplication and division) on each representation. Floating point representation – normalization, arithmetic operations. Representation of characters in computer – ASCII, EBCDIC."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Introduction to programming languages: Types of programming languages - high level language, assembly language and machine language System software - Operating systems – objectives of operating systems, compiler, assembler and interpreter (concepts only)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Problem Solving strategies: Problem analysis – formal definition of problem – Solution – top- down design – breaking a problem into sub problems- overview of the solution to the sub problems by writing step by step procedure (algorithm) - representation of procedure by flowchart - stepwise refinement of algorithm. Implementation of algorithms – use procedures to achieve modularity."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Examples for algorithms and flow charts: At least 10 problems (starting with non numerical examples and numeric problems like factorial, largest among three numbers, largest among N, Fibonacci etc) must be discussed in detail."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Programming: Selection of appropriate variable names for memory address, documentation of programs, debugging, different types of errors, program testing and verification (preliminary treatment only)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Introduction to C Language: Preprocessor directives, header files, data types and qualifiers. Operators and expressions. Data input and output, control statements, arrays and strings – structures, unions, enumerated data type. Example programs including bubble sort, selection sort, linear search and binary search, two dimensional array, matrix operations etc."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Pointers: Array of pointers, structures and pointers. Functions – function definition and function prototype. Function call by value and call by reference. Pointer to a function – array and pointers as arguments of a function. Recursive functions -– types of recursion."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Scope rules and storage classes. Dynamic memory allocation - memory allocation functions. Functions for implementation of stack and queue operations using array."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Bitwise operations. Data files – formatted, unformatted and text files. Command line arguments – examples."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Rajaraman V., Computer Basics and Programming in C, PHI."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Anita Goel and Ajay Mittal, Computer fundamentals and Programming in C., Pearson."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Gottfried B.S., Programming with C, Schaum Series, Tata McGraw Hill."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Stewart Venit and Elizabeth Drake, Prelude to Programming – Concepts and Design, Pearson."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

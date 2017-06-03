@@ -39,8 +39,10 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="39dp"
+                        android:layout_height="54dp"
                         android:text="Intellectual Property Rights"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1641"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
@@ -55,13 +57,17 @@
                         android:id="@+id/textView1642"
                         android:gravity="center_horizontal"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:layout_gravity="center" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="41dp"
+                        android:layout_height="wrap_content"
+                        style="?android:attr/buttonStyle"
+
                         android:text="Embedded Systems"
                         android:id="@+id/textView1643"
                         android:textStyle="bold"
@@ -72,8 +78,10 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="44dp"
+                        android:layout_height="wrap_content"
                         android:text="Low Power VLSI Design"
+                        style="?android:attr/buttonStyle"
+
                         android:id="@+id/textView1664"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
@@ -83,12 +91,14 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="48dp"
+                        android:layout_height="wrap_content"
                         android:text="Antenna Design"
                         android:id="@+id/textView1665"
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:layout_gravity="center" />
 
@@ -97,6 +107,8 @@
                         android:layout_height="wrap_content"
                         android:text="Cryptography"
                         android:id="@+id/textView1723"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"

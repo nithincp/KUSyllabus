@@ -42,6 +42,8 @@
                         android:layout_height="51dp"
                         android:text="Biomedical Instrumentation"
                         android:id="@+id/textView1558"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -55,16 +57,20 @@
                         android:id="@+id/textView1559"
                         android:gravity="center_horizontal"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:layout_gravity="center" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="70dp"
+                        android:layout_height="wrap_content"
                         android:text="Switched Mode Power Converters"
                         android:id="@+id/textView1560"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:gravity="center_horizontal"
@@ -76,6 +82,8 @@
                         android:text="Finite Element Methods"
                         android:id="@+id/textView1561"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
@@ -86,6 +94,8 @@
                         android:layout_height="45dp"
                         android:text="Soft Computing"
                         android:id="@+id/textView1562"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
@@ -97,6 +107,8 @@
                         android:layout_height="69dp"
                         android:text="Software Engineering"
                         android:id="@+id/textView1563"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"

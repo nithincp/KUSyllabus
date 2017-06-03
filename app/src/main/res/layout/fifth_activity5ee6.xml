@@ -42,6 +42,8 @@
                         android:layout_height="51dp"
                         android:text="Engineering Material Science "
                         android:id="@+id/textView1320"
+                        style="?android:attr/buttonStyle"
+
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
@@ -54,6 +56,8 @@
                         android:text="Operations Research"
                         android:id="@+id/textView1321"
                         android:gravity="center_horizontal"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
@@ -65,6 +69,8 @@
                         android:text="Sustainable Development "
                         android:id="@+id/textView1322"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:gravity="center_horizontal"
@@ -72,10 +78,12 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="62dp"
+                        android:layout_height="wrap_content"
                         android:text="New and renewable Energy Sources"
                         android:id="@+id/textView1323"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
@@ -87,6 +95,8 @@
                         android:text="Disaster Management"
                         android:id="@+id/textView1324"
                         android:gravity="center_horizontal"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
@@ -100,6 +110,8 @@
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:gravity="center_horizontal"
                         android:layout_gravity="center" />
 
@@ -109,6 +121,8 @@
                         android:text="Professional Communication"
                         android:id="@+id/textView1326"
                         android:layout_weight="0.06"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"

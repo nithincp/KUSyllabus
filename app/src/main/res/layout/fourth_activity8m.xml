@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,97 +24,117 @@
         android:layout_weight="0.06" />
 
     <TextView
+        android:id="@+id/textView933"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Digital System Lab"
-        android:id="@+id/textView965"
-        android:layout_weight="0.06"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textStyle="bold"
-        android:gravity="center_horizontal"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        style="?android:attr/buttonStyle"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data Structures Lab"
-        android:id="@+id/textView966"
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
-        android:textStyle="bold"
-        android:textSize="@dimen/abc_dialog_padding_material"
+        android:text="Energy Management"
         android:textColor="@color/dim_foreground_material_light"
-        android:layout_gravity="center" />
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/textView934"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Formal Languages and Automata Theory"
-        android:id="@+id/textView967"
+        android:layout_gravity="center"
         android:layout_weight="0.06"
-        android:textStyle="bold"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
+        style="?android:attr/buttonStyle"
+
+
         android:gravity="center_horizontal"
-        android:layout_gravity="center" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Object Oriented Techniques"
-        android:id="@+id/textView968"
-        android:layout_weight="0.06"
-        android:textSize="@dimen/abc_dialog_padding_material"
+        android:text="Industrial Engineering"
         android:textColor="@color/dim_foreground_material_light"
-        android:textStyle="bold"
-        android:layout_gravity="center" />
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/textView935"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data Base Design "
-        android:id="@+id/textView969"
+        android:layout_gravity="center"
+        android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
+        android:gravity="center_horizontal"
+        android:text="Automobile Engineering"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView936"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
+        android:text="Computer Integrated Manufacturing"
+        android:textAlignment="center"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView937"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
+        android:gravity="center_horizontal"
+        android:text="Elective IV"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView938"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.06"
+        style="?android:attr/buttonStyle"
+
+        android:gravity="center_horizontal"
+        android:text="Elective V"
+        android:textColor="@color/dim_foreground_material_light"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView939"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_weight="0.06"
         android:gravity="center_horizontal"
+        android:text="Seminar"
+        style="?android:attr/buttonStyle"
+
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold"
-        android:layout_gravity="center" />
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/textView940"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Probability, Random Processes and Numerical Techniques "
-        android:id="@+id/textView970"
+        android:layout_gravity="center"
         android:layout_weight="0.06"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold"
-        android:gravity="center_horizontal"
-        android:layout_gravity="center" />
+        style="?android:attr/buttonStyle"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data Communication"
-        android:id="@+id/textView971"
-        android:layout_weight="0.06"
-        android:textStyle="bold"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textColor="@color/dim_foreground_material_light"
         android:gravity="center_horizontal"
-        android:layout_gravity="center" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Computer Organization and Design "
-        android:id="@+id/textView972"
-        android:layout_weight="0.06"
-        android:gravity="center_horizontal"
-        android:textStyle="bold"
+        android:text="Project , Viva-Voce and Industrial Visit"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="@dimen/abc_dialog_padding_material"
-        android:layout_gravity="center" />
+        android:textStyle="bold" />
 </LinearLayout>
+
+</ScrollView>

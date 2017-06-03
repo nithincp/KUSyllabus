@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="BASIC CIVIL ENGINEERING"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Surveying: Objectives and Principles of Surveying. Linear Measurements: Direct measurements - Tape and chain only - Ranging out survey lines Levelling: Levelling instruments - Level (Dumpy and Tilting Level) Levelling Staff, Temporary adjustments of a level, holding the staff, reading the staff - Principles of leveling - recording measurements in the field book - reduction of level - height of collimation method only (simple examples). Contour maps (Brief description only). Computation of Areas: - Mid ordinate rule, average ordinate rule, Trapezoidal rule, Simpson’s rule (examples), Introduction to Distomat, Total Station and GPS (Brief description only)."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Building construction: Selection of site for buildings, Setting out of buildings, Components of buildings. Foundation: Different types - Spread footing, Isolated footing, Combined footing, Mat foundation ̧ Pile foundation (description only). Super structure: Masonry - Stone masonry (Random rubble and Ashlar masonry). Brick masonry –English and Flemish bond- 1 and 11/2 brick wall thick only- desirable qualities of stone and brick. Partition: Materials used for making partition - plywood, particle boards and glass. Doors, Windows and Ventilators - Types. Plastering: Mortar – Preparation of Cement mortar-Preparation of surface and Method of application. Painting of Plastered Surfaces: Types of paint - enamel, emulsion and distemper- Preparation of surface and method of Application. Flooring: Types - mosaic tiles, ceramic tiles, marble, granite and synthetic materials. Roofing: Types -flat roof, sloping roof -Concrete roof, tiled roof. Roof covering materials."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Concrete: Ingredients- cement, aggregate, and water. Qualities of ingredients (brief description only). Tests on Cement - consistency, initial and final setting times. Compressive strength of mortar cubes-IS Specifications. Aggregates: – Desirable qualities of fine and coarse aggregates Plain Cement Concrete (PCC): Preparation-proportioning-mixing, workability of concrete. Compressive strength test on cement concrete cubes-IS Specifications Steel: Common types used in construction- Mild Steel, HYSD Steel-their properties and uses. Reinforced Cement Concrete (RCC): Advantages of RCC over Plain Cement Concrete."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Man and Environment: –Environmental Ethics – Interdisciplinary nature of Environment – air, water and land. Water Pollution: Characteristics of water pollution – Water Quality Standards. Air Pollution: Sources, Types, Effects, Air quality standards. Global Environmental Issues: Green house effect, ozone layer depletion, Global warming, Acid rain, deforestation. Concept of Sustainable Buildings: Green buildings, use of recycled materials in construction."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Punmia B C, Surveying and Leveling – I, Laxmi publications(P) Ltd, Delhi, 2004"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Rangwala, Building Materials, Charotar Publishing House, 2001"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Arora S P and S P Bindra, Building Construction, Dhanpat Rai Publishers, 2013"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Rangwala, Building Construction , Charotar Publishing House., 2004"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                android:id="@+id/textView794"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

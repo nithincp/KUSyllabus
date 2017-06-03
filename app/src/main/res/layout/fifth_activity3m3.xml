@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:text="FLUID MECHANICS"
+                    android:id="@+id/textView35"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fundamental Concepts: Properties of fluid - Density, Specific weight, viscosity, surface tension, capillarity, vapour pressure, bulk modulus, compressibility, (description only)"
+                    android:id="@+id/textView61"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Newton’s law of viscosity, Newtonian and non- Newtonian fluids, real and ideal fluids, incompressible and compressible fluids."
+                    android:id="@+id/textView1972"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fluid Statics: Pressure – Pressure at a point in a fluid, Pascal’s Law. Absolute and gauge pressures, Measurement of pressure -Piezo meter, manometers, pressure gauges."
+                    android:id="@+id/textView1970"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buoyancy and flotation- forces on bodies and surfaces, stability of floating and submerged bodies, Metacentre and metacentric height. (Simple problems based on pressure measurements and pressure forces on curved and plane surfaces)"
+                    android:id="@+id/textView1971"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -II"
+                    android:id="@+id/textView62"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fluid Kinematics: Eulerian and Lagrangian approaches, classification of fluid flow, 1-D, 2-D and 3-D flow, steady, unsteady, uniform, non-uniform, laminar, turbulent, rotational, irrotational flows, stream lines, path lines, streak lines, stream tubes, velocity and acceleration in fluid, circulation and vorticity, stream function and potential function, Laplace equation, equipotential lines flow nets, uses and limitations"
+                    android:id="@+id/textView63"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fluid Dynamics: Energies in flowing fluid, head, pressure, dynamic, static and total head, Control volume analysis of mass, momentum and energy, Equations of fluid dynamics: Differential equations of mass, energy and momentum (Euler’s equation), Navier-Stokes equations (without proof) for rectangular and cylindrical co-ordinates, Bernoulli’s equation and its applications: Venturi and Orifice meters, Notches and Weirs (description only for notches and weirs). Velocity measurements: Pitot tube and Pitot-static tube."
+                    android:id="@+id/textView1973"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -III"
+                    android:id="@+id/textView64"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pipe flow: Viscous flow: Reynolds experiment to classify laminar and turbulent flows, significance of Reynold’s number, critical Reynold’s number, shear stress and velocity  distribution in a pipe, law of fluid friction, head loss due to friction, Hagen Poiseuille equation. Turbulent flow: Darcy- Weisbach equation, Chezy’s equation Moody’s chart, Major and minor energy losses, hydraulic gradient and total energy line, flow through long pipes, pipes in series, pipes in parallel, equivalent pipe, siphon, transmission of power through pipes, efficiency of transmission, Water hammer, Cavitation."
+                    android:id="@+id/textView65"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -IV"
+                    android:id="@+id/textView66"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concept of Boundary Layer: Growth of boundary layer over a flat plate and definition of boundary layer thickness, displacement thickness, momentum thickness and energy thickness, laminar and turbulent boundary layers, laminar sub layer, velocity profile, VonKorman momentum integral equations for the boundary layers, calculation of drag, separation of boundary and methods of control. "
+                    android:id="@+id/textView67"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dimensional analysis: Scope of dimensional analysis - dimensional homogeneity, Buckingham’s π theorem method - model testing - similitude- classification of models, various types of forces acting in a fluid flow, Dimensionless numbers, model laws - Froude, Reynold, Weber, Cauchy and Mach. laws –applications and limitations of model testing. (Only descriptions needed in this section)"
+                    android:id="@+id/textView1974"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView68"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Modi P. N. and S. M. Seth, Hydraulics &amp; Fluid Mechanics, S.B.H Publishers, New Delhi, 2002."
+                    android:id="@+id/textView69"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Bansal R. K., A Textbook of Fluid Mechanics and Hydraulic Machines, Laxmi Publications, 2005. "
+                    android:id="@+id/textView70"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Streeter V. L., E. B. Wylie and K. W. Bedford, Fluid Mechanics, Tata McGraw Hill, Delhi, 2010. "
+                    android:id="@+id/textView71"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Kumar D. S., Fluid Mechanics and Fluid Power Engineering, S. K. Kataria &amp; Sons, New Delhi, 1998. "
+                    android:id="@+id/textView72"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView73"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView74"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView75"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
+

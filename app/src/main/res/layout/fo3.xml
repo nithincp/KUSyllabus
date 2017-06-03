@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="ENGINEERING CHEMISTRY"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - I "
+                android:id="@+id/textView633"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="High Polymers: Introduction- Classification- Types of polymerization, Addition, Condensation and Copolymerization. Moulding constituents of plastics. Moulding techniques of plastics (Injection Extrusion, Blow moulding, Compression and Transfer moulding-Preparation, properties and uses of PMMA, PET, Nylon, Bakelite and Urea formaldehyde resins. Biodegradable plastics-PHBA, PLA. Elastomers-Introduction-Structure of natural rubber- vulcanization - Synthetic rubbers, Buna-S, Butyl rubber and Neoprene. Conducting polymers-Introduction-Preparation, properties and applications of Polyacetylene and polyaniline."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView962"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Instrumental Methods of Analysis:"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView960"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Spectroscopy: Introduction -Instrumentation of spectrophotometer-Electronic spectra - Classification of electronic transitions- Beer Lamberts law, Vibrational spectra- Mechanism of interaction and application. NMR spectroscopy- Basic principle – chemical shift and applications, MRI Imaging."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView969"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Thermal Analysis: Principle, instrumentation and applications of TGA and DTA."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView967"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Chromatographic Methods: Principle, instrumentation and applications of GC and HPLC."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - II"
+                android:id="@+id/textView635"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Electrochemistry : Types of electrodes – Single electrode potential – Nernst theory – Helmholtz electrical double layer – Nernst equation – derivation and applications – Reference electrodes–Standard hydrogen electrode – Saturated calomel electrode – pH determination using glass electrode – Concentration cells and its applications –Storage devices – Lithium ion cell-Fuel cell-H 2 -O 2 fuel cell- Solar energy conversion –solar cells."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView970"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Corrosion and Its Control: Theories of corrosion – chemical corrosion – Pilling Bedworth Rule – Electrochemical corrosion – Mechanism of rusting of iron under different environmental conditions – Galvanic series – Types of corrosion – Concentration cell corrosion, Stress corrosion, Galvanic corrosion – Factors affecting rate of corrosion – Corrosion control methods, corrosion inhibitors, cathodic protection."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView971"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Protective Coatings: Metallic coatings – Galvanizing, Tinning and electroplating – Non- metallic coatings – Chromate coating and Anodising. Paint – constituents, functions and examples, Powder coating – methods of application and advantages."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - III"
+                android:id="@+id/textView637"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Water Technology :Types of hardness- Degree of hardness. Estimation of hardness-EDTA method- Disadvantages of using hard water for industrial purpose-Scale and sludge formation in boiler, causes and remedies- Boiler corrosion, preventive methods- Water softening methods- Ion exchange methods (Zeolite) and Demineralisation using polymer resin. Municipal water, specifications. Different steps in domestic water treatment- Desalination method- Reverse osmosis."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView972"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Environmental Science: Air pollution – Sources, effects and control methods. Water pollution – Sewage, aerobic and anaerobic decomposition – BOD and COD, Sewage treatment – Tickling filter method and UASB process. Environmental Issues – Photo chemical smog – CFCs and ozone depletion – Alternative refrigerants – Green house effect. Solid waste disposal – Methods of disposal – Composting, Landfill and Incineration. E– Waste, Methods of disposal – recycle, recovery and reuse."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module - IV "
+                android:id="@+id/textView639"
+                android:layout_gravity="center"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Engineering Materials:"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2061"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Fuels: Calorific value – HCV and LCV – Experimental determination of calorific value of solid fuels. Analysis of coal – Proximate analysis – Knocking of petrol and diesel, Biodiesel – Biogas - Natural gas"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2060"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Nanomaterials: Introduction – Classification – Preparation by Laser ablation technique – Properties and Applications of nanomaterials – Nano carbon tubes. Cement: Manufacture of Portland cement – Theory of setting and hardening of cement."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2006"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Refractories: Introduction – Classification –important Properties, Refractoriness, Dimensional stability and Porosity-Manufacture of Silica and and Carborundum."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2062"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Inorganic Pigments: Introduction- - Basic idea regarding structure and colour of pigments- Synthesis, Properties and applications of TiO 2 pigment."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView787"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Willard H. A., L. L. Merrit and J. A. Dean ; Instrumental Methods of Analysis, CBS Publishers."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Vogel, Qualitative Inorganic Analysis, Prentice Hall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. De A.K.; Environmental Chemistry, New Age International Pvt Ltd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2063"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Klauhunde K.J.; Nanoscale Materials in Chemistry, Wiley Interscience"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Examination Pattern"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:id="@+id/textView793"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two question from each module and not more than three questions from any module."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                android:id="@+id/textView795"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -27,11 +27,11 @@
                     android:layout_gravity="center_horizontal" >
 
                     <TextView
+                        android:id="@+id/textView1166"
                         android:layout_width="wrap_content"
                         android:layout_height="58dp"
-                        android:text="DATABASE DESIGN"
-                        android:id="@+id/textView1166"
                         android:layout_gravity="center_horizontal"
+                        android:text="ELECTRICAL MACHINE DESIGN"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold" />
 
@@ -44,13 +44,22 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1168"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Introduction: Concept &amp; Overview of DBMS, Data Models, Database Languages, Database Administrator, Database Users, Three Schema architecture of DBMS. Entity-Relationship Model: Basic concepts, Design Issues, Mapping Constraints, Keys, EntityRelationship Diagram, Weak Entity Sets, Extended E-R features."
-                        android:id="@+id/textView1168"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Principles of electrical machine design - General design considerations - specifications of machines - types of enclosures - types of ventilation - heating - short time rating - overload capacity - temperature rise time curve -hot spot rating."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2008"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Design of transformers - single phase and three phase transformers - distribution and power transformers -output equation - core design - window area - window space factor - overall dimensions of core. Windings – no. of turns - current density - conductor section - Cooling of transformers - design of cooling tank and tubes."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -61,13 +70,13 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1170"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Relational Model: Structure of relational Databases, Integrity Constraints, relational algebra, tuple relational calculus, Extended Relational Algebra Operations. Database Languages: Concept of DDL and DML, Basic SQL Structure, examples, Set operations, Aggregate Functions, nested sub-queries, assertions, triggers, views."
-                        android:id="@+id/textView1170"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Design of DC machines - output equation - specific loading - choice of speed and no of poles - calculation of main dimensions - choice of type of winding - number of slots - number of conductors per slot-current density - conductor section - slot insulation - length of air gap - design of field winding - conductor cross section – height of pole - design of interpole - flux density under interpole - calculation of turns of interpole winding – design of compensating winding – brushes of commutatators."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -78,13 +87,22 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1172"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Relational Database Design: Different anomalies in designing a database. Synthesizing ER diagram to relational schema, normalization, functional dependency, Armstrong’s Axioms, closures, Equivalence of FDs, minimal Cover (proofs not required). Normalization using functional dependencies, INF, 2NF, 3NF and BCNF, lossless and dependency preserving decompositions."
-                        android:id="@+id/textView1172"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Magnetic circuit calculation - calculation of field ampere turns - air gap mmf - effect of slot and ventilating duct- active iron length - mmf for teeth - real and apparent flux densities - mmf per pole."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2009"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Design of synchronous machines - output equation – choice of specific electric and magnetic loading - main dimensions - types of winding -number of turns - number of slots and slot design - field design for water wheel and turbo alternators – cooling of alternators."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -95,13 +113,22 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1174"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Physical Data Organization: Secondary storage, buffering, file operations, un-ordered and ordered-files, hashing, index structures, primary, secondary and clustering indices, multilevel indexing and B-Trees (algorithms not needed). Query Optimization: algorithms for relational algebra operations, heuristics-based query optimization. Transaction Processing Concepts: over view of concurrency control and recovery acid properties, serial and concurrent schedules, conflict serializability. Two-phase locking, failure classification, storage structure, stable storage, log based recovery, immediate and deferred database modification, check-pointing, database security. Recent topics (preliminary ideas only): RDF and Big Data."
-                        android:id="@+id/textView1174"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Design of three phase induction motors – output equation - main dimensions – choice of specific electric and magnetic loading – design of stator and rotor windings -number of stator and rotor slots - rotor bar current - design of rotor bar - end ring current - design of end ring -design of slip ring rotor winding."
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2010"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Introduction to computer aided design - analysis and synthesis methods -hybrid techniques – optimization – general procedure for optimization."
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -112,35 +139,31 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="1. Elmasri R. and S. Navathe, Database Systems: Models, Languages, Design and Application Programming, Pearson Education, 2013. [Chapters 1, 2, 3, 4, 5.1-5.3, 6.1- 6.6, 7.1-7.13, 8.1-8.2, 14.1-14.5, 15.1-15.2, 16.1-16.8, 17.1-17.3, 18.1-18.4, 18.6, 18.7, 20, 21.1, 22.1-22.3, 25.1, 25.2]"
                         android:id="@+id/textView1176"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Sawhney A. K., A Course in Electrical Machine Design, Dhanpat Rai and Sons, Delhi."
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2. Sliberschatz A., H. F. Korth and S. Sudarshan, Database System Concepts, 5/e, McGraw Hill, 2006. [Chapters 16.1 (except 16.1.4-16.1.5), 17.1 – 17.7]."
                         android:id="@+id/textView1177"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Deshpande M. V., Design and Testing Of Electrical Machines, Wheeler Publishing."
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="3. Powers S., Practical RDF, O’Reilly Media, 2003. [Chapter 1]."
                         android:id="@+id/textView1178"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Agarwal R. K., Principles of Electrical Machine Design, Esskay Publications, Delhi."
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView1179"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4. Plunkett T., B. Macdonald, et al., Oracle Big Data Hand Book, Oracle Press, 2013. [Chapters 1, 2]"
-                        android:id="@+id/textView1179"
-                        android:layout_gravity="center_horizontal"
+                        android:text="4. Ramamoorthy M., Computer Aided Design of Electrical Equipment, East-West Press."
                         android:textStyle="bold" />
 
                     <TextView
@@ -152,22 +175,22 @@
                         android:textSize="@dimen/abc_dialog_padding_material" />
 
                     <TextView
+                        android:id="@+id/textView1181"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Part A (20 marks) - Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
-                        android:id="@+id/textView1181"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Part A (20 marks) – Five Short answer questions of 4 marks each. All questions are compulsory. There should be at least one question from each module and not more than two questions from any module."
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView1182"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Part B (80 Marks) - Candidates have to answer one full question (question may contain subdivisions), out of the two from each module. Each question carries 20 marks."
-                        android:id="@+id/textView1182"
                         android:layout_gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:gravity="center_horizontal" />
+                        android:gravity="center_horizontal"
+                        android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

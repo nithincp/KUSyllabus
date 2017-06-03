@@ -39,10 +39,12 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="66dp"
+                        android:layout_height="wrap_content"
                         android:text="Professional Ethics and Human Values"
                         android:id="@+id/textView1387"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
@@ -54,6 +56,8 @@
                         android:text="Advanced Welding Technology"
                         android:id="@+id/textView1388"
                         android:gravity="center_horizontal"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textColor="@color/dim_foreground_material_light"
@@ -65,6 +69,8 @@
                         android:text="Foundry Technology"
                         android:id="@+id/textView1389"
                         android:textStyle="bold"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:gravity="center_horizontal"
@@ -76,6 +82,8 @@
                         android:text="Advanced Fluid Mechanics"
                         android:id="@+id/textView1390"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
@@ -87,6 +95,8 @@
                         android:text="Composite Materials Technology"
                         android:id="@+id/textView1391"
                         android:gravity="center_horizontal"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
@@ -97,6 +107,8 @@
                         android:layout_height="45dp"
                         android:text="Non Destructive Testing"
                         android:id="@+id/textView1392"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
@@ -105,20 +117,24 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="40dp"
+                        android:layout_height="wrap_content"
                         android:text="Powder Metallurgy"
                         android:id="@+id/textView1393"
                         android:textStyle="bold"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:gravity="center_horizontal"
                         android:layout_gravity="center" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="43dp"
+                        android:layout_height="wrap_content"
                         android:text="Human Aspects of Management"
                         android:id="@+id/textView1800"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
@@ -127,9 +143,11 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="42dp"
+                        android:layout_height="wrap_content"
                         android:text="Environmental Science"
                         android:id="@+id/textView1801"
+                        style="?android:attr/buttonStyle"
+
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold"
@@ -138,11 +156,13 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="39dp"
+                        android:layout_height="wrap_content"
                         android:text="Environmental Pollution Control "
                         android:id="@+id/textView1805"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
                         android:layout_gravity="center_horizontal" />
@@ -154,9 +174,12 @@
                         android:id="@+id/textView1804"
                         android:textColor="@color/dim_foreground_material_light"
                         android:textSize="@dimen/abc_dialog_padding_material"
+                        style="?android:attr/buttonStyle"
+
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
-                        android:layout_gravity="center_horizontal" />
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="2.26" />
 
                 </LinearLayout>
             </LinearLayout>

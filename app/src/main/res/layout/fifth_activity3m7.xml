@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:text="THERMAL ENGINEERING"
+                    android:id="@+id/textView35"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_dialog_padding_material" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module - I"
+                    android:id="@+id/textView41"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steam engineering: T- S diagram, Mollier chart, Steam cycles- Rankine cycle, Modified Rankine cycle, Relative efficiency, Improvement in steam cycles-Reheat, Regenerative and Binary vapor cycle"
+                    android:id="@+id/textView61"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steam Boilers: Types of boilers –Cochran boiler, Babcock and Wilcox boiler, Benson boiler, La Mont boiler. Boiler Mountings and Accessoires."
+                    android:id="@+id/textView1986"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steam nozzles: Types of nozzle- Velocity of steam, mass flow rate, critical pressure ratio and its significance, effect of friction, super saturated flow"
+                    android:id="@+id/textView1987"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steam turbines: classification, compounding of turbines-pressure velocity variation, velocity diagrams, work done, efficiency, condition for maximum efficiency, multistage turbinescondition line, stage efficiency. Steam turbine performance-reheat factor, degree of reaction, cycles with reheating and regenerative heating, governing of turbines."
+                    android:id="@+id/textView1985"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -II"
+                    android:id="@+id/textView62"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Internal combustion engines: classification of I.C. Engines- four strokes and two strokes I.C. Engines, Comparison of four strokes and two stroke Engines. Wankel engine, Stratified charge engine. "
+                    android:id="@+id/textView63"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Air standard cycle-Carnot cycle, Otto cycle; Diesel cycle, dual combustion cycle, comparison of Otto, diesel and dual combustion cycles. Stirling and Ericsson cycles, air standard efficiency, specific work output, work ratio; Actual cycle analysis, deviation of actual engine cycle from ideal cycle. Variable specific heats."
+                    android:id="@+id/textView1975"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Performance Testing of I C Engines: Indicator diagram, mean effective pressure. Torque, Engine power- BHP, IHP. Engine efficiency- mechanical efficiency, volumetric efficiency, thermal efficiency and relative efficiency, Specific fuel consumption. Testing of I C enginesMorse test, Heat balance test and Retardation test. "
+                    android:id="@+id/textView1988"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -III"
+                    android:id="@+id/textView64"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fuels and fuel combustion: Flash point and fire point, calorific value, Adiabatic flame temperature, Fuels for SI and CI engine, Important qualities of SI and CI engine fuels, Dopes,  Additives, Gaseous fuels, LPG, CNG, Biogas, Producer gas. Analysis of fuel combustion-A/F ratio, equivalence ratio, minimum quantity of air, flue gas analysis, excess air."
+                    android:id="@+id/textView65"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Combustion in I.C. Engines: Combustion phenomena in S.I. engines; Ignition limits, stages of combustion in S.I. Engines, Ignition lag, velocity of flame propagation, auto ignition, detonation; effects of engine variables on detonation; octane rating of fuels; pre-ignition; S.I. engine combustion chambers. "
+                    android:id="@+id/textView1989"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stages of combustion in C.I. Engines; delay period; variables affecting delay period; knock in C.I. engines, Cetane rating; C.I. engine combustion chambers."
+                    android:id="@+id/textView1990"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pollutants from S.I. and C.I. Engines"
+                    android:id="@+id/textView1991"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -IV"
+                    android:id="@+id/textView66"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gas turbines: classification, Thermodynamic analysis of gas turbine cycles-open, closed and semi closed cycle; ideal working cycle- Brayton cycle-P-v and T-s diagram, thermal efficiency. Effect of compressor and turbine efficiencies. Optimum pressure ratio for maximum specific work output with and without considering machine efficiencies. Comparison of gas turbine and IC engines, Analysis of open cycle gas turbine, Improvements of the basic gas turbine cycles-regeneration, intercooling and reheating-cycle efficiency and work output-Condition for minimum compressor work and maximum turbine work. Combustion chambers for gas turbines. Pressure loss combustion process and stability loop."
+                    android:id="@+id/textView67"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="References"
+                    android:id="@+id/textView68"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Rajput R. K., Thermal Engineering, Laxmi Publications, 2010."
+                    android:id="@+id/textView69"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Ballaney P. L., Thermal Engineering, Khanna publishers, 1994."
+                    android:id="@+id/textView70"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Rudramoorthy R., Thermal Engineering, Tata McGraw Hill, 2003."
+                    android:id="@+id/textView71"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Gill P. W., J. H. Smith Jr., and Ziurys E. J., Fundamentals of Internal Combustion Engines, Oxford and IBH, 1996."
+                    android:id="@+id/textView72"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Examination Pattern"
+                    android:id="@+id/textView73"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/abc_dialog_padding_material"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part A (20 marks) - Ten Short answer questions of 2 marks each. All questions are compulsory. There should be at least two questions from each module and not more than three questions from any module."
+                    android:id="@+id/textView74"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part B (80 Marks) - Candidates have to answer one full question out of the two from each module. Each question carries 20 marks."
+                    android:id="@+id/textView75"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>
+
