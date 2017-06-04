@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abc_search_url_text_normal"
+    android:background="#020202"
+    android:orientation="vertical"
     android:weightSum="1">
 
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="344dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="0.11"
-        android:text="SEMESTER"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold"
-        android:theme="@style/AppTheme" />
 
     <TextView
         android:id="@+id/textView951"
@@ -26,12 +14,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.11"
+        android:background="@android:drawable/checkbox_off_background"
         android:gravity="center"
-        android:text="COMBINED I and II SEMESTER"
+        android:text="I and II SEMESTER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView1806"
@@ -40,12 +30,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.11"
+        android:background="@android:drawable/checkbox_off_background"
         android:gravity="center"
         android:text="III SEMESTER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView4"
@@ -54,12 +46,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.11"
+        android:background="@android:drawable/checkbox_off_background"
         android:gravity="center"
         android:text="IV SEMESTER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView5"
@@ -67,12 +61,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.11"
+        android:background="@android:drawable/checkbox_off_background"
         android:gravity="center"
         android:text="V SEMESTER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView6"
@@ -80,12 +76,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.11"
+        android:background="@android:drawable/checkbox_off_background"
         android:gravity="center"
         android:text="VI SEMESTER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView7"
@@ -93,12 +91,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.11"
+        android:background="@android:drawable/checkbox_off_background"
         android:gravity="center"
         android:text="VII SEMESTER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 
     <TextView
         android:id="@+id/textView8"
@@ -106,10 +106,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.11"
+        android:background="@android:drawable/checkbox_off_background"
         android:gravity="center"
         android:text="VIII SEMESTER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/dim_foreground_material_light"
         android:textSize="?attr/dialogPreferredPadding"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 </LinearLayout>

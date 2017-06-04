@@ -23,7 +23,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:weightSum="1"
+                    android:weightSum="1"      android:background="@android:color/background_light"
                     android:layout_gravity="center_horizontal" >
 
                     <TextView

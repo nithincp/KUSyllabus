@@ -1,6 +1,7 @@
 package boots.com.fan;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -10,17 +11,17 @@ import android.widget.TextView;
  * Created by nithinchandran on 22/6/16.
  */
 public class FourthActivity5ec extends AppCompatActivity {
-
+    MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.fourth_activity5ec);
-
+        mp = MediaPlayer.create(this, R.raw.click2);
 
         TextView textView829 = (TextView) findViewById(R.id.textView829);
         textView829.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec1.class));
             }
         });
@@ -29,7 +30,7 @@ public class FourthActivity5ec extends AppCompatActivity {
 
         TextView textView830 = (TextView) findViewById(R.id.textView830);
         textView830.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec2.class));
             }
         });
@@ -38,7 +39,7 @@ public class FourthActivity5ec extends AppCompatActivity {
 
         TextView textView831 = (TextView) findViewById(R.id.textView831);
         textView831.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec3.class));
             }
         });
@@ -47,7 +48,7 @@ public class FourthActivity5ec extends AppCompatActivity {
 
         TextView textView832 = (TextView) findViewById(R.id.textView832);
         textView832.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec4.class));
             }
         });
@@ -56,7 +57,7 @@ public class FourthActivity5ec extends AppCompatActivity {
 
         TextView textView833 = (TextView) findViewById(R.id.textView833);
         textView833.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec5.class));
             }
         });
@@ -65,7 +66,7 @@ public class FourthActivity5ec extends AppCompatActivity {
 
         TextView textView834 = (TextView) findViewById(R.id.textView834);
         textView834.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec6.class));
             }
         });
@@ -74,7 +75,7 @@ public class FourthActivity5ec extends AppCompatActivity {
 
         TextView textView835 = (TextView) findViewById(R.id.textView835);
         textView835.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec7.class));
             }
         });
@@ -83,7 +84,7 @@ public class FourthActivity5ec extends AppCompatActivity {
 
         TextView textView836 = (TextView) findViewById(R.id.textView836);
         textView836.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity5ec.this, FifthActivity5ec8.class));
             }
         });

@@ -20,17 +20,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:background="@android:color/background_light"
+
             android:weightSum="1">
 
 
             <TextView
+                android:id="@+id/textView206"
                 android:layout_width="wrap_content"
                 android:layout_height="59dp"
-                android:text="ENGINEERING MATHEMATICS-III "
-                android:id="@+id/textView206"
                 android:layout_gravity="center_horizontal"
-                android:textStyle="bold"
-                android:textSize="@dimen/abc_dialog_padding_material" />
+                android:gravity="center_horizontal"
+                android:text="ENGINEERING MATHEMATICS-III "
+                android:textAlignment="center"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"

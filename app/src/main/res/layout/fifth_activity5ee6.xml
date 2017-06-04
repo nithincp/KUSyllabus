@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abc_search_url_text_normal">
+    android:background="@android:color/black"
+    >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -23,23 +24,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:background="@android:color/black"
+
                     android:weightSum="1"
                     android:layout_gravity="center_horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="51dp"
-                        android:text="ELECTIVE - I"
-                        android:id="@+id/textView1319"
-                        android:gravity="top|center_horizontal"
-                        android:textSize="@dimen/abc_dialog_padding_material"
-                        android:textStyle="bold"
-                        android:textColor="@android:color/black"
-                        android:layout_gravity="center" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="51dp"
+                        android:layout_height="wrap_content"
                         android:text="Engineering Material Science "
                         android:id="@+id/textView1320"
                         style="?android:attr/buttonStyle"
@@ -91,7 +83,7 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="45dp"
+                        android:layout_height="wrap_content"
                         android:text="Disaster Management"
                         android:id="@+id/textView1324"
                         android:gravity="center_horizontal"
@@ -104,7 +96,7 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="45dp"
+                        android:layout_height="wrap_content"
                         android:text="Computer Organisation"
                         android:id="@+id/textView1325"
                         android:textColor="@color/dim_foreground_material_light"

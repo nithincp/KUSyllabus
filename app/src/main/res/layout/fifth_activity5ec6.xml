@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abc_search_url_text_normal">
+    android:background="@android:color/black"
+    >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -16,23 +17,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@android:color/black"
+
                 android:orientation="vertical"
                 android:weightSum="1">
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="51dp"
-                    android:text="ELECTIVE - I"
-                    android:id="@+id/textView1210"
-                    android:gravity="top|center_horizontal"
-                    android:textSize="@dimen/abc_dialog_padding_material"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/black"
-                    android:layout_gravity="center" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="51dp"
+                    android:layout_height="wrap_content"
                     android:text="Professional Communications"
                     style="?android:attr/buttonStyle"
 
@@ -45,7 +37,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="47dp"
+                    android:layout_height="wrap_content"
                     android:text="Fuzzy Systems &amp; Applications"
                     android:id="@+id/textView1212"
                     android:gravity="center_horizontal"
@@ -58,7 +50,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="49dp"
+                    android:layout_height="wrap_content"
                     android:text="Artificial Neural Networks"
                     style="?android:attr/buttonStyle"
 
@@ -71,7 +63,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="43dp"
+                    android:layout_height="wrap_content"
                     android:text="Bioinformatics"
                     android:id="@+id/textView1214"
                     style="?android:attr/buttonStyle"
@@ -84,7 +76,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="45dp"
+                    android:layout_height="wrap_content"
                     android:text="Mechatronics "
                     android:id="@+id/textView1215"
                     android:gravity="center_horizontal"

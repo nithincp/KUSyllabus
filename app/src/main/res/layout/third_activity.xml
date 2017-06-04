@@ -10,20 +10,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abc_search_url_text_normal"
+    android:background="@android:color/black"
     android:weightSum="1">
 
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:layout_gravity="center"
-        android:text="COURSE"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView10"

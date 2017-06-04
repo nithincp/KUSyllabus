@@ -1,6 +1,7 @@
 package boots.com.fan;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -11,17 +12,17 @@ import android.widget.TextView;
  */
 
 public class FifthActivity8m5 extends AppCompatActivity {
-
+    MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.fifth_activity8m5);
-
+        mp = MediaPlayer.create(this, R.raw.click2);
 
         TextView textView933 = (TextView) findViewById(R.id.textView933);
         textView933.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m11.class));
             }
         });
@@ -29,7 +30,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView934 = (TextView) findViewById(R.id.textView934);
         textView934.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m12.class));
             }
         });
@@ -38,7 +39,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView935 = (TextView) findViewById(R.id.textView935);
         textView935.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m13.class));
             }
         });
@@ -47,7 +48,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView936 = (TextView) findViewById(R.id.textView936);
         textView936.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m14.class));
             }
         });
@@ -56,7 +57,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView937 = (TextView) findViewById(R.id.textView937);
         textView937.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m15.class));
             }
         });
@@ -65,7 +66,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView938 = (TextView) findViewById(R.id.textView938);
         textView938.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m16.class));
             }
         });
@@ -75,7 +76,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView939 = (TextView) findViewById(R.id.textView939);
         textView939.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m17.class));
             }
         });
@@ -83,7 +84,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView940 = (TextView) findViewById(R.id.textView940);
         textView940.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m18.class));
             }
         });
@@ -92,7 +93,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView941 = (TextView) findViewById(R.id.textView941);
         textView941.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m19.class));
             }
         });
@@ -101,7 +102,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView942 = (TextView) findViewById(R.id.textView942);
         textView942.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m110.class));
             }
         });
@@ -109,7 +110,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView943 = (TextView) findViewById(R.id.textView943);
         textView943.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m111.class));
             }
         });
@@ -117,7 +118,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView944 = (TextView) findViewById(R.id.textView944);
         textView944.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m112.class));
             }
         });
@@ -125,7 +126,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView945 = (TextView) findViewById(R.id.textView945);
         textView945.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m113.class));
             }
         });
@@ -133,7 +134,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView946 = (TextView) findViewById(R.id.textView946);
         textView946.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m114.class));
             }
         });
@@ -141,7 +142,7 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView947 = (TextView) findViewById(R.id.textView947);
         textView947.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m115.class));
             }
         });
@@ -149,14 +150,14 @@ public class FifthActivity8m5 extends AppCompatActivity {
 
         TextView textView948 = (TextView) findViewById(R.id.textView948);
         textView948.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m116.class));
             }
         });
 
         TextView textView949 = (TextView) findViewById(R.id.textView949);
         textView949.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FifthActivity8m5.this, SixthActivity8m117.class));
             }
         });

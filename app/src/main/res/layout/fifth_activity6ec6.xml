@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abc_search_url_text_normal">
+    android:background="@android:color/black"
+    >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -22,20 +23,11 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
+                    android:orientation="vertical"              android:background="@android:color/black"
+
+
                     android:weightSum="1"
                     android:layout_gravity="center_horizontal" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="51dp"
-                        android:text="ELECTIVE - II"
-                        android:id="@+id/textView1517"
-                        android:gravity="top|center_horizontal"
-                        android:textSize="@dimen/abc_dialog_padding_material"
-                        android:textStyle="bold"
-                        android:textColor="@android:color/black"
-                        android:layout_gravity="center" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -52,7 +44,7 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="47dp"
+                        android:layout_height="wrap_content"
                         android:text="Adaptive Signal Processing"
                         android:id="@+id/textView1519"
                         android:gravity="center_horizontal"
@@ -78,7 +70,7 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="44dp"
+                        android:layout_height="wrap_content"
                         android:text="Professional Ethics"
                         android:id="@+id/textView1521"
                         android:textSize="@dimen/abc_dialog_padding_material"
@@ -116,18 +108,18 @@
                         android:layout_gravity="center" />
 
                     <TextView
+                        android:id="@+id/textView1524"
+                        style="?android:attr/buttonStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mixed Signal Circuits Design "
-                        android:id="@+id/textView1524"
+                        android:layout_gravity="center"
                         android:layout_weight="0.06"
-                        android:textStyle="bold"
-                        style="?android:attr/buttonStyle"
-
-                        android:textSize="@dimen/abc_dialog_padding_material"
-                        android:textColor="@color/dim_foreground_material_light"
                         android:gravity="center_horizontal"
-                        android:layout_gravity="center" />
+
+                        android:text="Mixed Signal Circuit Design "
+                        android:textColor="@color/dim_foreground_material_light"
+                        android:textSize="@dimen/abc_dialog_padding_material"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

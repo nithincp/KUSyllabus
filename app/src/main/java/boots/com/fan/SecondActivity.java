@@ -1,6 +1,7 @@
 package boots.com.fan;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -11,18 +12,20 @@ import android.widget.TextView;
  */
 public class SecondActivity extends AppCompatActivity {
 
+    MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.second_activity);
-
+        mp = MediaPlayer.create(this, R.raw.click2);
 
 
 
         TextView s1 = (TextView) findViewById(R.id.textView951);
         s1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
                 startActivity(new Intent(SecondActivity.this, ThirdActivityz.class));
             }
         });
@@ -31,6 +34,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView s3 = (TextView) findViewById(R.id.textView1806);
         s3.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
                 startActivity(new Intent(SecondActivity.this, ThirdActivitya.class));
             }
         });
@@ -39,6 +43,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView s4 = (TextView) findViewById(R.id.textView4);
         s4.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
                 startActivity(new Intent(SecondActivity.this, ThirdActivity.class));
             }
         });
@@ -47,6 +52,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView s5 = (TextView) findViewById(R.id.textView5);
         s5.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
                 startActivity(new Intent(SecondActivity.this, ThirdActivityb.class));
             }
         });
@@ -54,6 +60,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView s6 = (TextView) findViewById(R.id.textView6);
         s6.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
                 startActivity(new Intent(SecondActivity.this, ThirdActivityc.class));
             }
         });
@@ -62,6 +69,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView s7 = (TextView) findViewById(R.id.textView7);
         s7.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
                 startActivity(new Intent(SecondActivity.this, ThirdActivityd.class));
             }
         });
@@ -70,6 +78,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView s8 = (TextView) findViewById(R.id.textView8);
         s8.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
                 startActivity(new Intent(SecondActivity.this, ThirdActivitye.class));
             }
         });

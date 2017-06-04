@@ -1,6 +1,7 @@
 package boots.com.fan;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -10,16 +11,16 @@ import android.widget.TextView;
  * Created by nithinchandran on 22/6/16.
  */
 public class FourthActivity6ec extends AppCompatActivity {
-
+    MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.fourth_activity6ec);
-
+        mp = MediaPlayer.create(this, R.raw.click2);
         TextView textView909 = (TextView) findViewById(R.id.textView909);
         textView909.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec1.class));
             }
         });
@@ -28,7 +29,7 @@ public class FourthActivity6ec extends AppCompatActivity {
 
         TextView textView910 = (TextView) findViewById(R.id.textView910);
         textView910.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec2.class));
             }
         });
@@ -37,7 +38,7 @@ public class FourthActivity6ec extends AppCompatActivity {
 
         TextView textView911 = (TextView) findViewById(R.id.textView911);
         textView911.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec3.class));
             }
         });
@@ -46,7 +47,7 @@ public class FourthActivity6ec extends AppCompatActivity {
 
         TextView textView912 = (TextView) findViewById(R.id.textView912);
         textView912.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec4.class));
             }
         });
@@ -55,7 +56,7 @@ public class FourthActivity6ec extends AppCompatActivity {
 
         TextView textView913 = (TextView) findViewById(R.id.textView913);
         textView913.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec5.class));
             }
         });
@@ -64,7 +65,7 @@ public class FourthActivity6ec extends AppCompatActivity {
 
         TextView textView914 = (TextView) findViewById(R.id.textView914);
         textView914.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec6.class));
             }
         });
@@ -73,7 +74,7 @@ public class FourthActivity6ec extends AppCompatActivity {
 
         TextView textView915 = (TextView) findViewById(R.id.textView915);
         textView915.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec7.class));
             }
         });
@@ -82,7 +83,7 @@ public class FourthActivity6ec extends AppCompatActivity {
 
         TextView textView916 = (TextView) findViewById(R.id.textView916);
         textView916.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v){mp.start();
                 startActivity(new Intent(FourthActivity6ec.this, FifthActivity6ec8.class));
             }
         });

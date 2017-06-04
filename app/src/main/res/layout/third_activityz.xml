@@ -30,20 +30,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:background="@android:color/black"
                 android:orientation="vertical"
                 android:weightSum="1">
 
-
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="39dp"
-        android:text="SUBJECTS"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView933"
@@ -57,134 +47,134 @@
                     android:textSize="@dimen/abc_dialog_padding_material"
                     android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView934"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView934"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
 
-        android:text="Engineering Physics"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold"
-        android:layout_weight="0.02" />
+                    android:gravity="center_horizontal"
+                    android:text="Engineering Physics"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView935"
-        android:layout_width="383dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:text="Engineering Chemistry"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView935"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="383dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.02"
+                    android:gravity="center_horizontal"
 
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold"
-        android:layout_weight="0.02" />
+                    android:text="Engineering Chemistry"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView936"
-        android:layout_width="386dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:text="Engineering Graphics"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView936"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="386dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.03"
+                    android:gravity="center_horizontal"
 
-        android:textAlignment="center"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold"
-        android:layout_weight="0.03" />
+                    android:text="Engineering Graphics"
+                    android:textAlignment="center"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView937"
-        android:layout_width="383dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:text="Engineering Mechanics"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView937"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="383dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="Engineering Mechanics"
 
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView938"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView938"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
 
-        android:text="Basic Civil Engineering (EMRT)"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:text="Basic Civil Engineering (EMRT)"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView939"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView939"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
 
-        android:text="Building Technology (C)"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:text="Building Technology (C)"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView940"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView940"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
 
-        android:text="Basic Mechanical Engineering (CERT)"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:text="Basic Mechanical Engineering (CERT)"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView941"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView941"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
 
-        android:gravity="center_horizontal"
-        android:text="Engineering Thermodynamics (M)"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:gravity="center_horizontal"
+                    android:text="Engineering Thermodynamics (M)"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView942"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView942"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
 
-        android:gravity="center_horizontal"
-        android:text="Basic Electrical Engineering (CMT)"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:gravity="center_horizontal"
+                    android:text="Basic Electrical Engineering (CMT)"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView943"
+                    style="?android:attr/buttonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.02"
                     android:gravity="center_horizontal"
-                    style="?android:attr/buttonStyle"
 
                     android:text="Fundamentals of Electrical Engineering (E)"
                     android:textColor="@color/dim_foreground_material_light"
@@ -193,12 +183,12 @@
 
                 <TextView
                     android:id="@+id/textView944"
+                    style="?android:attr/buttonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.03"
                     android:gravity="center_horizontal"
-                    style="?android:attr/buttonStyle"
 
                     android:text="Basic Electrical and Electronics Engineering (R)"
                     android:textColor="@color/dim_foreground_material_light"
@@ -206,26 +196,26 @@
                     android:textStyle="bold" />
 
                 <TextView
-        android:id="@+id/textView945"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
+                    android:id="@+id/textView945"
                     style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
 
                     android:text="Basic Electronics Engineering (CM)"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView946"
+                    style="?android:attr/buttonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.05"
                     android:gravity="center_horizontal"
-                    style="?android:attr/buttonStyle"
 
                     android:text="Foundations of Computing and Programming in C (R)"
                     android:textColor="@color/dim_foreground_material_light"
@@ -234,13 +224,13 @@
 
                 <TextView
                     android:id="@+id/textView947"
+                    style="?android:attr/buttonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.05"
                     android:gravity="center_horizontal"
                     android:text="Semiconductor Devices (T)"
-                    style="?android:attr/buttonStyle"
 
                     android:textAlignment="center"
                     android:textColor="@color/dim_foreground_material_light"
@@ -248,32 +238,32 @@
                     android:textStyle="bold" />
 
                 <TextView
-        android:id="@+id/textView948"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.09"
-        android:gravity="center_horizontal"
-        android:text="Mechanical Engineering Workshop"
+                    android:id="@+id/textView948"
                     style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.09"
+                    android:gravity="center_horizontal"
+                    android:text="Mechanical Engineering Workshop"
 
                     android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView949"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.09"
-        style="?android:attr/buttonStyle"
+                <TextView
+                    android:id="@+id/textView949"
+                    style="?android:attr/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.09"
 
-        android:gravity="center_horizontal"
-        android:text="Electrical and Electronics Engineering Workshop"
-        android:textColor="@color/dim_foreground_material_light"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold" />
+                    android:gravity="center_horizontal"
+                    android:text="Electrical and Electronics Engineering Workshop"
+                    android:textColor="@color/dim_foreground_material_light"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </LinearLayout>

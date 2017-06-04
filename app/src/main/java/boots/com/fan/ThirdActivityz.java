@@ -1,6 +1,7 @@
 package boots.com.fan;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -12,11 +13,14 @@ import android.widget.TextView;
 
 public class ThirdActivityz extends AppCompatActivity {
 
+    MediaPlayer mp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.third_activityz);
+        mp = MediaPlayer.create(this, R.raw.click2);
 
 
 
@@ -24,6 +28,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView933 = (TextView) findViewById(R.id.textView933);
         textView933.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo1.class));
             }
         });
@@ -31,6 +37,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView934 = (TextView) findViewById(R.id.textView934);
         textView934.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo2.class));
             }
         });
@@ -40,6 +48,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView935 = (TextView) findViewById(R.id.textView935);
         textView935.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo3.class));
             }
         });
@@ -49,6 +59,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView936 = (TextView) findViewById(R.id.textView936);
         textView936.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo4.class));
             }
         });
@@ -58,6 +70,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView937 = (TextView) findViewById(R.id.textView937);
         textView937.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo5.class));
             }
         });
@@ -67,6 +81,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView938 = (TextView) findViewById(R.id.textView938);
         textView938.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo6.class));
             }
         });
@@ -77,6 +93,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView939 = (TextView) findViewById(R.id.textView939);
         textView939.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo7.class));
             }
         });
@@ -85,6 +103,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView940 = (TextView) findViewById(R.id.textView940);
         textView940.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo8.class));
             }
         });
@@ -94,6 +114,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView941 = (TextView) findViewById(R.id.textView941);
         textView941.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo9.class));
             }
         });
@@ -103,6 +125,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView942 = (TextView) findViewById(R.id.textView942);
         textView942.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo10.class));
             }
         });
@@ -111,6 +135,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView943 = (TextView) findViewById(R.id.textView943);
         textView943.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo11.class));
             }
         });
@@ -119,6 +145,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView944 = (TextView) findViewById(R.id.textView944);
         textView944.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo12.class));
             }
         });
@@ -127,6 +155,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView945 = (TextView) findViewById(R.id.textView945);
         textView945.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo13.class));
             }
         });
@@ -135,6 +165,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView946 = (TextView) findViewById(R.id.textView946);
         textView946.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo14.class));
             }
         });
@@ -143,6 +175,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView947 = (TextView) findViewById(R.id.textView947);
         textView947.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo15.class));
             }
         });
@@ -151,6 +185,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView948 = (TextView) findViewById(R.id.textView948);
         textView948.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo16.class));
             }
         });
@@ -158,6 +194,8 @@ public class ThirdActivityz extends AppCompatActivity {
         TextView textView949 = (TextView) findViewById(R.id.textView949);
         textView949.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                mp.start();
+
                 startActivity(new Intent(ThirdActivityz.this, Fo17.class));
             }
         });

@@ -23,7 +23,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:weightSum="1"
+                    android:weightSum="1"  android:background="@android:color/background_light"
                     android:layout_gravity="center_horizontal" >
 
                     <TextView
@@ -32,6 +32,7 @@
                         android:layout_height="58dp"
                         android:layout_gravity="center_horizontal"
                         android:text="INDUSTRIAL WASTEWATER MANAGEMENT"
+                        android:textAlignment="center"
                         android:textSize="@dimen/abc_dialog_padding_material"
                         android:textStyle="bold" />
 

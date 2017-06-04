@@ -9,21 +9,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abc_search_url_text_normal"
+    android:background="@android:color/black"
     android:weightSum="1">
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SUBJECTS"
-        android:id="@+id/textView181"
-        android:layout_gravity="center_horizontal"
-        android:gravity="top"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:layout_weight="0.06" />
 
     <TextView
         android:layout_width="wrap_content"
